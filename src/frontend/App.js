@@ -1,33 +1,36 @@
-import React from 'react'
-import { Root, Routes, addPrefetchExcludes } from 'react-static'
-//
-import { Link, Router } from 'components/Router'
-import Dynamic from 'containers/Dynamic'
+import React from 'react';
+import { Root, Routes } from 'react-static';
+import { Router } from './components/Router/Router';
+import { Helmet } from 'react-helmet';
+import { ClientContext, GraphQLClient } from 'graphql-hooks';
+import memCache from 'graphql-hooks-memcache';
+import './app.css';
 
-import './app.css'
+const client = new GraphQLClient({
+  url: process.env.REACT_APP_GRAPHCMS_URL,
+  cache: memCache(),
+  headers: {
+    Authorization: `Bearer ${process.env.REACT_APP_API_KEY}`
+  }
+});
 
-// Any routes that start with 'dynamic' will be treated as non-static routes
-addPrefetchExcludes(['dynamic'])
-
-function App() {
+const App = () => {
   return (
-    <Root>
-      <nav>
-        <Link to="/">Home</Link>
-        <Link to="/about">About</Link>
-        <Link to="/blog">Blog</Link>
-        <Link to="/dynamic">Dynamic</Link>
-      </nav>
-      <div className="content">
+    <ClientContext.Provider value={client}>
+      <Root>
+        <Helmet>
+          <title>Kimaleen Tran</title>
+        </Helmet>
         <React.Suspense fallback={<em>Loading...</em>}>
-          <Router>
-            <Dynamic path="dynamic" />
-            <Routes path="*" />
-          </Router>
+          <div className="content">
+            <Router>
+              <Routes path="*" />
+            </Router>
+          </div>
         </React.Suspense>
-      </div>
-    </Root>
-  )
-}
+      </Root>
+    </ClientContext.Provider>
+  );
+};
 
-export default App
+export default App;
