@@ -1,0 +1,80 @@
+nav {
+  width: 100%;
+}
+
+nav a {
+  display: inline-block;
+}
+
+.header-nav {
+  background-color: #fff;
+  box-shadow: 0 7px 6px -6px rgba(32, 33, 36, 0.35);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  width: 100%;
+  width: 100vw;
+}
+
+.nav-link-container {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.fixed-nav div.nav-link-container {
+  background-color: #fff;
+  box-shadow: 0 7px 6px -6px rgba(32, 33, 36, 0.35);
+  position: fixed;
+  width: 100%;
+  width: 100vw;
+  z-index: 1000;
+}
+
+span.logo {
+  max-width: 0;
+  display: none;
+  font: 30px 'Oswald', sans-serif;
+  font-style: italic;
+  font-weight: bold;
+  font-weight: 100;
+  text-shadow: 2px 4px 3px rgba(0, 0, 0, 0.15);
+  transition: all 0.35s;
+}
+
+.header-link {
+  border-bottom: 2px solid #fff;
+  color: #2b2b2b;
+  font: 20px 'Open Sans', sans-serif;
+  font-size: 15px;
+  padding: 1rem 1rem 0.5rem 1rem;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.2);
+}
+
+.active {
+  border-bottom: 2.3px solid #2b2b2b;
+  color: #2b2b2b;
+  font: 20px 'Open Sans', sans-serif;
+  font-size: 15px;
+  padding: 1rem 1rem 0.5rem 1rem;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.2);
+}
+
+#home:hover,
+#contact:hover,
+#blog:hover,
+#lifestyle:hover,
+#travel:hover,
+#thoughts:hover,
+#food:hover {
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.2);
+  font-weight: 700;
+}
+
+@media only screen and (max-width: 990px) {
+  .header-link,
+  .active {
+    display: none;
+  }
+}
