@@ -1,0 +1,36 @@
+.home-menu-button {
+  border: none;
+  cursor: pointer;
+  margin: 0.79rem 0 0 12rem;
+  padding-right: 2rem;
+}
+
+@media only screen and (max-width: 740px) {
+  .home-menu-button {
+    margin: 0.79rem 0 0 8rem;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .home-menu-button {
+    margin: 0.5rem 0 0 7.5rem;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .home-menu-button {
+    margin: 0.5rem 0 0 5rem;
+  }
+}
+
+@media only screen and (max-width: 420px) {
+  .home-menu-button {
+    margin: 0.5rem 1rem 0 5rem;
+  }
+}
+
+@media only screen and (max-width: 370px) {
+  .home-menu-button {
+    margin: 0.2rem 0 0 4rem;
+  }
+}
