@@ -224,7 +224,7 @@ a {
 /* Contact */
 .contact-container {
   align-items: center;
-  background-image: url('https://storage.needpix.com/rsynced_images/water-background-1425094730JA9.jpg');
+  background-image: url('../frontend/images/water-background.jpg');
   display: flex;
   flex-direction: column;
   background-size: cover;

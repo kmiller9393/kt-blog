@@ -110,7 +110,7 @@ return /******/ (function(modules) { // webpackBootstrap
 /******/
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 57);
+/******/ 	return __webpack_require__(__webpack_require__.s = 56);
 /******/ })
 /************************************************************************/
 /******/ ([
@@ -226,7 +226,7 @@ var toggleStickyNav = function toggleStickyNav() {
 var external_react_scrollable_anchor_ = __webpack_require__(1);
 
 // EXTERNAL MODULE: /Users/kumi5605/Desktop/projects/kt-blog/src/frontend/images/menu.svg
-var menu = __webpack_require__(50);
+var menu = __webpack_require__(49);
 var menu_default = /*#__PURE__*/__webpack_require__.n(menu);
 
 // EXTERNAL MODULE: /Users/kumi5605/Desktop/projects/kt-blog/src/frontend/components/DrawerButton/DrawerButton.css
@@ -249,15 +249,15 @@ var DrawerButton_DrawerButton_DrawerButton = function DrawerButton(props) {
 
 /* harmony default export */ var components_DrawerButton_DrawerButton = (DrawerButton_DrawerButton_DrawerButton);
 // EXTERNAL MODULE: /Users/kumi5605/Desktop/projects/kt-blog/src/frontend/images/instagram.svg
-var instagram = __webpack_require__(51);
+var instagram = __webpack_require__(50);
 var instagram_default = /*#__PURE__*/__webpack_require__.n(instagram);
 
 // EXTERNAL MODULE: /Users/kumi5605/Desktop/projects/kt-blog/src/frontend/images/facebook.svg
-var facebook = __webpack_require__(52);
+var facebook = __webpack_require__(51);
 var facebook_default = /*#__PURE__*/__webpack_require__.n(facebook);
 
 // EXTERNAL MODULE: /Users/kumi5605/Desktop/projects/kt-blog/src/frontend/images/linkedin.svg
-var linkedin = __webpack_require__(53);
+var linkedin = __webpack_require__(52);
 var linkedin_default = /*#__PURE__*/__webpack_require__.n(linkedin);
 
 // EXTERNAL MODULE: /Users/kumi5605/Desktop/projects/kt-blog/src/frontend/components/Header/Header.css
@@ -690,15 +690,15 @@ var EmailForm_EmailForm_EmailForm = function EmailForm() {
 
 /* harmony default export */ var components_EmailForm_EmailForm = (EmailForm_EmailForm_EmailForm);
 // EXTERNAL MODULE: /Users/kumi5605/Desktop/projects/kt-blog/src/frontend/images/instagram-light.svg
-var instagram_light = __webpack_require__(47);
+var instagram_light = __webpack_require__(46);
 var instagram_light_default = /*#__PURE__*/__webpack_require__.n(instagram_light);
 
 // EXTERNAL MODULE: /Users/kumi5605/Desktop/projects/kt-blog/src/frontend/images/facebook-light.svg
-var facebook_light = __webpack_require__(48);
+var facebook_light = __webpack_require__(47);
 var facebook_light_default = /*#__PURE__*/__webpack_require__.n(facebook_light);
 
 // EXTERNAL MODULE: /Users/kumi5605/Desktop/projects/kt-blog/src/frontend/images/linkedin-light.svg
-var linkedin_light = __webpack_require__(49);
+var linkedin_light = __webpack_require__(48);
 var linkedin_light_default = /*#__PURE__*/__webpack_require__.n(linkedin_light);
 
 // EXTERNAL MODULE: /Users/kumi5605/Desktop/projects/kt-blog/src/frontend/components/Footer/Footer.css
@@ -825,7 +825,7 @@ var _createClass = function () {
   };
 }();
 
-var _requireUniversalModule = __webpack_require__(60);
+var _requireUniversalModule = __webpack_require__(59);
 
 Object.defineProperty(exports, 'CHUNK_NAMES', {
   enumerable: true,
@@ -840,7 +840,7 @@ Object.defineProperty(exports, 'MODULE_IDS', {
   }
 });
 
-var _reportChunks = __webpack_require__(62);
+var _reportChunks = __webpack_require__(61);
 
 Object.defineProperty(exports, 'ReportChunks', {
   enumerable: true,
@@ -862,13 +862,13 @@ var _hoistNonReactStatics = __webpack_require__(33);
 
 var _hoistNonReactStatics2 = _interopRequireDefault(_hoistNonReactStatics);
 
-var _vm = __webpack_require__(63);
+var _vm = __webpack_require__(62);
 
 var _requireUniversalModule2 = _interopRequireDefault(_requireUniversalModule);
 
 var _utils = __webpack_require__(26);
 
-var _helpers = __webpack_require__(64);
+var _helpers = __webpack_require__(63);
 
 function _interopRequireDefault(obj) {
   return obj && obj.__esModule ? obj : {
@@ -1422,7 +1422,7 @@ var _utils = __webpack_require__(26);
 
 var requireById = function requireById(id) {
   if (!(0, _utils.isWebpack)() && typeof id === 'string') {
-    return __webpack_require__(61)("" + id);
+    return __webpack_require__(60)("" + id);
   }
 
   return __webpack_require__('' + id);
@@ -1452,7 +1452,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var react_static__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(5);
 /* harmony import */ var react_static__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react_static__WEBPACK_IMPORTED_MODULE_1__);
-/* harmony import */ var react_markdown__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(56);
+/* harmony import */ var react_markdown__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(55);
 /* harmony import */ var react_markdown__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(react_markdown__WEBPACK_IMPORTED_MODULE_2__);
 /* harmony import */ var _frontend_components_Navbar_Navbar__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(7);
 /* harmony import */ var _frontend_components_Footer_Footer__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(8);
@@ -1488,13 +1488,13 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react_static__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(5);
 /* harmony import */ var react_static__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react_static__WEBPACK_IMPORTED_MODULE_1__);
 /* harmony import */ var _components_Router_Router__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(4);
-/* harmony import */ var react_helmet__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(45);
+/* harmony import */ var react_helmet__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(44);
 /* harmony import */ var react_helmet__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(react_helmet__WEBPACK_IMPORTED_MODULE_3__);
 /* harmony import */ var graphql_hooks__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(20);
 /* harmony import */ var graphql_hooks__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(graphql_hooks__WEBPACK_IMPORTED_MODULE_4__);
-/* harmony import */ var graphql_hooks_memcache__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(46);
+/* harmony import */ var graphql_hooks_memcache__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(45);
 /* harmony import */ var graphql_hooks_memcache__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(graphql_hooks_memcache__WEBPACK_IMPORTED_MODULE_5__);
-/* harmony import */ var _app_css__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(73);
+/* harmony import */ var _app_css__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(72);
 /* harmony import */ var _app_css__WEBPACK_IMPORTED_MODULE_6___default = /*#__PURE__*/__webpack_require__.n(_app_css__WEBPACK_IMPORTED_MODULE_6__);
 
 
@@ -1744,7 +1744,7 @@ module.exports = require("@babel/runtime/regenerator");
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _Users_kumi5605_Desktop_projects_kt_blog_node_modules_react_static_plugin_reach_router_browser_api_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(43);
+/* harmony import */ var _Users_kumi5605_Desktop_projects_kt_blog_node_modules_react_static_plugin_reach_router_browser_api_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(42);
 /* harmony import */ var _Users_kumi5605_Desktop_projects_kt_blog_node_modules_react_static_plugin_reach_router_browser_api_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_Users_kumi5605_Desktop_projects_kt_blog_node_modules_react_static_plugin_reach_router_browser_api_js__WEBPACK_IMPORTED_MODULE_0__);
 // Imports
  // Plugins
@@ -1826,7 +1826,7 @@ var universalOptions = {
 var t_0 = _Users_kumi5605_Desktop_projects_kt_blog_node_modules_react_universal_component_dist_index_js__WEBPACK_IMPORTED_MODULE_3___default()(babel_plugin_universal_import_universalImport__WEBPACK_IMPORTED_MODULE_1___default()({
   id: "/Users/kumi5605/Desktop/projects/kt-blog/src/pages/404.js",
   load: function load() {
-    return Promise.all([Promise.resolve(/* import() | Users/kumi5605/Desktop/projects/kt-blog/src/pages/404 */).then(__webpack_require__.bind(null, 35))]).then(function (proms) {
+    return Promise.all([Promise.resolve(/* import() | Users/kumi5605/Desktop/projects/kt-blog/src/pages/404 */).then(__webpack_require__.bind(null, 34))]).then(function (proms) {
       return proms[0];
     });
   },
@@ -1834,7 +1834,7 @@ var t_0 = _Users_kumi5605_Desktop_projects_kt_blog_node_modules_react_universal_
     return path__WEBPACK_IMPORTED_MODULE_0___default.a.join(__dirname, '/Users/kumi5605/Desktop/projects/kt-blog/src/pages/404.js');
   },
   resolve: function resolve() {
-    return /*require.resolve*/(35);
+    return /*require.resolve*/(34);
   },
   chunkName: function chunkName() {
     return "Users/kumi5605/Desktop/projects/kt-blog/src/pages/404";
@@ -1844,7 +1844,7 @@ t_0.template = '/Users/kumi5605/Desktop/projects/kt-blog/src/pages/404.js';
 var t_1 = _Users_kumi5605_Desktop_projects_kt_blog_node_modules_react_universal_component_dist_index_js__WEBPACK_IMPORTED_MODULE_3___default()(babel_plugin_universal_import_universalImport__WEBPACK_IMPORTED_MODULE_1___default()({
   id: "/Users/kumi5605/Desktop/projects/kt-blog/src/pages/blog.js",
   load: function load() {
-    return Promise.all([Promise.resolve(/* import() | Users/kumi5605/Desktop/projects/kt-blog/src/pages/blog */).then(__webpack_require__.bind(null, 36))]).then(function (proms) {
+    return Promise.all([Promise.resolve(/* import() | Users/kumi5605/Desktop/projects/kt-blog/src/pages/blog */).then(__webpack_require__.bind(null, 35))]).then(function (proms) {
       return proms[0];
     });
   },
@@ -1852,7 +1852,7 @@ var t_1 = _Users_kumi5605_Desktop_projects_kt_blog_node_modules_react_universal_
     return path__WEBPACK_IMPORTED_MODULE_0___default.a.join(__dirname, '/Users/kumi5605/Desktop/projects/kt-blog/src/pages/blog.js');
   },
   resolve: function resolve() {
-    return /*require.resolve*/(36);
+    return /*require.resolve*/(35);
   },
   chunkName: function chunkName() {
     return "Users/kumi5605/Desktop/projects/kt-blog/src/pages/blog";
@@ -1862,7 +1862,7 @@ t_1.template = '/Users/kumi5605/Desktop/projects/kt-blog/src/pages/blog.js';
 var t_2 = _Users_kumi5605_Desktop_projects_kt_blog_node_modules_react_universal_component_dist_index_js__WEBPACK_IMPORTED_MODULE_3___default()(babel_plugin_universal_import_universalImport__WEBPACK_IMPORTED_MODULE_1___default()({
   id: "/Users/kumi5605/Desktop/projects/kt-blog/src/pages/contact.js",
   load: function load() {
-    return Promise.all([Promise.resolve(/* import() | Users/kumi5605/Desktop/projects/kt-blog/src/pages/contact */).then(__webpack_require__.bind(null, 42))]).then(function (proms) {
+    return Promise.all([Promise.resolve(/* import() | Users/kumi5605/Desktop/projects/kt-blog/src/pages/contact */).then(__webpack_require__.bind(null, 41))]).then(function (proms) {
       return proms[0];
     });
   },
@@ -1870,7 +1870,7 @@ var t_2 = _Users_kumi5605_Desktop_projects_kt_blog_node_modules_react_universal_
     return path__WEBPACK_IMPORTED_MODULE_0___default.a.join(__dirname, '/Users/kumi5605/Desktop/projects/kt-blog/src/pages/contact.js');
   },
   resolve: function resolve() {
-    return /*require.resolve*/(42);
+    return /*require.resolve*/(41);
   },
   chunkName: function chunkName() {
     return "Users/kumi5605/Desktop/projects/kt-blog/src/pages/contact";
@@ -1880,7 +1880,7 @@ t_2.template = '/Users/kumi5605/Desktop/projects/kt-blog/src/pages/contact.js';
 var t_3 = _Users_kumi5605_Desktop_projects_kt_blog_node_modules_react_universal_component_dist_index_js__WEBPACK_IMPORTED_MODULE_3___default()(babel_plugin_universal_import_universalImport__WEBPACK_IMPORTED_MODULE_1___default()({
   id: "/Users/kumi5605/Desktop/projects/kt-blog/src/pages/food.js",
   load: function load() {
-    return Promise.all([Promise.resolve(/* import() | Users/kumi5605/Desktop/projects/kt-blog/src/pages/food */).then(__webpack_require__.bind(null, 37))]).then(function (proms) {
+    return Promise.all([Promise.resolve(/* import() | Users/kumi5605/Desktop/projects/kt-blog/src/pages/food */).then(__webpack_require__.bind(null, 36))]).then(function (proms) {
       return proms[0];
     });
   },
@@ -1888,7 +1888,7 @@ var t_3 = _Users_kumi5605_Desktop_projects_kt_blog_node_modules_react_universal_
     return path__WEBPACK_IMPORTED_MODULE_0___default.a.join(__dirname, '/Users/kumi5605/Desktop/projects/kt-blog/src/pages/food.js');
   },
   resolve: function resolve() {
-    return /*require.resolve*/(37);
+    return /*require.resolve*/(36);
   },
   chunkName: function chunkName() {
     return "Users/kumi5605/Desktop/projects/kt-blog/src/pages/food";
@@ -1898,7 +1898,7 @@ t_3.template = '/Users/kumi5605/Desktop/projects/kt-blog/src/pages/food.js';
 var t_4 = _Users_kumi5605_Desktop_projects_kt_blog_node_modules_react_universal_component_dist_index_js__WEBPACK_IMPORTED_MODULE_3___default()(babel_plugin_universal_import_universalImport__WEBPACK_IMPORTED_MODULE_1___default()({
   id: "/Users/kumi5605/Desktop/projects/kt-blog/src/pages/index.js",
   load: function load() {
-    return Promise.all([Promise.resolve(/* import() | Users/kumi5605/Desktop/projects/kt-blog/src/pages/index */).then(__webpack_require__.bind(null, 41))]).then(function (proms) {
+    return Promise.all([Promise.resolve(/* import() | Users/kumi5605/Desktop/projects/kt-blog/src/pages/index */).then(__webpack_require__.bind(null, 40))]).then(function (proms) {
       return proms[0];
     });
   },
@@ -1906,7 +1906,7 @@ var t_4 = _Users_kumi5605_Desktop_projects_kt_blog_node_modules_react_universal_
     return path__WEBPACK_IMPORTED_MODULE_0___default.a.join(__dirname, '/Users/kumi5605/Desktop/projects/kt-blog/src/pages/index.js');
   },
   resolve: function resolve() {
-    return /*require.resolve*/(41);
+    return /*require.resolve*/(40);
   },
   chunkName: function chunkName() {
     return "Users/kumi5605/Desktop/projects/kt-blog/src/pages/index";
@@ -1916,7 +1916,7 @@ t_4.template = '/Users/kumi5605/Desktop/projects/kt-blog/src/pages/index.js';
 var t_5 = _Users_kumi5605_Desktop_projects_kt_blog_node_modules_react_universal_component_dist_index_js__WEBPACK_IMPORTED_MODULE_3___default()(babel_plugin_universal_import_universalImport__WEBPACK_IMPORTED_MODULE_1___default()({
   id: "/Users/kumi5605/Desktop/projects/kt-blog/src/pages/lifestyle.js",
   load: function load() {
-    return Promise.all([Promise.resolve(/* import() | Users/kumi5605/Desktop/projects/kt-blog/src/pages/lifestyle */).then(__webpack_require__.bind(null, 38))]).then(function (proms) {
+    return Promise.all([Promise.resolve(/* import() | Users/kumi5605/Desktop/projects/kt-blog/src/pages/lifestyle */).then(__webpack_require__.bind(null, 37))]).then(function (proms) {
       return proms[0];
     });
   },
@@ -1924,7 +1924,7 @@ var t_5 = _Users_kumi5605_Desktop_projects_kt_blog_node_modules_react_universal_
     return path__WEBPACK_IMPORTED_MODULE_0___default.a.join(__dirname, '/Users/kumi5605/Desktop/projects/kt-blog/src/pages/lifestyle.js');
   },
   resolve: function resolve() {
-    return /*require.resolve*/(38);
+    return /*require.resolve*/(37);
   },
   chunkName: function chunkName() {
     return "Users/kumi5605/Desktop/projects/kt-blog/src/pages/lifestyle";
@@ -1952,7 +1952,7 @@ t_6.template = '/Users/kumi5605/Desktop/projects/kt-blog/src/pages/post.js';
 var t_7 = _Users_kumi5605_Desktop_projects_kt_blog_node_modules_react_universal_component_dist_index_js__WEBPACK_IMPORTED_MODULE_3___default()(babel_plugin_universal_import_universalImport__WEBPACK_IMPORTED_MODULE_1___default()({
   id: "/Users/kumi5605/Desktop/projects/kt-blog/src/pages/thoughts.js",
   load: function load() {
-    return Promise.all([Promise.resolve(/* import() | Users/kumi5605/Desktop/projects/kt-blog/src/pages/thoughts */).then(__webpack_require__.bind(null, 39))]).then(function (proms) {
+    return Promise.all([Promise.resolve(/* import() | Users/kumi5605/Desktop/projects/kt-blog/src/pages/thoughts */).then(__webpack_require__.bind(null, 38))]).then(function (proms) {
       return proms[0];
     });
   },
@@ -1960,7 +1960,7 @@ var t_7 = _Users_kumi5605_Desktop_projects_kt_blog_node_modules_react_universal_
     return path__WEBPACK_IMPORTED_MODULE_0___default.a.join(__dirname, '/Users/kumi5605/Desktop/projects/kt-blog/src/pages/thoughts.js');
   },
   resolve: function resolve() {
-    return /*require.resolve*/(39);
+    return /*require.resolve*/(38);
   },
   chunkName: function chunkName() {
     return "Users/kumi5605/Desktop/projects/kt-blog/src/pages/thoughts";
@@ -1970,7 +1970,7 @@ t_7.template = '/Users/kumi5605/Desktop/projects/kt-blog/src/pages/thoughts.js';
 var t_8 = _Users_kumi5605_Desktop_projects_kt_blog_node_modules_react_universal_component_dist_index_js__WEBPACK_IMPORTED_MODULE_3___default()(babel_plugin_universal_import_universalImport__WEBPACK_IMPORTED_MODULE_1___default()({
   id: "/Users/kumi5605/Desktop/projects/kt-blog/src/pages/travel.js",
   load: function load() {
-    return Promise.all([Promise.resolve(/* import() | Users/kumi5605/Desktop/projects/kt-blog/src/pages/travel */).then(__webpack_require__.bind(null, 40))]).then(function (proms) {
+    return Promise.all([Promise.resolve(/* import() | Users/kumi5605/Desktop/projects/kt-blog/src/pages/travel */).then(__webpack_require__.bind(null, 39))]).then(function (proms) {
       return proms[0];
     });
   },
@@ -1978,7 +1978,7 @@ var t_8 = _Users_kumi5605_Desktop_projects_kt_blog_node_modules_react_universal_
     return path__WEBPACK_IMPORTED_MODULE_0___default.a.join(__dirname, '/Users/kumi5605/Desktop/projects/kt-blog/src/pages/travel.js');
   },
   resolve: function resolve() {
-    return /*require.resolve*/(40);
+    return /*require.resolve*/(39);
   },
   chunkName: function chunkName() {
     return "Users/kumi5605/Desktop/projects/kt-blog/src/pages/travel";
@@ -2034,12 +2034,6 @@ module.exports = require("hoist-non-react-statics");
 
 /***/ }),
 /* 34 */
-/***/ (function(module, exports, __webpack_require__) {
-
-module.exports = __webpack_require__.p + "d46f2862defa854d93bff4bfa834c825.jpg";
-
-/***/ }),
-/* 35 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -2052,7 +2046,7 @@ __webpack_require__.r(__webpack_exports__);
 });
 
 /***/ }),
-/* 36 */
+/* 35 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -2101,7 +2095,7 @@ __webpack_require__.r(__webpack_exports__);
 }));
 
 /***/ }),
-/* 37 */
+/* 36 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -2150,7 +2144,7 @@ __webpack_require__.r(__webpack_exports__);
 }));
 
 /***/ }),
-/* 38 */
+/* 37 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -2199,7 +2193,7 @@ __webpack_require__.r(__webpack_exports__);
 }));
 
 /***/ }),
-/* 39 */
+/* 38 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -2248,7 +2242,7 @@ __webpack_require__.r(__webpack_exports__);
 }));
 
 /***/ }),
-/* 40 */
+/* 39 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -2297,7 +2291,7 @@ __webpack_require__.r(__webpack_exports__);
 }));
 
 /***/ }),
-/* 41 */
+/* 40 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -2395,14 +2389,10 @@ var Footer = __webpack_require__(8);
 var Navbar = __webpack_require__(7);
 
 // EXTERNAL MODULE: /Users/kumi5605/Desktop/projects/kt-blog/src/frontend/images/signature.svg
-var signature = __webpack_require__(55);
+var signature = __webpack_require__(54);
 var signature_default = /*#__PURE__*/__webpack_require__.n(signature);
 
-// EXTERNAL MODULE: /Users/kumi5605/Desktop/projects/kt-blog/src/frontend/images/water-background.jpg
-var water_background = __webpack_require__(34);
-
 // CONCATENATED MODULE: /Users/kumi5605/Desktop/projects/kt-blog/src/pages/index.js
-
 
 
 
@@ -2485,7 +2475,7 @@ function (_Component) {
 /* harmony default export */ var pages = __webpack_exports__["default"] = (Object(external_react_static_["withRouteData"])(pages_index));
 
 /***/ }),
-/* 42 */
+/* 41 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -2500,7 +2490,7 @@ var regenerator_ = __webpack_require__(28);
 var regenerator_default = /*#__PURE__*/__webpack_require__.n(regenerator_);
 
 // EXTERNAL MODULE: external "@babel/runtime/helpers/asyncToGenerator"
-var asyncToGenerator_ = __webpack_require__(54);
+var asyncToGenerator_ = __webpack_require__(53);
 var asyncToGenerator_default = /*#__PURE__*/__webpack_require__.n(asyncToGenerator_);
 
 // EXTERNAL MODULE: external "@babel/runtime/helpers/classCallCheck"
@@ -2702,7 +2692,7 @@ var Navbar = __webpack_require__(7);
 });
 
 /***/ }),
-/* 43 */
+/* 42 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -2828,94 +2818,94 @@ var _default = function _default(_ref) {
 exports["default"] = _default;
 
 /***/ }),
-/* 44 */
+/* 43 */
 /***/ (function(module, exports) {
 
 module.exports = require("react-hot-loader");
 
 /***/ }),
-/* 45 */
+/* 44 */
 /***/ (function(module, exports) {
 
 module.exports = require("react-helmet");
 
 /***/ }),
-/* 46 */
+/* 45 */
 /***/ (function(module, exports) {
 
 module.exports = require("graphql-hooks-memcache");
 
 /***/ }),
-/* 47 */
+/* 46 */
 /***/ (function(module, exports) {
 
 module.exports = "data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIj8+CjxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgdmVyc2lvbj0iMS4xIiBpZD0iTGF5ZXJfMSIgeD0iMHB4IiB5PSIwcHgiIHdpZHRoPSI1MTJweCIgaGVpZ2h0PSI1MTJweCIgdmlld0JveD0iMCAwIDE2OS4wNjMgMTY5LjA2MyIgc3R5bGU9ImVuYWJsZS1iYWNrZ3JvdW5kOm5ldyAwIDAgMTY5LjA2MyAxNjkuMDYzOyIgeG1sOnNwYWNlPSJwcmVzZXJ2ZSI+PGc+PGc+Cgk8cGF0aCBkPSJNMTIyLjQwNiwwSDQ2LjY1NEMyMC45MjksMCwwLDIwLjkzLDAsNDYuNjU1djc1Ljc1MmMwLDI1LjcyNiwyMC45MjksNDYuNjU1LDQ2LjY1NCw0Ni42NTVoNzUuNzUyICAgYzI1LjcyNywwLDQ2LjY1Ni0yMC45Myw0Ni42NTYtNDYuNjU1VjQ2LjY1NUMxNjkuMDYzLDIwLjkzLDE0OC4xMzMsMCwxMjIuNDA2LDB6IE0xNTQuMDYzLDEyMi40MDcgICBjMCwxNy40NTUtMTQuMjAxLDMxLjY1NS0zMS42NTYsMzEuNjU1SDQ2LjY1NEMyOS4yLDE1NC4wNjMsMTUsMTM5Ljg2MiwxNSwxMjIuNDA3VjQ2LjY1NUMxNSwyOS4yMDEsMjkuMiwxNSw0Ni42NTQsMTVoNzUuNzUyICAgYzE3LjQ1NSwwLDMxLjY1NiwxNC4yMDEsMzEuNjU2LDMxLjY1NVYxMjIuNDA3eiIgZGF0YS1vcmlnaW5hbD0iIzAwMDAwMCIgY2xhc3M9ImFjdGl2ZS1wYXRoIiBkYXRhLW9sZF9jb2xvcj0iI2Y3ZjdmNyIgZmlsbD0iI2Y3ZjdmNyIvPgoJPHBhdGggZD0iTTg0LjUzMSw0MC45N2MtMjQuMDIxLDAtNDMuNTYzLDE5LjU0Mi00My41NjMsNDMuNTYzYzAsMjQuMDIsMTkuNTQyLDQzLjU2MSw0My41NjMsNDMuNTYxczQzLjU2My0xOS41NDEsNDMuNTYzLTQzLjU2MSAgIEMxMjguMDk0LDYwLjUxMiwxMDguNTUyLDQwLjk3LDg0LjUzMSw0MC45N3ogTTg0LjUzMSwxMTMuMDkzYy0xNS43NDksMC0yOC41NjMtMTIuODEyLTI4LjU2My0yOC41NjEgICBjMC0xNS43NSwxMi44MTMtMjguNTYzLDI4LjU2My0yOC41NjNzMjguNTYzLDEyLjgxMywyOC41NjMsMjguNTYzQzExMy4wOTQsMTAwLjI4MSwxMDAuMjgsMTEzLjA5Myw4NC41MzEsMTEzLjA5M3oiIGRhdGEtb3JpZ2luYWw9IiMwMDAwMDAiIGNsYXNzPSJhY3RpdmUtcGF0aCIgZGF0YS1vbGRfY29sb3I9IiNmN2Y3ZjciIGZpbGw9IiNmN2Y3ZjciLz4KCTxwYXRoIGQ9Ik0xMjkuOTIxLDI4LjI1MWMtMi44OSwwLTUuNzI5LDEuMTctNy43NywzLjIyYy0yLjA1MSwyLjA0LTMuMjMsNC44OC0zLjIzLDcuNzhjMCwyLjg5MSwxLjE4LDUuNzMsMy4yMyw3Ljc4ICAgYzIuMDQsMi4wNCw0Ljg4LDMuMjIsNy43NywzLjIyYzIuOSwwLDUuNzMtMS4xOCw3Ljc4LTMuMjJjMi4wNS0yLjA1LDMuMjItNC44OSwzLjIyLTcuNzhjMC0yLjktMS4xNy01Ljc0LTMuMjItNy43OCAgIEMxMzUuNjYxLDI5LjQyMSwxMzIuODIxLDI4LjI1MSwxMjkuOTIxLDI4LjI1MXoiIGRhdGEtb3JpZ2luYWw9IiMwMDAwMDAiIGNsYXNzPSJhY3RpdmUtcGF0aCIgZGF0YS1vbGRfY29sb3I9IiNmN2Y3ZjciIGZpbGw9IiNmN2Y3ZjciLz4KPC9nPjwvZz4gPC9zdmc+Cg=="
 
 /***/ }),
-/* 48 */
+/* 47 */
 /***/ (function(module, exports) {
 
 module.exports = "data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIj8+CjxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgdmVyc2lvbj0iMS4xIiBpZD0iQ2FwYV8xIiB4PSIwcHgiIHk9IjBweCIgd2lkdGg9IjUxMnB4IiBoZWlnaHQ9IjUxMnB4IiB2aWV3Qm94PSIwIDAgNDMwLjExMyA0MzAuMTE0IiBzdHlsZT0iZW5hYmxlLWJhY2tncm91bmQ6bmV3IDAgMCA0MzAuMTEzIDQzMC4xMTQ7IiB4bWw6c3BhY2U9InByZXNlcnZlIiBjbGFzcz0iIj48Zz48Zz4KCTxwYXRoIGlkPSJGYWNlYm9vayIgZD0iTTE1OC4wODEsODMuM2MwLDEwLjgzOSwwLDU5LjIxOCwwLDU5LjIxOGgtNDMuMzg1djcyLjQxMmg0My4zODV2MjE1LjE4M2g4OS4xMjJWMjE0LjkzNmg1OS44MDUgICBjMCwwLDUuNjAxLTM0LjcyMSw4LjMxNi03Mi42ODVjLTcuNzg0LDAtNjcuNzg0LDAtNjcuNzg0LDBzMC00Mi4xMjcsMC00OS41MTFjMC03LjQsOS43MTctMTcuMzU0LDE5LjMyMS0xNy4zNTQgICBjOS41ODYsMCwyOS44MTgsMCw0OC41NTcsMGMwLTkuODU5LDAtNDMuOTI0LDAtNzUuMzg1Yy0yNS4wMTYsMC01My40NzYsMC02Ni4wMjEsMEMxNTUuODc4LTAuMDA0LDE1OC4wODEsNzIuNDgsMTU4LjA4MSw4My4zeiIgZGF0YS1vcmlnaW5hbD0iIzAwMDAwMCIgY2xhc3M9ImFjdGl2ZS1wYXRoIiBkYXRhLW9sZF9jb2xvcj0iI2Y3ZjdmNyIgZmlsbD0iI2Y3ZjdmNyIvPgo8L2c+PC9nPiA8L3N2Zz4K"
 
 /***/ }),
-/* 49 */
+/* 48 */
 /***/ (function(module, exports) {
 
 module.exports = "data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIj8+CjxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgdmVyc2lvbj0iMS4xIiBpZD0iQ2FwYV8xIiB4PSIwcHgiIHk9IjBweCIgd2lkdGg9IjUxMnB4IiBoZWlnaHQ9IjUxMnB4IiB2aWV3Qm94PSIwIDAgNDMwLjExNyA0MzAuMTE4IiBzdHlsZT0iZW5hYmxlLWJhY2tncm91bmQ6bmV3IDAgMCA0MzAuMTE3IDQzMC4xMTg7IiB4bWw6c3BhY2U9InByZXNlcnZlIiBjbGFzcz0iIj48Zz48Zz4KCTxwYXRoIGlkPSJMaW5rZWRJbl9feDI4X2FsdF94MjlfIiBkPSJNMzk4LjM1NSwwSDMxLjc4MkMxNC4yMjksMCwwLjAwMiwxMy43OTMsMC4wMDIsMzAuODE3djM2OC40NzEgICBjMCwxNy4wMjUsMTQuMjMyLDMwLjgzLDMxLjc4LDMwLjgzaDM2Ni41NzNjMTcuNTQ5LDAsMzEuNzYtMTMuODE0LDMxLjc2LTMwLjgzVjMwLjgxN0M0MzAuMTE1LDEzLjc5OCw0MTUuOTA0LDAsMzk4LjM1NSwweiAgICBNMTMwLjQsMzYwLjAzOEg2NS40MTNWMTY1Ljg0NUgxMzAuNFYzNjAuMDM4eiBNOTcuOTEzLDEzOS4zMTVoLTAuNDM3Yy0yMS43OTMsMC0zNS45Mi0xNC45MDQtMzUuOTItMzMuNTYzICAgYzAtMTkuMDM1LDE0LjU0Mi0zMy41MzUsMzYuNzY3LTMzLjUzNWMyMi4yMjcsMCwzNS44OTksMTQuNDk2LDM2LjMzMSwzMy41MzVDMTM0LjY1NCwxMjQuNDE1LDEyMC41NTUsMTM5LjMxNSw5Ny45MTMsMTM5LjMxNXogICAgTTM2NC42NTksMzYwLjAzOGgtNjQuOTY2VjI1Ni4xMzhjMC0yNi4xMDctOS40MTMtNDMuOTIxLTMyLjkwNy00My45MjFjLTE3Ljk3MywwLTI4LjY0MiwxMi4wMTgtMzMuMzI3LDIzLjYyMSAgIGMtMS43MzYsNC4xNDQtMi4xNjYsOS45NC0yLjE2NiwxNS43Mjh2MTA4LjQ2OGgtNjQuOTU0YzAsMCwwLjg1LTE3NS45NzksMC0xOTQuMTkyaDY0Ljk2NHYyNy41MzEgICBjOC42MjQtMTMuMjI5LDI0LjAzNS0zMi4xLDU4LjUzNC0zMi4xYzQyLjc2LDAsNzQuODIyLDI3LjczOSw3NC44MjIsODcuNDE0VjM2MC4wMzh6IE0yMzAuODgzLDE5My45OSAgIGMwLjExMS0wLjE4MiwwLjI2Ni0wLjQwMSwwLjQyLTAuNjE0djAuNjE0SDIzMC44ODN6IiBkYXRhLW9yaWdpbmFsPSIjMDAwMDAwIiBjbGFzcz0iYWN0aXZlLXBhdGgiIGRhdGEtb2xkX2NvbG9yPSIjZjdmN2Y3IiBmaWxsPSIjZjdmN2Y3Ii8+CjwvZz48L2c+IDwvc3ZnPgo="
 
 /***/ }),
-/* 50 */
+/* 49 */
 /***/ (function(module, exports) {
 
 module.exports = "data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIj8+CjxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgdmVyc2lvbj0iMS4xIiBpZD0iQ2FwYV8xIiB4PSIwcHgiIHk9IjBweCIgdmlld0JveD0iMCAwIDUzIDUzIiBzdHlsZT0iZW5hYmxlLWJhY2tncm91bmQ6bmV3IDAgMCA1MyA1MzsiIHhtbDpzcGFjZT0icHJlc2VydmUiIHdpZHRoPSIyNXB4IiBoZWlnaHQ9IjI1cHgiIGNsYXNzPSIiPjxnPjxnPgoJPGc+CgkJPHBhdGggZD0iTTIsMTMuNWg0OWMxLjEwNCwwLDItMC44OTYsMi0ycy0wLjg5Ni0yLTItMkgyYy0xLjEwNCwwLTIsMC44OTYtMiwyUzAuODk2LDEzLjUsMiwxMy41eiIgZGF0YS1vcmlnaW5hbD0iIzAwMDAwMCIgY2xhc3M9ImFjdGl2ZS1wYXRoIiBkYXRhLW9sZF9jb2xvcj0iIzAwMDAwMCIgZmlsbD0iIzJCMkIyQiIvPgoJCTxwYXRoIGQ9Ik0yLDI4LjVoNDljMS4xMDQsMCwyLTAuODk2LDItMnMtMC44OTYtMi0yLTJIMmMtMS4xMDQsMC0yLDAuODk2LTIsMlMwLjg5NiwyOC41LDIsMjguNXoiIGRhdGEtb3JpZ2luYWw9IiMwMDAwMDAiIGNsYXNzPSJhY3RpdmUtcGF0aCIgZGF0YS1vbGRfY29sb3I9IiMwMDAwMDAiIGZpbGw9IiMyQjJCMkIiLz4KCQk8cGF0aCBkPSJNMiw0My41aDQ5YzEuMTA0LDAsMi0wLjg5NiwyLTJzLTAuODk2LTItMi0ySDJjLTEuMTA0LDAtMiwwLjg5Ni0yLDJTMC44OTYsNDMuNSwyLDQzLjV6IiBkYXRhLW9yaWdpbmFsPSIjMDAwMDAwIiBjbGFzcz0iYWN0aXZlLXBhdGgiIGRhdGEtb2xkX2NvbG9yPSIjMDAwMDAwIiBmaWxsPSIjMkIyQjJCIi8+Cgk8L2c+CjwvZz48L2c+IDwvc3ZnPgo="
 
 /***/ }),
-/* 51 */
+/* 50 */
 /***/ (function(module, exports) {
 
 module.exports = "data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iaXNvLTg4NTktMSI/Pg0KPCEtLSBHZW5lcmF0b3I6IEFkb2JlIElsbHVzdHJhdG9yIDE2LjAuMCwgU1ZHIEV4cG9ydCBQbHVnLUluIC4gU1ZHIFZlcnNpb246IDYuMDAgQnVpbGQgMCkgIC0tPg0KPCFET0NUWVBFIHN2ZyBQVUJMSUMgIi0vL1czQy8vRFREIFNWRyAxLjEvL0VOIiAiaHR0cDovL3d3dy53My5vcmcvR3JhcGhpY3MvU1ZHLzEuMS9EVEQvc3ZnMTEuZHRkIj4NCjxzdmcgdmVyc2lvbj0iMS4xIiBpZD0iTGF5ZXJfMSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgeD0iMHB4IiB5PSIwcHgiDQoJIHdpZHRoPSIxNjkuMDYzcHgiIGhlaWdodD0iMTY5LjA2M3B4IiB2aWV3Qm94PSIwIDAgMTY5LjA2MyAxNjkuMDYzIiBzdHlsZT0iZW5hYmxlLWJhY2tncm91bmQ6bmV3IDAgMCAxNjkuMDYzIDE2OS4wNjM7Ig0KCSB4bWw6c3BhY2U9InByZXNlcnZlIj4NCjxnPg0KCTxwYXRoIGQ9Ik0xMjIuNDA2LDBINDYuNjU0QzIwLjkyOSwwLDAsMjAuOTMsMCw0Ni42NTV2NzUuNzUyYzAsMjUuNzI2LDIwLjkyOSw0Ni42NTUsNDYuNjU0LDQ2LjY1NWg3NS43NTINCgkJYzI1LjcyNywwLDQ2LjY1Ni0yMC45Myw0Ni42NTYtNDYuNjU1VjQ2LjY1NUMxNjkuMDYzLDIwLjkzLDE0OC4xMzMsMCwxMjIuNDA2LDB6IE0xNTQuMDYzLDEyMi40MDcNCgkJYzAsMTcuNDU1LTE0LjIwMSwzMS42NTUtMzEuNjU2LDMxLjY1NUg0Ni42NTRDMjkuMiwxNTQuMDYzLDE1LDEzOS44NjIsMTUsMTIyLjQwN1Y0Ni42NTVDMTUsMjkuMjAxLDI5LjIsMTUsNDYuNjU0LDE1aDc1Ljc1Mg0KCQljMTcuNDU1LDAsMzEuNjU2LDE0LjIwMSwzMS42NTYsMzEuNjU1VjEyMi40MDd6Ii8+DQoJPHBhdGggZD0iTTg0LjUzMSw0MC45N2MtMjQuMDIxLDAtNDMuNTYzLDE5LjU0Mi00My41NjMsNDMuNTYzYzAsMjQuMDIsMTkuNTQyLDQzLjU2MSw0My41NjMsNDMuNTYxczQzLjU2My0xOS41NDEsNDMuNTYzLTQzLjU2MQ0KCQlDMTI4LjA5NCw2MC41MTIsMTA4LjU1Miw0MC45Nyw4NC41MzEsNDAuOTd6IE04NC41MzEsMTEzLjA5M2MtMTUuNzQ5LDAtMjguNTYzLTEyLjgxMi0yOC41NjMtMjguNTYxDQoJCWMwLTE1Ljc1LDEyLjgxMy0yOC41NjMsMjguNTYzLTI4LjU2M3MyOC41NjMsMTIuODEzLDI4LjU2MywyOC41NjNDMTEzLjA5NCwxMDAuMjgxLDEwMC4yOCwxMTMuMDkzLDg0LjUzMSwxMTMuMDkzeiIvPg0KCTxwYXRoIGQ9Ik0xMjkuOTIxLDI4LjI1MWMtMi44OSwwLTUuNzI5LDEuMTctNy43NywzLjIyYy0yLjA1MSwyLjA0LTMuMjMsNC44OC0zLjIzLDcuNzhjMCwyLjg5MSwxLjE4LDUuNzMsMy4yMyw3Ljc4DQoJCWMyLjA0LDIuMDQsNC44OCwzLjIyLDcuNzcsMy4yMmMyLjksMCw1LjczLTEuMTgsNy43OC0zLjIyYzIuMDUtMi4wNSwzLjIyLTQuODksMy4yMi03Ljc4YzAtMi45LTEuMTctNS43NC0zLjIyLTcuNzgNCgkJQzEzNS42NjEsMjkuNDIxLDEzMi44MjEsMjguMjUxLDEyOS45MjEsMjguMjUxeiIvPg0KPC9nPg0KPGc+DQo8L2c+DQo8Zz4NCjwvZz4NCjxnPg0KPC9nPg0KPGc+DQo8L2c+DQo8Zz4NCjwvZz4NCjxnPg0KPC9nPg0KPGc+DQo8L2c+DQo8Zz4NCjwvZz4NCjxnPg0KPC9nPg0KPGc+DQo8L2c+DQo8Zz4NCjwvZz4NCjxnPg0KPC9nPg0KPGc+DQo8L2c+DQo8Zz4NCjwvZz4NCjxnPg0KPC9nPg0KPC9zdmc+DQo="
 
 /***/ }),
-/* 52 */
+/* 51 */
 /***/ (function(module, exports) {
 
 module.exports = "data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iaXNvLTg4NTktMSI/Pg0KPCEtLSBHZW5lcmF0b3I6IEFkb2JlIElsbHVzdHJhdG9yIDE2LjAuMCwgU1ZHIEV4cG9ydCBQbHVnLUluIC4gU1ZHIFZlcnNpb246IDYuMDAgQnVpbGQgMCkgIC0tPg0KPCFET0NUWVBFIHN2ZyBQVUJMSUMgIi0vL1czQy8vRFREIFNWRyAxLjEvL0VOIiAiaHR0cDovL3d3dy53My5vcmcvR3JhcGhpY3MvU1ZHLzEuMS9EVEQvc3ZnMTEuZHRkIj4NCjxzdmcgdmVyc2lvbj0iMS4xIiBpZD0iQ2FwYV8xIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB4PSIwcHgiIHk9IjBweCINCgkgd2lkdGg9IjQzMC4xMTNweCIgaGVpZ2h0PSI0MzAuMTE0cHgiIHZpZXdCb3g9IjAgMCA0MzAuMTEzIDQzMC4xMTQiIHN0eWxlPSJlbmFibGUtYmFja2dyb3VuZDpuZXcgMCAwIDQzMC4xMTMgNDMwLjExNDsiDQoJIHhtbDpzcGFjZT0icHJlc2VydmUiPg0KPGc+DQoJPHBhdGggaWQ9IkZhY2Vib29rIiBkPSJNMTU4LjA4MSw4My4zYzAsMTAuODM5LDAsNTkuMjE4LDAsNTkuMjE4aC00My4zODV2NzIuNDEyaDQzLjM4NXYyMTUuMTgzaDg5LjEyMlYyMTQuOTM2aDU5LjgwNQ0KCQljMCwwLDUuNjAxLTM0LjcyMSw4LjMxNi03Mi42ODVjLTcuNzg0LDAtNjcuNzg0LDAtNjcuNzg0LDBzMC00Mi4xMjcsMC00OS41MTFjMC03LjQsOS43MTctMTcuMzU0LDE5LjMyMS0xNy4zNTQNCgkJYzkuNTg2LDAsMjkuODE4LDAsNDguNTU3LDBjMC05Ljg1OSwwLTQzLjkyNCwwLTc1LjM4NWMtMjUuMDE2LDAtNTMuNDc2LDAtNjYuMDIxLDBDMTU1Ljg3OC0wLjAwNCwxNTguMDgxLDcyLjQ4LDE1OC4wODEsODMuM3oiLz4NCjwvZz4NCjxnPg0KPC9nPg0KPGc+DQo8L2c+DQo8Zz4NCjwvZz4NCjxnPg0KPC9nPg0KPGc+DQo8L2c+DQo8Zz4NCjwvZz4NCjxnPg0KPC9nPg0KPGc+DQo8L2c+DQo8Zz4NCjwvZz4NCjxnPg0KPC9nPg0KPGc+DQo8L2c+DQo8Zz4NCjwvZz4NCjxnPg0KPC9nPg0KPGc+DQo8L2c+DQo8Zz4NCjwvZz4NCjwvc3ZnPg0K"
 
 /***/ }),
-/* 53 */
+/* 52 */
 /***/ (function(module, exports) {
 
 module.exports = "data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iaXNvLTg4NTktMSI/Pg0KPCEtLSBHZW5lcmF0b3I6IEFkb2JlIElsbHVzdHJhdG9yIDE2LjAuMCwgU1ZHIEV4cG9ydCBQbHVnLUluIC4gU1ZHIFZlcnNpb246IDYuMDAgQnVpbGQgMCkgIC0tPg0KPCFET0NUWVBFIHN2ZyBQVUJMSUMgIi0vL1czQy8vRFREIFNWRyAxLjEvL0VOIiAiaHR0cDovL3d3dy53My5vcmcvR3JhcGhpY3MvU1ZHLzEuMS9EVEQvc3ZnMTEuZHRkIj4NCjxzdmcgdmVyc2lvbj0iMS4xIiBpZD0iQ2FwYV8xIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB4PSIwcHgiIHk9IjBweCINCgkgd2lkdGg9IjQzMC4xMTdweCIgaGVpZ2h0PSI0MzAuMTE4cHgiIHZpZXdCb3g9IjAgMCA0MzAuMTE3IDQzMC4xMTgiIHN0eWxlPSJlbmFibGUtYmFja2dyb3VuZDpuZXcgMCAwIDQzMC4xMTcgNDMwLjExODsiDQoJIHhtbDpzcGFjZT0icHJlc2VydmUiPg0KPGc+DQoJPHBhdGggaWQ9IkxpbmtlZEluX194MjhfYWx0X3gyOV8iIGQ9Ik0zOTguMzU1LDBIMzEuNzgyQzE0LjIyOSwwLDAuMDAyLDEzLjc5MywwLjAwMiwzMC44MTd2MzY4LjQ3MQ0KCQljMCwxNy4wMjUsMTQuMjMyLDMwLjgzLDMxLjc4LDMwLjgzaDM2Ni41NzNjMTcuNTQ5LDAsMzEuNzYtMTMuODE0LDMxLjc2LTMwLjgzVjMwLjgxN0M0MzAuMTE1LDEzLjc5OCw0MTUuOTA0LDAsMzk4LjM1NSwweg0KCQkgTTEzMC40LDM2MC4wMzhINjUuNDEzVjE2NS44NDVIMTMwLjRWMzYwLjAzOHogTTk3LjkxMywxMzkuMzE1aC0wLjQzN2MtMjEuNzkzLDAtMzUuOTItMTQuOTA0LTM1LjkyLTMzLjU2Mw0KCQljMC0xOS4wMzUsMTQuNTQyLTMzLjUzNSwzNi43NjctMzMuNTM1YzIyLjIyNywwLDM1Ljg5OSwxNC40OTYsMzYuMzMxLDMzLjUzNUMxMzQuNjU0LDEyNC40MTUsMTIwLjU1NSwxMzkuMzE1LDk3LjkxMywxMzkuMzE1eg0KCQkgTTM2NC42NTksMzYwLjAzOGgtNjQuOTY2VjI1Ni4xMzhjMC0yNi4xMDctOS40MTMtNDMuOTIxLTMyLjkwNy00My45MjFjLTE3Ljk3MywwLTI4LjY0MiwxMi4wMTgtMzMuMzI3LDIzLjYyMQ0KCQljLTEuNzM2LDQuMTQ0LTIuMTY2LDkuOTQtMi4xNjYsMTUuNzI4djEwOC40NjhoLTY0Ljk1NGMwLDAsMC44NS0xNzUuOTc5LDAtMTk0LjE5Mmg2NC45NjR2MjcuNTMxDQoJCWM4LjYyNC0xMy4yMjksMjQuMDM1LTMyLjEsNTguNTM0LTMyLjFjNDIuNzYsMCw3NC44MjIsMjcuNzM5LDc0LjgyMiw4Ny40MTRWMzYwLjAzOHogTTIzMC44ODMsMTkzLjk5DQoJCWMwLjExMS0wLjE4MiwwLjI2Ni0wLjQwMSwwLjQyLTAuNjE0djAuNjE0SDIzMC44ODN6Ii8+DQo8L2c+DQo8Zz4NCjwvZz4NCjxnPg0KPC9nPg0KPGc+DQo8L2c+DQo8Zz4NCjwvZz4NCjxnPg0KPC9nPg0KPGc+DQo8L2c+DQo8Zz4NCjwvZz4NCjxnPg0KPC9nPg0KPGc+DQo8L2c+DQo8Zz4NCjwvZz4NCjxnPg0KPC9nPg0KPGc+DQo8L2c+DQo8Zz4NCjwvZz4NCjxnPg0KPC9nPg0KPGc+DQo8L2c+DQo8L3N2Zz4NCg=="
 
 /***/ }),
-/* 54 */
+/* 53 */
 /***/ (function(module, exports) {
 
 module.exports = require("@babel/runtime/helpers/asyncToGenerator");
 
 /***/ }),
-/* 55 */
+/* 54 */
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = __webpack_require__.p + "302b8422eadedf1aaeb94da76565076c.svg";
 
 /***/ }),
-/* 56 */
+/* 55 */
 /***/ (function(module, exports) {
 
 module.exports = require("react-markdown");
 
 /***/ }),
-/* 57 */
+/* 56 */
 /***/ (function(module, exports, __webpack_require__) {
 
+__webpack_require__(57);
 __webpack_require__(58);
-__webpack_require__(59);
-module.exports = __webpack_require__(65);
+module.exports = __webpack_require__(64);
 
 
 /***/ }),
-/* 58 */
+/* 57 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -2937,7 +2927,7 @@ if (typeof document !== 'undefined' && module && module.hot) {
 /* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(24)(module)))
 
 /***/ }),
-/* 59 */
+/* 58 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -2965,7 +2955,7 @@ if (typeof document !== 'undefined' && module && module.hot) {
 /* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(24)(module)))
 
 /***/ }),
-/* 60 */
+/* 59 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -3176,7 +3166,7 @@ var getConfig = function getConfig(isDynamic, universalConfig, options, props) {
 };
 
 /***/ }),
-/* 61 */
+/* 60 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var map = {
@@ -3204,10 +3194,10 @@ webpackContext.keys = function webpackContextKeys() {
 };
 webpackContext.resolve = webpackContextResolve;
 module.exports = webpackContext;
-webpackContext.id = 61;
+webpackContext.id = 60;
 
 /***/ }),
-/* 62 */
+/* 61 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -3316,13 +3306,13 @@ ReportChunks.childContextTypes = {
 exports["default"] = ReportChunks;
 
 /***/ }),
-/* 63 */
+/* 62 */
 /***/ (function(module, exports) {
 
 module.exports = require("vm");
 
 /***/ }),
-/* 64 */
+/* 63 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -3389,28 +3379,28 @@ var __handleAfter = exports.__handleAfter = function __handleAfter(props, state,
 };
 
 /***/ }),
-/* 65 */
+/* 64 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
 
 
-var _interopRequireWildcard = __webpack_require__(66);
+var _interopRequireWildcard = __webpack_require__(65);
 
-var _interopRequireDefault = __webpack_require__(67);
+var _interopRequireDefault = __webpack_require__(66);
 
 Object.defineProperty(exports, "__esModule", {
   value: true
 });
 exports["default"] = void 0;
 
-var _extends2 = _interopRequireDefault(__webpack_require__(68));
+var _extends2 = _interopRequireDefault(__webpack_require__(67));
 
-var _objectWithoutProperties2 = _interopRequireDefault(__webpack_require__(69));
+var _objectWithoutProperties2 = _interopRequireDefault(__webpack_require__(68));
 
 var React = _interopRequireWildcard(__webpack_require__(0));
 
-var _useStaticInfo = __webpack_require__(70);
+var _useStaticInfo = __webpack_require__(69);
 /* eslint-disable import/no-dynamic-require */
 
 
@@ -3431,7 +3421,7 @@ function Suspense(_ref) {
 React.Suspense = Suspense;
 React["default"].Suspense = Suspense;
 
-var App = __webpack_require__(71)["default"];
+var App = __webpack_require__(70)["default"];
 
 var _default = function _default(staticInfo) {
   return function (props) {
@@ -3444,37 +3434,37 @@ var _default = function _default(staticInfo) {
 exports["default"] = _default;
 
 /***/ }),
-/* 66 */
+/* 65 */
 /***/ (function(module, exports) {
 
 module.exports = require("@babel/runtime/helpers/interopRequireWildcard");
 
 /***/ }),
-/* 67 */
+/* 66 */
 /***/ (function(module, exports) {
 
 module.exports = require("@babel/runtime/helpers/interopRequireDefault");
 
 /***/ }),
-/* 68 */
+/* 67 */
 /***/ (function(module, exports) {
 
 module.exports = require("@babel/runtime/helpers/extends");
 
 /***/ }),
-/* 69 */
+/* 68 */
 /***/ (function(module, exports) {
 
 module.exports = require("@babel/runtime/helpers/objectWithoutProperties");
 
 /***/ }),
-/* 70 */
+/* 69 */
 /***/ (function(module, exports) {
 
 module.exports = require("/Users/kumi5605/Desktop/projects/kt-blog/node_modules/react-static/lib/browser/hooks/useStaticInfo");
 
 /***/ }),
-/* 71 */
+/* 70 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -3483,7 +3473,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var react_dom__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(27);
 /* harmony import */ var react_dom__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react_dom__WEBPACK_IMPORTED_MODULE_1__);
-/* harmony import */ var react_hot_loader__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(44);
+/* harmony import */ var react_hot_loader__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(43);
 /* harmony import */ var react_hot_loader__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(react_hot_loader__WEBPACK_IMPORTED_MODULE_2__);
 /* harmony import */ var _frontend_App__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(23);
 
@@ -3511,10 +3501,10 @@ if (typeof document !== 'undefined') {
     });
   }
 }
-/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(72)(module)))
+/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(71)(module)))
 
 /***/ }),
-/* 72 */
+/* 71 */
 /***/ (function(module, exports) {
 
 module.exports = function (originalModule) {
@@ -3544,7 +3534,7 @@ module.exports = function (originalModule) {
 };
 
 /***/ }),
-/* 73 */
+/* 72 */
 /***/ (function(module, exports, __webpack_require__) {
 
 exports = module.exports = __webpack_require__(11)(false);
@@ -3554,16 +3544,16 @@ exports.push([module.i, "@import url(https://fonts.googleapis.com/css?family=Ope
 exports.push([module.i, "@import url(https://fonts.googleapis.com/css?family=Oswald&display=swap);", ""]);
 exports.push([module.i, "@import url(https://fonts.googleapis.com/css?family=Dr+Sugiyama&display=swap);", ""]);
 exports.push([module.i, "@import url(https://fonts.googleapis.com/css?family=Caveat+Brush&display=swap);", ""]);
-var urlEscape = __webpack_require__(74);
-var ___CSS_LOADER_URL___0___ = urlEscape(__webpack_require__(34));
+var urlEscape = __webpack_require__(73);
+var ___CSS_LOADER_URL___0___ = urlEscape(__webpack_require__(74));
 
 // Module
-exports.push([module.i, "* {\n  scroll-behavior: smooth;\n}\n\nbody {\n  font-family: 'HelveticaNeue-Light', 'Helvetica Neue Light', 'Helvetica Neue',\n    Helvetica, Arial, 'Lucida Grande', sans-serif;\n  font-weight: 300;\n  font-size: 16px;\n  margin: 0;\n  padding: 0;\n  text-rendering: optimizeLegibility;\n}\n\na {\n  text-decoration: none;\n}\n\n#root {\n  height: 100vh;\n}\n\n/* Home */\n.home-container {\n  height: 100vh;\n  width: 100vw;\n}\n\n.image-container {\n  border-bottom: 1.5px solid #d8d8d8;\n  display: flex;\n  justify-content: space-around;\n}\n\n.banner-image {\n  background-image: url(" + ___CSS_LOADER_URL___0___ + ");\n  background-size: cover;\n  height: 100%;\n  width: 100%;\n}\n\n.author-image-container {\n  display: flex;\n  justify-content: center;\n  align-items: center;\n}\n\n.author-image {\n  border-radius: 2px;\n  box-shadow: 0 0 6px #191919;\n  height: 650px;\n  margin-left: 3rem;\n  width: 433px;\n  -webkit-box-shadow: 0 0 6px #191919;\n}\n\n.bio-text {\n  align-self: center;\n  align-items: center;\n  background-color: rgb(244, 244, 244);\n  border-radius: 5px;\n  display: flex;\n  flex-direction: column;\n  font-size: 20px;\n  font-weight: 500;\n  height: 500px;\n  justify-content: center;\n  line-height: 140%;\n  margin-right: 3rem;\n  opacity: 0.9;\n  padding: 1.5rem 1.5rem 0 1.5rem;\n  width: 33%;\n}\n\n.bio-text p {\n  margin: 1rem;\n  text-shadow: 2px 4px 3px rgba(0, 0, 0, 0.1);\n}\n\n.signature {\n  width: 350px;\n}\n\n/* Blog Pages */\n.post-header {\n  font: 32px 'Open Sans', sans-serif;\n  margin: 1rem 0 0 140px;\n}\n\n.blog-container {\n  display: flex;\n  flex-direction: row;\n  flex-wrap: wrap;\n  margin: 0 120px 90px 120px;\n}\n\n.card h1,\n.card h2 {\n  z-index: -10;\n}\n\n.card {\n  align-items: center;\n  background-position: 50%;\n  background-repeat: no-repeat;\n  background-size: cover;\n  border: 1px solid #eee;\n  border-radius: 5px;\n  display: flex;\n  height: 355px;\n  margin: 16px;\n  position: relative;\n  width: 355px;\n}\n\n.card:hover .overlay {\n  color: #f7f7f7;\n  background-color: #181818;\n  border-radius: 5px;\n  opacity: 0.7;\n  height: 100%;\n  position: absolute;\n  transition: 0.3s;\n  width: 100%;\n}\n\n.card:hover .post-title {\n  color: #f7f7f7;\n  border-radius: 5px;\n  font: 20px 'Open Sans', sans-serif;\n  height: 100%;\n  position: absolute;\n  transition: 0.3s;\n  width: 100%;\n  z-index: 1;\n}\n\n.card:hover .sub-header {\n  color: #f7f7f7;\n  border-radius: 5px;\n  font: 19px 'Open Sans', sans-serif;\n  height: auto;\n  position: absolute;\n  transition: 0.3s;\n  top: 60%;\n  width: 100%;\n  z-index: 1;\n}\n\n.post-title {\n  color: #f7f7f7;\n  display: flex;\n  font: 29px 'Open Sans', sans-serif;\n  justify-content: center;\n  margin: 0;\n  align-items: center;\n}\n\n.sub-header {\n  color: #f7f7f7;\n  display: flex;\n  font-weight: 100;\n  justify-content: center;\n}\n\n/* Post */\n.blog-post {\n  display: flex;\n  flex-direction: column;\n  align-items: center;\n}\n\n.post-main-title {\n  font: 28px 'Open Sans', sans-serif;\n  text-align: center;\n}\n\n.post-image {\n  height: 490px;\n  width: 735px;\n}\n\n.blog-content {\n  margin: 0 auto 1rem auto;\n  width: 735px;\n}\n\n.blog-content h2 {\n  text-align: center;\n  font: 26px 'Open Sans', sans-serif;\n}\n\n.blog-content h3 {\n  text-align: center;\n  font: 24px 'Open Sans', sans-serif;\n}\n\n.blog-content h4 {\n  text-align: center;\n  font: 22px 'Open Sans', sans-serif;\n}\n\n.blog-content h5 {\n  text-align: center;\n  font: 20px 'Open Sans', sans-serif;\n}\n\n.blog-content h6 {\n  text-align: center;\n  font: 18px 'Open Sans', sans-serif;\n}\n\n.blog-content p {\n  line-height: 160%;\n  text-indent: 1rem;\n}\n\n/* Contact */\n.contact-container {\n  align-items: center;\n  background-image: url('https://storage.needpix.com/rsynced_images/water-background-1425094730JA9.jpg');\n  display: flex;\n  flex-direction: column;\n  background-size: cover;\n  height: 100%;\n  width: 100%;\n}\n\n.contact-form-container {\n  background-color: rgb(244, 244, 244);\n  border-radius: 5px;\n  margin: 100px 0 100px 0;\n  padding: 0 15px 15px 15px;\n  opacity: 0.9;\n  width: 500px;\n}\n\n.contact-header {\n  font: 30px 'Open Sans', sans-serif;\n  text-align: center;\n}\n\n/* media queries */\n@media only screen and (max-width: 1067px) {\n  .author-image {\n    height: 520px;\n    width: 346px;\n  }\n\n  .bio-text {\n    height: 420px;\n    padding: 0.75rem 0.75rem 0 0.75rem;\n    width: 350px;\n  }\n\n  .bio-text p {\n    font-size: 17px;\n  }\n\n  .signature {\n    margin-top: 0;\n    width: 320px;\n  }\n}\n\n@media only screen and (max-width: 1017px) {\n  .blog-container {\n    margin: 0;\n    justify-content: center;\n  }\n\n  .post-header {\n    margin: 1rem 0 0 0;\n    text-align: center;\n  }\n\n  .card {\n    height: 450px;\n    width: 450px;\n  }\n}\n\n@media only screen and (max-width: 970px) {\n  .author-image {\n    margin-left: 0.5rem;\n  }\n\n  .bio-text {\n    margin-right: 0.5rem;\n  }\n}\n\n@media only screen and (max-width: 815px) {\n  .image-container {\n    align-items: center;\n    display: flex;\n    flex-direction: column;\n    height: 1100px;\n  }\n\n  .author-image {\n    height: 550px;\n    margin: 3.25rem 0 0 0;\n    width: 366px;\n  }\n\n  .xoxo {\n    padding: 0;\n  }\n\n  .bio-text {\n    margin: 0 0 4.5rem 0;\n    height: auto;\n    padding: 1rem 0.75rem 0.5rem 0.75rem;\n    width: 75%;\n  }\n\n  .bio-text p {\n    margin-bottom: 0;\n  }\n}\n\n@media only screen and (max-width: 785px) {\n  .post-main-title {\n    font-size: 24px;\n  }\n\n  .blog-content h2 {\n    font: 22.5px 'Open Sans', sans-serif;\n  }\n\n  .blog-content h3 {\n    font: 21px 'Open Sans', sans-serif;\n  }\n\n  .blog-content h4 {\n    font: 19.5px 'Open Sans', sans-serif;\n  }\n\n  .blog-content h5 {\n    font: 18px 'Open Sans', sans-serif;\n  }\n\n  .blog-content h6 {\n    font: 17.5px 'Open Sans', sans-serif;\n  }\n\n  .post-image {\n    height: 333px;\n    width: 500px;\n  }\n\n  .blog-content {\n    width: 500px;\n  }\n}\n\n@media only screen and (max-width: 675px) {\n  .contact-form-container {\n    height: 360px;\n    width: 350px;\n  }\n\n  .contact-header {\n    font-size: 24px;\n    margin-bottom: 0;\n  }\n\n  .contact-info {\n    max-width: 90%;\n  }\n}\n\n@media only screen and (max-width: 576px) {\n  .bio-text {\n    margin: 0 0 2rem 0;\n    width: 400px;\n  }\n\n  .card {\n    height: 350px;\n    width: 350px;\n  }\n\n  .bio-text p {\n    font-size: 16px;\n  }\n\n  .post-header {\n    font-size: 22.5px;\n  }\n}\n\n@media only screen and (max-width: 530px) {\n  .post-main-title {\n    font-size: 20px;\n  }\n\n  .post-image {\n    height: 283px;\n    width: 425px;\n  }\n\n  .blog-content {\n    width: 425px;\n  }\n}\n\n@media only screen and (max-width: 450px) {\n  .author-image {\n    height: 523.5px;\n    margin-top: 1.75rem;\n    width: 349px;\n  }\n\n  .bio-text {\n    width: 325px;\n  }\n\n  .signature {\n    width: 260px;\n  }\n\n  .contact-form-container {\n    height: 325px;\n    width: 310px;\n  }\n\n  .contact-header {\n    font-size: 20px;\n    margin-bottom: 0;\n  }\n\n  .contact-info {\n    max-width: 90%;\n  }\n}\n\n@media only screen and (max-width: 440px) {\n  .post-main-title {\n    font-size: 18px;\n    margin: 1.25rem 0;\n  }\n\n  .blog-content h2 {\n    text-align: center;\n    font: 17.5px 'Open Sans', sans-serif;\n  }\n\n  .blog-content h3 {\n    text-align: center;\n    font: 17.25px 'Open Sans', sans-serif;\n  }\n\n  .blog-content h4 {\n    text-align: center;\n    font: 17px 'Open Sans', sans-serif;\n  }\n\n  .blog-content h5 {\n    text-align: center;\n    font: 16.75px 'Open Sans', sans-serif;\n  }\n\n  .blog-content h6 {\n    text-align: center;\n    font: 16.5px 'Open Sans', sans-serif;\n  }\n\n  .post-image {\n    height: 200px;\n    width: 300px;\n  }\n\n  .blog-content {\n    width: 300px;\n  }\n\n  .blog-content p {\n    font-size: 15px;\n  }\n}\n\n@media only screen and (max-width: 420px) {\n  .card {\n    height: 285px;\n    width: 285px;\n  }\n\n  .card:hover .post-title {\n    font: 16px 'Open Sans', sans-serif;\n  }\n\n  .card:hover .sub-header {\n    font: 15px 'Open Sans', sans-serif;\n  }\n}\n\n@media only screen and (max-width: 385px) {\n  .author-image {\n    height: 465px;\n    width: 310px;\n  }\n\n  .bio-text {\n    width: 286px;\n  }\n}\n\n@media only screen and (max-width: 370px) {\n  .author-image {\n    height: 427.5px;\n    width: 285px;\n  }\n\n  .bio-text {\n    width: 261px;\n  }\n\n  .signature {\n    width: 230px;\n  }\n\n  .contact-form-container {\n    height: 285px;\n    width: 275px;\n  }\n\n  .contact-header {\n    font-size: 19px;\n    margin-bottom: 0;\n  }\n\n  .contact-info {\n    max-width: 90%;\n  }\n}\n", ""]);
+exports.push([module.i, "* {\n  scroll-behavior: smooth;\n}\n\nbody {\n  font-family: 'HelveticaNeue-Light', 'Helvetica Neue Light', 'Helvetica Neue',\n    Helvetica, Arial, 'Lucida Grande', sans-serif;\n  font-weight: 300;\n  font-size: 16px;\n  margin: 0;\n  padding: 0;\n  text-rendering: optimizeLegibility;\n}\n\na {\n  text-decoration: none;\n}\n\n#root {\n  height: 100vh;\n}\n\n/* Home */\n.home-container {\n  height: 100vh;\n  width: 100vw;\n}\n\n.image-container {\n  border-bottom: 1.5px solid #d8d8d8;\n  display: flex;\n  justify-content: space-around;\n}\n\n.banner-image {\n  background-image: url(" + ___CSS_LOADER_URL___0___ + ");\n  background-size: cover;\n  height: 100%;\n  width: 100%;\n}\n\n.author-image-container {\n  display: flex;\n  justify-content: center;\n  align-items: center;\n}\n\n.author-image {\n  border-radius: 2px;\n  box-shadow: 0 0 6px #191919;\n  height: 650px;\n  margin-left: 3rem;\n  width: 433px;\n  -webkit-box-shadow: 0 0 6px #191919;\n}\n\n.bio-text {\n  align-self: center;\n  align-items: center;\n  background-color: rgb(244, 244, 244);\n  border-radius: 5px;\n  display: flex;\n  flex-direction: column;\n  font-size: 20px;\n  font-weight: 500;\n  height: 500px;\n  justify-content: center;\n  line-height: 140%;\n  margin-right: 3rem;\n  opacity: 0.9;\n  padding: 1.5rem 1.5rem 0 1.5rem;\n  width: 33%;\n}\n\n.bio-text p {\n  margin: 1rem;\n  text-shadow: 2px 4px 3px rgba(0, 0, 0, 0.1);\n}\n\n.signature {\n  width: 350px;\n}\n\n/* Blog Pages */\n.post-header {\n  font: 32px 'Open Sans', sans-serif;\n  margin: 1rem 0 0 140px;\n}\n\n.blog-container {\n  display: flex;\n  flex-direction: row;\n  flex-wrap: wrap;\n  margin: 0 120px 90px 120px;\n}\n\n.card h1,\n.card h2 {\n  z-index: -10;\n}\n\n.card {\n  align-items: center;\n  background-position: 50%;\n  background-repeat: no-repeat;\n  background-size: cover;\n  border: 1px solid #eee;\n  border-radius: 5px;\n  display: flex;\n  height: 355px;\n  margin: 16px;\n  position: relative;\n  width: 355px;\n}\n\n.card:hover .overlay {\n  color: #f7f7f7;\n  background-color: #181818;\n  border-radius: 5px;\n  opacity: 0.7;\n  height: 100%;\n  position: absolute;\n  transition: 0.3s;\n  width: 100%;\n}\n\n.card:hover .post-title {\n  color: #f7f7f7;\n  border-radius: 5px;\n  font: 20px 'Open Sans', sans-serif;\n  height: 100%;\n  position: absolute;\n  transition: 0.3s;\n  width: 100%;\n  z-index: 1;\n}\n\n.card:hover .sub-header {\n  color: #f7f7f7;\n  border-radius: 5px;\n  font: 19px 'Open Sans', sans-serif;\n  height: auto;\n  position: absolute;\n  transition: 0.3s;\n  top: 60%;\n  width: 100%;\n  z-index: 1;\n}\n\n.post-title {\n  color: #f7f7f7;\n  display: flex;\n  font: 29px 'Open Sans', sans-serif;\n  justify-content: center;\n  margin: 0;\n  align-items: center;\n}\n\n.sub-header {\n  color: #f7f7f7;\n  display: flex;\n  font-weight: 100;\n  justify-content: center;\n}\n\n/* Post */\n.blog-post {\n  display: flex;\n  flex-direction: column;\n  align-items: center;\n}\n\n.post-main-title {\n  font: 28px 'Open Sans', sans-serif;\n  text-align: center;\n}\n\n.post-image {\n  height: 490px;\n  width: 735px;\n}\n\n.blog-content {\n  margin: 0 auto 1rem auto;\n  width: 735px;\n}\n\n.blog-content h2 {\n  text-align: center;\n  font: 26px 'Open Sans', sans-serif;\n}\n\n.blog-content h3 {\n  text-align: center;\n  font: 24px 'Open Sans', sans-serif;\n}\n\n.blog-content h4 {\n  text-align: center;\n  font: 22px 'Open Sans', sans-serif;\n}\n\n.blog-content h5 {\n  text-align: center;\n  font: 20px 'Open Sans', sans-serif;\n}\n\n.blog-content h6 {\n  text-align: center;\n  font: 18px 'Open Sans', sans-serif;\n}\n\n.blog-content p {\n  line-height: 160%;\n  text-indent: 1rem;\n}\n\n/* Contact */\n.contact-container {\n  align-items: center;\n  background-image: url(" + ___CSS_LOADER_URL___0___ + ");\n  display: flex;\n  flex-direction: column;\n  background-size: cover;\n  height: 100%;\n  width: 100%;\n}\n\n.contact-form-container {\n  background-color: rgb(244, 244, 244);\n  border-radius: 5px;\n  margin: 100px 0 100px 0;\n  padding: 0 15px 15px 15px;\n  opacity: 0.9;\n  width: 500px;\n}\n\n.contact-header {\n  font: 30px 'Open Sans', sans-serif;\n  text-align: center;\n}\n\n/* media queries */\n@media only screen and (max-width: 1067px) {\n  .author-image {\n    height: 520px;\n    width: 346px;\n  }\n\n  .bio-text {\n    height: 420px;\n    padding: 0.75rem 0.75rem 0 0.75rem;\n    width: 350px;\n  }\n\n  .bio-text p {\n    font-size: 17px;\n  }\n\n  .signature {\n    margin-top: 0;\n    width: 320px;\n  }\n}\n\n@media only screen and (max-width: 1017px) {\n  .blog-container {\n    margin: 0;\n    justify-content: center;\n  }\n\n  .post-header {\n    margin: 1rem 0 0 0;\n    text-align: center;\n  }\n\n  .card {\n    height: 450px;\n    width: 450px;\n  }\n}\n\n@media only screen and (max-width: 970px) {\n  .author-image {\n    margin-left: 0.5rem;\n  }\n\n  .bio-text {\n    margin-right: 0.5rem;\n  }\n}\n\n@media only screen and (max-width: 815px) {\n  .image-container {\n    align-items: center;\n    display: flex;\n    flex-direction: column;\n    height: 1100px;\n  }\n\n  .author-image {\n    height: 550px;\n    margin: 3.25rem 0 0 0;\n    width: 366px;\n  }\n\n  .xoxo {\n    padding: 0;\n  }\n\n  .bio-text {\n    margin: 0 0 4.5rem 0;\n    height: auto;\n    padding: 1rem 0.75rem 0.5rem 0.75rem;\n    width: 75%;\n  }\n\n  .bio-text p {\n    margin-bottom: 0;\n  }\n}\n\n@media only screen and (max-width: 785px) {\n  .post-main-title {\n    font-size: 24px;\n  }\n\n  .blog-content h2 {\n    font: 22.5px 'Open Sans', sans-serif;\n  }\n\n  .blog-content h3 {\n    font: 21px 'Open Sans', sans-serif;\n  }\n\n  .blog-content h4 {\n    font: 19.5px 'Open Sans', sans-serif;\n  }\n\n  .blog-content h5 {\n    font: 18px 'Open Sans', sans-serif;\n  }\n\n  .blog-content h6 {\n    font: 17.5px 'Open Sans', sans-serif;\n  }\n\n  .post-image {\n    height: 333px;\n    width: 500px;\n  }\n\n  .blog-content {\n    width: 500px;\n  }\n}\n\n@media only screen and (max-width: 675px) {\n  .contact-form-container {\n    height: 360px;\n    width: 350px;\n  }\n\n  .contact-header {\n    font-size: 24px;\n    margin-bottom: 0;\n  }\n\n  .contact-info {\n    max-width: 90%;\n  }\n}\n\n@media only screen and (max-width: 576px) {\n  .bio-text {\n    margin: 0 0 2rem 0;\n    width: 400px;\n  }\n\n  .card {\n    height: 350px;\n    width: 350px;\n  }\n\n  .bio-text p {\n    font-size: 16px;\n  }\n\n  .post-header {\n    font-size: 22.5px;\n  }\n}\n\n@media only screen and (max-width: 530px) {\n  .post-main-title {\n    font-size: 20px;\n  }\n\n  .post-image {\n    height: 283px;\n    width: 425px;\n  }\n\n  .blog-content {\n    width: 425px;\n  }\n}\n\n@media only screen and (max-width: 450px) {\n  .author-image {\n    height: 523.5px;\n    margin-top: 1.75rem;\n    width: 349px;\n  }\n\n  .bio-text {\n    width: 325px;\n  }\n\n  .signature {\n    width: 260px;\n  }\n\n  .contact-form-container {\n    height: 325px;\n    width: 310px;\n  }\n\n  .contact-header {\n    font-size: 20px;\n    margin-bottom: 0;\n  }\n\n  .contact-info {\n    max-width: 90%;\n  }\n}\n\n@media only screen and (max-width: 440px) {\n  .post-main-title {\n    font-size: 18px;\n    margin: 1.25rem 0;\n  }\n\n  .blog-content h2 {\n    text-align: center;\n    font: 17.5px 'Open Sans', sans-serif;\n  }\n\n  .blog-content h3 {\n    text-align: center;\n    font: 17.25px 'Open Sans', sans-serif;\n  }\n\n  .blog-content h4 {\n    text-align: center;\n    font: 17px 'Open Sans', sans-serif;\n  }\n\n  .blog-content h5 {\n    text-align: center;\n    font: 16.75px 'Open Sans', sans-serif;\n  }\n\n  .blog-content h6 {\n    text-align: center;\n    font: 16.5px 'Open Sans', sans-serif;\n  }\n\n  .post-image {\n    height: 200px;\n    width: 300px;\n  }\n\n  .blog-content {\n    width: 300px;\n  }\n\n  .blog-content p {\n    font-size: 15px;\n  }\n}\n\n@media only screen and (max-width: 420px) {\n  .card {\n    height: 285px;\n    width: 285px;\n  }\n\n  .card:hover .post-title {\n    font: 16px 'Open Sans', sans-serif;\n  }\n\n  .card:hover .sub-header {\n    font: 15px 'Open Sans', sans-serif;\n  }\n}\n\n@media only screen and (max-width: 385px) {\n  .author-image {\n    height: 465px;\n    width: 310px;\n  }\n\n  .bio-text {\n    width: 286px;\n  }\n}\n\n@media only screen and (max-width: 370px) {\n  .author-image {\n    height: 427.5px;\n    width: 285px;\n  }\n\n  .bio-text {\n    width: 261px;\n  }\n\n  .signature {\n    width: 230px;\n  }\n\n  .contact-form-container {\n    height: 285px;\n    width: 275px;\n  }\n\n  .contact-header {\n    font-size: 19px;\n    margin-bottom: 0;\n  }\n\n  .contact-info {\n    max-width: 90%;\n  }\n}\n", ""]);
 
 
 
 /***/ }),
-/* 74 */
+/* 73 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -3587,6 +3577,12 @@ module.exports = function escape(url, needQuotes) {
 
   return url;
 };
+
+/***/ }),
+/* 74 */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "d46f2862defa854d93bff4bfa834c825.jpg";
 
 /***/ }),
 /* 75 */
