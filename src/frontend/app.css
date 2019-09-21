@@ -39,7 +39,7 @@ a {
 }
 
 .banner-image {
-  background-image: url('https://storage.needpix.com/rsynced_images/water-background-1425094730JA9.jpg');
+  background-image: url('../frontend/images/water-background.jpg');
   background-size: cover;
   height: 100%;
   width: 100%;
