@@ -1,0 +1,61 @@
+{
+  "prefetchRate": 5,
+  "maxThreads": null,
+  "disableRoutePrefixing": false,
+  "outputFileRate": 100,
+  "extensions": [
+    ".js",
+    ".jsx"
+  ],
+  "minLoadTime": 200,
+  "disablePreload": false,
+  "disableRuntime": false,
+  "preloadPollInterval": 300,
+  "productionSourceMaps": false,
+  "entry": "index.js",
+  "plugins": [
+    [
+      "/Users/kumi5605/Desktop/projects/kt-blog/node_modules/react-static-plugin-source-filesystem/node.api.js",
+      {
+        "location": "/Users/kumi5605/Desktop/projects/kt-blog/src/pages"
+      }
+    ],
+    "/Users/kumi5605/Desktop/projects/kt-blog/node_modules/react-static-plugin-reach-router/browser.api.js",
+    "/Users/kumi5605/Desktop/projects/kt-blog/node_modules/react-static-plugin-sitemap/dist/node.api.js",
+    "/Users/kumi5605/Desktop/projects/kt-blog"
+  ],
+  "paths": {
+    "ROOT": "/Users/kumi5605/Desktop/projects/kt-blog",
+    "SRC": "/Users/kumi5605/Desktop/projects/kt-blog/src",
+    "DIST": "/Users/kumi5605/Desktop/projects/kt-blog/dist",
+    "ASSETS": "/Users/kumi5605/Desktop/projects/kt-blog/dist",
+    "PLUGINS": "/Users/kumi5605/Desktop/projects/kt-blog/plugins",
+    "TEMP": "/Users/kumi5605/Desktop/projects/kt-blog/tmp",
+    "ARTIFACTS": "/Users/kumi5605/Desktop/projects/kt-blog/artifacts",
+    "PUBLIC": "/Users/kumi5605/Desktop/projects/kt-blog/public",
+    "NODE_MODULES": "/Users/kumi5605/Desktop/projects/kt-blog/node_modules",
+    "EXCLUDE_MODULES": "/Users/kumi5605/Desktop/projects/kt-blog/node_modules",
+    "PACKAGE": "/Users/kumi5605/Desktop/projects/kt-blog/package.json",
+    "HTML_TEMPLATE": "/Users/kumi5605/Desktop/projects/kt-blog/dist/index.html",
+    "STATIC_DATA": "/Users/kumi5605/Desktop/projects/kt-blog/dist/staticData"
+  },
+  "siteRoot": "/",
+  "basePath": "",
+  "publicPath": "/",
+  "assetsPath": "",
+  "extractCssChunks": false,
+  "inlineCss": false,
+  "babelExcludes": [],
+  "devServer": {
+    "host": "localhost",
+    "port": 3000
+  },
+  "terser": {
+    "terserOptions": {
+      "mangle": {},
+      "parse": {},
+      "compress": {},
+      "output": {}
+    }
+  }
+}

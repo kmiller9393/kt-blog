@@ -4,7 +4,6 @@ import RecentPosts from '../frontend/components/RecentPosts/RecentPosts';
 import Footer from '../frontend/components/Footer/Footer';
 import Navbar from '../frontend/components/Navbar/Navbar';
 import signature from '../frontend/images/signature.svg';
-import background from '../frontend/images/water-background.jpg';
 
 class index extends Component {
   getPosts = () => {
