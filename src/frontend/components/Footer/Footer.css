@@ -16,9 +16,11 @@
 }
 
 .footer-header {
+  color: #f7f7f7e5;
   font-family: 'Open Sans', sans-serif;
   font-size: 22px;
-  color: #f7f7f7e5;
+  margin: 0;
+  padding-top: 1rem;
 }
 
 .footer-link-container {
