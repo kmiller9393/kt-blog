@@ -32,18 +32,10 @@
   color: #181818;
 }
 
-::placeholder {
-  padding-left: 0.5rem;
-}
-
-::-moz-placeholder {
-  padding-left: 0.5rem;
-}
-
-:-moz-placeholder {
-  padding-left: 0.5rem;
-}
-
-:-ms-input-placeholder {
-  padding-left: 0.5rem;
+@media only screen and (max-width: 450px) {
+  .subscribe-button:hover {
+    background-color: #181818;
+    border-color: #f7f7f7;
+    color: #f7f7f7;
+  }
 }
