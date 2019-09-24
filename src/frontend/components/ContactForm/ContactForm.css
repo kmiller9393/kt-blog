@@ -102,6 +102,7 @@
 
   .contact-info-button:hover {
     background-color: #dcdcdcd4;
+    border-color: #dcdcdcd4;
     color: #757575;
   }
 
@@ -116,13 +117,6 @@
   }
 
   .contact-info-button {
-    height: 35px;
-    margin-top: 0.2rem;
-    width: 165px;
-  }
-
-  .contact-info-button:hover {
-    background-color: #dcdcdcd4;
-    color: #757575;
+    margin-top: 0.35rem;
   }
 }
