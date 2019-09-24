@@ -30,6 +30,12 @@ const query = `
     }
     bibliography
   }
+
+  signatures {
+    image {
+      handle
+    }
+  }
 }
 `;
 
@@ -38,7 +44,10 @@ export default {
     title: 'Kimaleen Tran'
   }),
   getRoutes: async () => {
-    const { authors, posts } = await request(GRAPHCMS_ENDPOINT, query);
+    const { authors, posts, signatures } = await request(
+      GRAPHCMS_ENDPOINT,
+      query
+    );
 
     return [
       {
@@ -46,7 +55,8 @@ export default {
         component: 'src/pages/index.js',
         getData: () => ({
           posts,
-          authors
+          authors,
+          signatures
         }),
         children: posts.map(post => ({
           path: `/post/${post.id}`,

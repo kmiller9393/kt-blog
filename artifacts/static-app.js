@@ -110,7 +110,7 @@ return /******/ (function(modules) { // webpackBootstrap
 /******/
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 56);
+/******/ 	return __webpack_require__(__webpack_require__.s = 55);
 /******/ })
 /************************************************************************/
 /******/ ([
@@ -230,7 +230,7 @@ var menu = __webpack_require__(49);
 var menu_default = /*#__PURE__*/__webpack_require__.n(menu);
 
 // EXTERNAL MODULE: /Users/kumi5605/Desktop/projects/kt-blog/src/frontend/components/DrawerButton/DrawerButton.css
-var DrawerButton_DrawerButton = __webpack_require__(77);
+var DrawerButton_DrawerButton = __webpack_require__(76);
 
 // CONCATENATED MODULE: /Users/kumi5605/Desktop/projects/kt-blog/src/frontend/components/DrawerButton/DrawerButton.js
 
@@ -261,7 +261,7 @@ var linkedin = __webpack_require__(52);
 var linkedin_default = /*#__PURE__*/__webpack_require__.n(linkedin);
 
 // EXTERNAL MODULE: /Users/kumi5605/Desktop/projects/kt-blog/src/frontend/components/Header/Header.css
-var Header_Header = __webpack_require__(78);
+var Header_Header = __webpack_require__(77);
 
 // CONCATENATED MODULE: /Users/kumi5605/Desktop/projects/kt-blog/src/frontend/components/Header/Header.js
 
@@ -319,7 +319,7 @@ var Header_Header_Header = function Header(props) {
 
 /* harmony default export */ var components_Header_Header = (Header_Header_Header);
 // EXTERNAL MODULE: /Users/kumi5605/Desktop/projects/kt-blog/src/frontend/components/Sidebar/Sidebar.css
-var Sidebar_Sidebar = __webpack_require__(79);
+var Sidebar_Sidebar = __webpack_require__(78);
 
 // CONCATENATED MODULE: /Users/kumi5605/Desktop/projects/kt-blog/src/frontend/components/Sidebar/Sidebar.js
 
@@ -362,7 +362,7 @@ var Sidebar_Sidebar_Sidebar = function Sidebar(props) {
 
 /* harmony default export */ var components_Sidebar_Sidebar = (Sidebar_Sidebar_Sidebar);
 // EXTERNAL MODULE: /Users/kumi5605/Desktop/projects/kt-blog/src/frontend/components/Backdrop/Backdrop.css
-var Backdrop_Backdrop = __webpack_require__(80);
+var Backdrop_Backdrop = __webpack_require__(79);
 
 // CONCATENATED MODULE: /Users/kumi5605/Desktop/projects/kt-blog/src/frontend/components/Backdrop/Backdrop.js
 
@@ -377,7 +377,7 @@ var Backdrop_Backdrop_Backdrop = function Backdrop(props) {
 
 /* harmony default export */ var components_Backdrop_Backdrop = (Backdrop_Backdrop_Backdrop);
 // EXTERNAL MODULE: /Users/kumi5605/Desktop/projects/kt-blog/src/frontend/components/Navbar/Navbar.css
-var Navbar_Navbar = __webpack_require__(81);
+var Navbar_Navbar = __webpack_require__(80);
 
 // CONCATENATED MODULE: /Users/kumi5605/Desktop/projects/kt-blog/src/frontend/components/Navbar/Navbar.js
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return Navbar_Navbar_Navbar; });
@@ -650,7 +650,7 @@ var validateAuth = function validateAuth(values) {
 
 /* harmony default export */ var utils_validateAuth = (validateAuth);
 // EXTERNAL MODULE: /Users/kumi5605/Desktop/projects/kt-blog/src/frontend/components/EmailForm/EmailForm.css
-var EmailForm_EmailForm = __webpack_require__(75);
+var EmailForm_EmailForm = __webpack_require__(74);
 
 // CONCATENATED MODULE: /Users/kumi5605/Desktop/projects/kt-blog/src/frontend/components/EmailForm/EmailForm.js
 
@@ -702,7 +702,7 @@ var linkedin_light = __webpack_require__(48);
 var linkedin_light_default = /*#__PURE__*/__webpack_require__.n(linkedin_light);
 
 // EXTERNAL MODULE: /Users/kumi5605/Desktop/projects/kt-blog/src/frontend/components/Footer/Footer.css
-var Footer_Footer = __webpack_require__(76);
+var Footer_Footer = __webpack_require__(75);
 
 // CONCATENATED MODULE: /Users/kumi5605/Desktop/projects/kt-blog/src/frontend/components/Footer/Footer.js
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return Footer_Footer_Footer; });
@@ -825,7 +825,7 @@ var _createClass = function () {
   };
 }();
 
-var _requireUniversalModule = __webpack_require__(59);
+var _requireUniversalModule = __webpack_require__(58);
 
 Object.defineProperty(exports, 'CHUNK_NAMES', {
   enumerable: true,
@@ -840,7 +840,7 @@ Object.defineProperty(exports, 'MODULE_IDS', {
   }
 });
 
-var _reportChunks = __webpack_require__(61);
+var _reportChunks = __webpack_require__(60);
 
 Object.defineProperty(exports, 'ReportChunks', {
   enumerable: true,
@@ -862,13 +862,13 @@ var _hoistNonReactStatics = __webpack_require__(33);
 
 var _hoistNonReactStatics2 = _interopRequireDefault(_hoistNonReactStatics);
 
-var _vm = __webpack_require__(62);
+var _vm = __webpack_require__(61);
 
 var _requireUniversalModule2 = _interopRequireDefault(_requireUniversalModule);
 
 var _utils = __webpack_require__(26);
 
-var _helpers = __webpack_require__(63);
+var _helpers = __webpack_require__(62);
 
 function _interopRequireDefault(obj) {
   return obj && obj.__esModule ? obj : {
@@ -1422,7 +1422,7 @@ var _utils = __webpack_require__(26);
 
 var requireById = function requireById(id) {
   if (!(0, _utils.isWebpack)() && typeof id === 'string') {
-    return __webpack_require__(60)("" + id);
+    return __webpack_require__(59)("" + id);
   }
 
   return __webpack_require__('' + id);
@@ -1452,7 +1452,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var react_static__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(5);
 /* harmony import */ var react_static__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react_static__WEBPACK_IMPORTED_MODULE_1__);
-/* harmony import */ var react_markdown__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(55);
+/* harmony import */ var react_markdown__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(54);
 /* harmony import */ var react_markdown__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(react_markdown__WEBPACK_IMPORTED_MODULE_2__);
 /* harmony import */ var _frontend_components_Navbar_Navbar__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(7);
 /* harmony import */ var _frontend_components_Footer_Footer__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(8);
@@ -1494,7 +1494,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var graphql_hooks__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(graphql_hooks__WEBPACK_IMPORTED_MODULE_4__);
 /* harmony import */ var graphql_hooks_memcache__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(45);
 /* harmony import */ var graphql_hooks_memcache__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(graphql_hooks_memcache__WEBPACK_IMPORTED_MODULE_5__);
-/* harmony import */ var _app_css__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(72);
+/* harmony import */ var _app_css__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(71);
 /* harmony import */ var _app_css__WEBPACK_IMPORTED_MODULE_6___default = /*#__PURE__*/__webpack_require__.n(_app_css__WEBPACK_IMPORTED_MODULE_6__);
 
 
@@ -2333,7 +2333,7 @@ var external_react_default = /*#__PURE__*/__webpack_require__.n(external_react_)
 var external_react_static_ = __webpack_require__(5);
 
 // EXTERNAL MODULE: /Users/kumi5605/Desktop/projects/kt-blog/src/frontend/components/RecentCard/RecentCard.css
-var RecentCard = __webpack_require__(83);
+var RecentCard = __webpack_require__(82);
 
 // CONCATENATED MODULE: /Users/kumi5605/Desktop/projects/kt-blog/src/frontend/components/RecentCard/RecentCard.js
 
@@ -2358,7 +2358,7 @@ var router_ = __webpack_require__(6);
 var external_react_scrollable_anchor_ = __webpack_require__(1);
 
 // EXTERNAL MODULE: /Users/kumi5605/Desktop/projects/kt-blog/src/frontend/components/RecentPosts/RecentPosts.css
-var RecentPosts = __webpack_require__(84);
+var RecentPosts = __webpack_require__(83);
 
 // CONCATENATED MODULE: /Users/kumi5605/Desktop/projects/kt-blog/src/frontend/components/RecentPosts/RecentPosts.js
 
@@ -2388,12 +2388,7 @@ var Footer = __webpack_require__(8);
 // EXTERNAL MODULE: /Users/kumi5605/Desktop/projects/kt-blog/src/frontend/components/Navbar/Navbar.js + 5 modules
 var Navbar = __webpack_require__(7);
 
-// EXTERNAL MODULE: /Users/kumi5605/Desktop/projects/kt-blog/src/frontend/images/signature.svg
-var signature = __webpack_require__(54);
-var signature_default = /*#__PURE__*/__webpack_require__.n(signature);
-
 // CONCATENATED MODULE: /Users/kumi5605/Desktop/projects/kt-blog/src/pages/index.js
-
 
 
 
@@ -2460,7 +2455,7 @@ function (_Component) {
       })), external_react_default.a.createElement("aside", {
         className: "bio-text"
       }, external_react_default.a.createElement("p", null, bibliography), external_react_default.a.createElement("img", {
-        src: signature_default.a,
+        src: "https://media.graphcms.com/".concat(this.props.signatures[0].image.handle),
         className: "signature",
         alt: "signature"
       }))), external_react_default.a.createElement(RecentPosts_RecentPosts, {
@@ -2522,7 +2517,7 @@ var defineProperty_ = __webpack_require__(9);
 var defineProperty_default = /*#__PURE__*/__webpack_require__.n(defineProperty_);
 
 // EXTERNAL MODULE: /Users/kumi5605/Desktop/projects/kt-blog/src/frontend/components/ContactForm/ContactForm.css
-var ContactForm_ContactForm = __webpack_require__(82);
+var ContactForm_ContactForm = __webpack_require__(81);
 
 // CONCATENATED MODULE: /Users/kumi5605/Desktop/projects/kt-blog/src/frontend/components/ContactForm/ContactForm.js
 
@@ -2889,27 +2884,21 @@ module.exports = require("@babel/runtime/helpers/asyncToGenerator");
 
 /***/ }),
 /* 54 */
-/***/ (function(module, exports, __webpack_require__) {
-
-module.exports = __webpack_require__.p + "302b8422eadedf1aaeb94da76565076c.svg";
-
-/***/ }),
-/* 55 */
 /***/ (function(module, exports) {
 
 module.exports = require("react-markdown");
 
 /***/ }),
-/* 56 */
+/* 55 */
 /***/ (function(module, exports, __webpack_require__) {
 
+__webpack_require__(56);
 __webpack_require__(57);
-__webpack_require__(58);
-module.exports = __webpack_require__(64);
+module.exports = __webpack_require__(63);
 
 
 /***/ }),
-/* 57 */
+/* 56 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -2931,7 +2920,7 @@ if (typeof document !== 'undefined' && module && module.hot) {
 /* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(24)(module)))
 
 /***/ }),
-/* 58 */
+/* 57 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -2959,7 +2948,7 @@ if (typeof document !== 'undefined' && module && module.hot) {
 /* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(24)(module)))
 
 /***/ }),
-/* 59 */
+/* 58 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -3170,7 +3159,7 @@ var getConfig = function getConfig(isDynamic, universalConfig, options, props) {
 };
 
 /***/ }),
-/* 60 */
+/* 59 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var map = {
@@ -3198,10 +3187,10 @@ webpackContext.keys = function webpackContextKeys() {
 };
 webpackContext.resolve = webpackContextResolve;
 module.exports = webpackContext;
-webpackContext.id = 60;
+webpackContext.id = 59;
 
 /***/ }),
-/* 61 */
+/* 60 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -3310,13 +3299,13 @@ ReportChunks.childContextTypes = {
 exports["default"] = ReportChunks;
 
 /***/ }),
-/* 62 */
+/* 61 */
 /***/ (function(module, exports) {
 
 module.exports = require("vm");
 
 /***/ }),
-/* 63 */
+/* 62 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -3383,28 +3372,28 @@ var __handleAfter = exports.__handleAfter = function __handleAfter(props, state,
 };
 
 /***/ }),
-/* 64 */
+/* 63 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
 
 
-var _interopRequireWildcard = __webpack_require__(65);
+var _interopRequireWildcard = __webpack_require__(64);
 
-var _interopRequireDefault = __webpack_require__(66);
+var _interopRequireDefault = __webpack_require__(65);
 
 Object.defineProperty(exports, "__esModule", {
   value: true
 });
 exports["default"] = void 0;
 
-var _extends2 = _interopRequireDefault(__webpack_require__(67));
+var _extends2 = _interopRequireDefault(__webpack_require__(66));
 
-var _objectWithoutProperties2 = _interopRequireDefault(__webpack_require__(68));
+var _objectWithoutProperties2 = _interopRequireDefault(__webpack_require__(67));
 
 var React = _interopRequireWildcard(__webpack_require__(0));
 
-var _useStaticInfo = __webpack_require__(69);
+var _useStaticInfo = __webpack_require__(68);
 /* eslint-disable import/no-dynamic-require */
 
 
@@ -3425,7 +3414,7 @@ function Suspense(_ref) {
 React.Suspense = Suspense;
 React["default"].Suspense = Suspense;
 
-var App = __webpack_require__(70)["default"];
+var App = __webpack_require__(69)["default"];
 
 var _default = function _default(staticInfo) {
   return function (props) {
@@ -3438,37 +3427,37 @@ var _default = function _default(staticInfo) {
 exports["default"] = _default;
 
 /***/ }),
-/* 65 */
+/* 64 */
 /***/ (function(module, exports) {
 
 module.exports = require("@babel/runtime/helpers/interopRequireWildcard");
 
 /***/ }),
-/* 66 */
+/* 65 */
 /***/ (function(module, exports) {
 
 module.exports = require("@babel/runtime/helpers/interopRequireDefault");
 
 /***/ }),
-/* 67 */
+/* 66 */
 /***/ (function(module, exports) {
 
 module.exports = require("@babel/runtime/helpers/extends");
 
 /***/ }),
-/* 68 */
+/* 67 */
 /***/ (function(module, exports) {
 
 module.exports = require("@babel/runtime/helpers/objectWithoutProperties");
 
 /***/ }),
-/* 69 */
+/* 68 */
 /***/ (function(module, exports) {
 
 module.exports = require("/Users/kumi5605/Desktop/projects/kt-blog/node_modules/react-static/lib/browser/hooks/useStaticInfo");
 
 /***/ }),
-/* 70 */
+/* 69 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -3505,10 +3494,10 @@ if (typeof document !== 'undefined') {
     });
   }
 }
-/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(71)(module)))
+/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(70)(module)))
 
 /***/ }),
-/* 71 */
+/* 70 */
 /***/ (function(module, exports) {
 
 module.exports = function (originalModule) {
@@ -3538,7 +3527,7 @@ module.exports = function (originalModule) {
 };
 
 /***/ }),
-/* 72 */
+/* 71 */
 /***/ (function(module, exports, __webpack_require__) {
 
 exports = module.exports = __webpack_require__(11)(false);
@@ -3548,8 +3537,8 @@ exports.push([module.i, "@import url(https://fonts.googleapis.com/css?family=Ope
 exports.push([module.i, "@import url(https://fonts.googleapis.com/css?family=Oswald&display=swap);", ""]);
 exports.push([module.i, "@import url(https://fonts.googleapis.com/css?family=Dr+Sugiyama&display=swap);", ""]);
 exports.push([module.i, "@import url(https://fonts.googleapis.com/css?family=Caveat+Brush&display=swap);", ""]);
-var urlEscape = __webpack_require__(73);
-var ___CSS_LOADER_URL___0___ = urlEscape(__webpack_require__(74));
+var urlEscape = __webpack_require__(72);
+var ___CSS_LOADER_URL___0___ = urlEscape(__webpack_require__(73));
 
 // Module
 exports.push([module.i, "* {\n  scroll-behavior: smooth;\n}\n\nbody {\n  font-family: 'HelveticaNeue-Light', 'Helvetica Neue Light', 'Helvetica Neue',\n    Helvetica, Arial, 'Lucida Grande', sans-serif;\n  font-weight: 300;\n  font-size: 16px;\n  margin: 0;\n  padding: 0;\n  text-rendering: optimizeLegibility;\n}\n\na {\n  text-decoration: none;\n}\n\n#root {\n  height: 100vh;\n}\n\n/* Home */\n.home-container {\n  height: 100vh;\n  width: 100vw;\n}\n\n.image-container {\n  border-bottom: 1.5px solid #d8d8d8;\n  display: flex;\n  justify-content: space-around;\n}\n\n.banner-image {\n  background-image: url(" + ___CSS_LOADER_URL___0___ + ");\n  background-size: cover;\n  height: 100%;\n  width: 100%;\n}\n\n.author-image-container {\n  display: flex;\n  justify-content: center;\n  align-items: center;\n}\n\n.author-image {\n  border-radius: 2px;\n  box-shadow: 0 0 6px #191919;\n  height: 650px;\n  margin-left: 3rem;\n  width: 433px;\n  -webkit-box-shadow: 0 0 6px #191919;\n}\n\n.bio-text {\n  align-self: center;\n  align-items: center;\n  background-color: rgb(244, 244, 244);\n  border-radius: 5px;\n  display: flex;\n  flex-direction: column;\n  font-size: 20px;\n  font-weight: 500;\n  height: 500px;\n  justify-content: center;\n  line-height: 140%;\n  margin-right: 3rem;\n  opacity: 0.9;\n  padding: 1.5rem 1.5rem 0 1.5rem;\n  width: 33%;\n}\n\n.bio-text p {\n  margin: 1rem;\n  text-shadow: 2px 4px 3px rgba(0, 0, 0, 0.1);\n}\n\n.signature {\n  width: 350px;\n}\n\n/* Blog Pages */\n.post-header {\n  font: 32px 'Open Sans', sans-serif;\n  margin: 1rem 0 0 140px;\n}\n\n.blog-container {\n  display: flex;\n  flex-direction: row;\n  flex-wrap: wrap;\n  margin: 0 120px 90px 120px;\n}\n\n.card h1,\n.card h2 {\n  z-index: -10;\n}\n\n.card {\n  align-items: center;\n  background-position: 50%;\n  background-repeat: no-repeat;\n  background-size: cover;\n  border: 1px solid #eee;\n  border-radius: 5px;\n  display: flex;\n  height: 355px;\n  margin: 16px;\n  position: relative;\n  width: 355px;\n}\n\n.card:hover .overlay {\n  color: #f7f7f7;\n  background-color: #181818;\n  border-radius: 5px;\n  opacity: 0.7;\n  height: 100%;\n  position: absolute;\n  transition: 0.3s;\n  width: 100%;\n}\n\n.card:hover .post-title {\n  color: #f7f7f7;\n  border-radius: 5px;\n  font: 20px 'Open Sans', sans-serif;\n  height: 100%;\n  position: absolute;\n  transition: 0.3s;\n  width: 100%;\n  z-index: 1;\n}\n\n.card:hover .sub-header {\n  color: #f7f7f7;\n  border-radius: 5px;\n  font: 19px 'Open Sans', sans-serif;\n  height: auto;\n  position: absolute;\n  transition: 0.3s;\n  top: 60%;\n  width: 100%;\n  z-index: 1;\n}\n\n.post-title {\n  color: #f7f7f7;\n  display: flex;\n  font: 29px 'Open Sans', sans-serif;\n  justify-content: center;\n  margin: 0;\n  align-items: center;\n}\n\n.sub-header {\n  color: #f7f7f7;\n  display: flex;\n  font-weight: 100;\n  justify-content: center;\n}\n\n/* Post */\n.blog-post {\n  display: flex;\n  flex-direction: column;\n  align-items: center;\n}\n\n.post-main-title {\n  font: 28px 'Open Sans', sans-serif;\n  text-align: center;\n}\n\n.post-image {\n  height: 490px;\n  width: 735px;\n}\n\n.blog-content {\n  margin: 0 auto 1rem auto;\n  width: 735px;\n}\n\n.blog-content h2 {\n  text-align: center;\n  font: 26px 'Open Sans', sans-serif;\n}\n\n.blog-content h3 {\n  text-align: center;\n  font: 24px 'Open Sans', sans-serif;\n}\n\n.blog-content h4 {\n  text-align: center;\n  font: 22px 'Open Sans', sans-serif;\n}\n\n.blog-content h5 {\n  text-align: center;\n  font: 20px 'Open Sans', sans-serif;\n}\n\n.blog-content h6 {\n  text-align: center;\n  font: 18px 'Open Sans', sans-serif;\n}\n\n.blog-content p {\n  line-height: 160%;\n  text-indent: 1rem;\n}\n\n/* Contact */\n.contact-container {\n  align-items: center;\n  background-image: url(" + ___CSS_LOADER_URL___0___ + ");\n  display: flex;\n  flex-direction: column;\n  background-size: cover;\n  height: 100%;\n  width: 100%;\n}\n\n.contact-form-container {\n  background-color: rgb(244, 244, 244);\n  border-radius: 5px;\n  margin: 100px 0 100px 0;\n  padding: 0 15px 15px 15px;\n  opacity: 0.9;\n  width: 500px;\n}\n\n.contact-header {\n  font: 30px 'Open Sans', sans-serif;\n  margin-bottom: 0.5rem;\n  text-align: center;\n}\n\n.email-header {\n  color: #000;\n  font-family: 'Open Sans', sans-serif;\n  margin: 0;\n  padding-bottom: 1rem;\n  text-align: center;\n}\n\n.email-header a {\n  color: #000;\n}\n\n/* media queries */\n@media only screen and (max-width: 1067px) {\n  .author-image {\n    height: 520px;\n    width: 346px;\n  }\n\n  .bio-text {\n    height: 420px;\n    padding: 0.75rem 0.75rem 0 0.75rem;\n    width: 350px;\n  }\n\n  .bio-text p {\n    font-size: 17px;\n  }\n\n  .signature {\n    margin-top: 0;\n    width: 320px;\n  }\n}\n\n@media only screen and (max-width: 1017px) {\n  .blog-container {\n    margin: 0;\n    justify-content: center;\n  }\n\n  .post-header {\n    margin: 1rem 0 0 0;\n    text-align: center;\n  }\n\n  .card {\n    height: 450px;\n    width: 450px;\n  }\n}\n\n@media only screen and (max-width: 970px) {\n  .author-image {\n    margin-left: 0.5rem;\n  }\n\n  .bio-text {\n    margin-right: 0.5rem;\n  }\n}\n\n@media only screen and (max-width: 815px) {\n  .image-container {\n    align-items: center;\n    display: flex;\n    flex-direction: column;\n    height: 1100px;\n  }\n\n  .author-image {\n    height: 550px;\n    margin: 3.25rem 0 0 0;\n    width: 366px;\n  }\n\n  .xoxo {\n    padding: 0;\n  }\n\n  .bio-text {\n    margin: 0 0 4.5rem 0;\n    height: auto;\n    padding: 1rem 0.75rem 0.5rem 0.75rem;\n    width: 75%;\n  }\n\n  .bio-text p {\n    margin-bottom: 0;\n  }\n}\n\n@media only screen and (max-width: 785px) {\n  .post-main-title {\n    font-size: 24px;\n  }\n\n  .blog-content h2 {\n    font: 22.5px 'Open Sans', sans-serif;\n  }\n\n  .blog-content h3 {\n    font: 21px 'Open Sans', sans-serif;\n  }\n\n  .blog-content h4 {\n    font: 19.5px 'Open Sans', sans-serif;\n  }\n\n  .blog-content h5 {\n    font: 18px 'Open Sans', sans-serif;\n  }\n\n  .blog-content h6 {\n    font: 17.5px 'Open Sans', sans-serif;\n  }\n\n  .post-image {\n    height: 333px;\n    width: 500px;\n  }\n\n  .blog-content {\n    width: 500px;\n  }\n}\n\n@media only screen and (max-width: 675px) {\n  .contact-form-container {\n    height: 360px;\n    width: 350px;\n  }\n\n  .contact-header {\n    font-size: 24px;\n    margin-bottom: 0;\n  }\n\n  .contact-info {\n    max-width: 90%;\n  }\n}\n\n@media only screen and (max-width: 576px) {\n  .bio-text {\n    margin: 0 0 2rem 0;\n    width: 400px;\n  }\n\n  .card {\n    height: 350px;\n    width: 350px;\n  }\n\n  .bio-text p {\n    font-size: 16px;\n  }\n\n  .post-header {\n    font-size: 22.5px;\n  }\n}\n\n@media only screen and (max-width: 530px) {\n  .post-main-title {\n    font-size: 20px;\n  }\n\n  .post-image {\n    height: 283px;\n    width: 425px;\n  }\n\n  .blog-content {\n    width: 425px;\n  }\n}\n\n@media only screen and (max-width: 450px) {\n  .author-image {\n    height: 523.5px;\n    margin-top: 1.75rem;\n    width: 349px;\n  }\n\n  .bio-text {\n    width: 325px;\n  }\n\n  .signature {\n    width: 260px;\n  }\n\n  .contact-form-container {\n    height: 325px;\n    width: 310px;\n  }\n\n  .contact-header {\n    font-size: 20px;\n    margin-bottom: 0;\n  }\n\n  .contact-info {\n    max-width: 90%;\n  }\n}\n\n@media only screen and (max-width: 440px) {\n  .post-main-title {\n    font-size: 18px;\n    margin: 1.25rem 0;\n  }\n\n  .blog-content h2 {\n    text-align: center;\n    font: 17.5px 'Open Sans', sans-serif;\n  }\n\n  .blog-content h3 {\n    text-align: center;\n    font: 17.25px 'Open Sans', sans-serif;\n  }\n\n  .blog-content h4 {\n    text-align: center;\n    font: 17px 'Open Sans', sans-serif;\n  }\n\n  .blog-content h5 {\n    text-align: center;\n    font: 16.75px 'Open Sans', sans-serif;\n  }\n\n  .blog-content h6 {\n    text-align: center;\n    font: 16.5px 'Open Sans', sans-serif;\n  }\n\n  .post-image {\n    height: 200px;\n    width: 300px;\n  }\n\n  .blog-content {\n    width: 300px;\n  }\n\n  .blog-content p {\n    font-size: 15px;\n  }\n}\n\n@media only screen and (max-width: 420px) {\n  .card {\n    height: 285px;\n    width: 285px;\n  }\n\n  .card:hover .post-title {\n    font: 16px 'Open Sans', sans-serif;\n  }\n\n  .card:hover .sub-header {\n    font: 15px 'Open Sans', sans-serif;\n  }\n}\n\n@media only screen and (max-width: 385px) {\n  .author-image {\n    height: 465px;\n    width: 310px;\n  }\n\n  .bio-text {\n    width: 286px;\n  }\n}\n\n@media only screen and (max-width: 370px) {\n  .author-image {\n    height: 427.5px;\n    width: 285px;\n  }\n\n  .bio-text {\n    width: 261px;\n  }\n\n  .signature {\n    width: 230px;\n  }\n\n  .contact-form-container {\n    height: 285px;\n    width: 275px;\n  }\n\n  .contact-header {\n    font-size: 19px;\n    margin-bottom: 0;\n  }\n\n  .contact-info {\n    max-width: 90%;\n  }\n}\n", ""]);
@@ -3557,7 +3546,7 @@ exports.push([module.i, "* {\n  scroll-behavior: smooth;\n}\n\nbody {\n  font-fa
 
 
 /***/ }),
-/* 73 */
+/* 72 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -3583,13 +3572,13 @@ module.exports = function escape(url, needQuotes) {
 };
 
 /***/ }),
-/* 74 */
+/* 73 */
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = __webpack_require__.p + "d46f2862defa854d93bff4bfa834c825.jpg";
 
 /***/ }),
-/* 75 */
+/* 74 */
 /***/ (function(module, exports, __webpack_require__) {
 
 exports = module.exports = __webpack_require__(11)(false);
@@ -3599,7 +3588,7 @@ exports.push([module.i, ".email-form {\n  align-items: center;\n  display: flex;
 
 
 /***/ }),
-/* 76 */
+/* 75 */
 /***/ (function(module, exports, __webpack_require__) {
 
 exports = module.exports = __webpack_require__(11)(false);
@@ -3612,17 +3601,17 @@ exports.push([module.i, ".footer {\n  align-items: space-evenly;\n  background-c
 
 
 /***/ }),
-/* 77 */
+/* 76 */
 /***/ (function(module, exports, __webpack_require__) {
 
 exports = module.exports = __webpack_require__(11)(false);
 // Module
-exports.push([module.i, ".home-menu-button {\n  border: none;\n  cursor: pointer;\n  margin: 0.79rem 0 0 12rem;\n  padding-right: 2rem;\n}\n\n@media only screen and (max-width: 740px) {\n  .home-menu-button {\n    margin: 0.79rem 0 0 8rem;\n  }\n}\n\n@media only screen and (max-width: 600px) {\n  .home-menu-button {\n    margin: 0.5rem 0 0 7.5rem;\n  }\n}\n\n@media only screen and (max-width: 500px) {\n  .home-menu-button {\n    margin: 0.5rem 0 0 5rem;\n  }\n}\n\n@media only screen and (max-width: 420px) {\n  .home-menu-button {\n    margin: 0.5rem 1rem 0 5rem;\n  }\n}\n\n@media only screen and (max-width: 370px) {\n  .home-menu-button {\n    margin: 0.2rem 0 0 4rem;\n  }\n}\n", ""]);
+exports.push([module.i, ".home-menu-button {\n  border: none;\n  cursor: pointer;\n  margin: 0.79rem 0 0 12rem;\n  padding-right: 2rem;\n}\n\n@media only screen and (max-width: 740px) {\n  .home-menu-button {\n    margin: 0.79rem 0 0 8rem;\n  }\n}\n\n@media only screen and (max-width: 600px) {\n  .home-menu-button {\n    margin: 0.5rem 0 0 7.5rem;\n  }\n}\n\n@media only screen and (max-width: 500px) {\n  .home-menu-button {\n    margin: 0.5rem 0 0 5rem;\n  }\n}\n\n@media only screen and (max-width: 420px) {\n  .home-menu-button {\n    margin: 0.5rem 1rem 0 5rem;\n  }\n}\n\n@media only screen and (max-width: 370px) {\n  .home-menu-button {\n    margin: 0.2rem 0 0 2.5rem;\n  }\n}\n", ""]);
 
 
 
 /***/ }),
-/* 78 */
+/* 77 */
 /***/ (function(module, exports, __webpack_require__) {
 
 exports = module.exports = __webpack_require__(11)(false);
@@ -3632,7 +3621,7 @@ exports.push([module.i, ".home-header {\n  padding-top: 1rem;\n  text-align: cen
 
 
 /***/ }),
-/* 79 */
+/* 78 */
 /***/ (function(module, exports, __webpack_require__) {
 
 exports = module.exports = __webpack_require__(11)(false);
@@ -3642,7 +3631,7 @@ exports.push([module.i, ".sidebar {\n  background-color: #f7f7f7;\n  box-shadow:
 
 
 /***/ }),
-/* 80 */
+/* 79 */
 /***/ (function(module, exports, __webpack_require__) {
 
 exports = module.exports = __webpack_require__(11)(false);
@@ -3652,7 +3641,7 @@ exports.push([module.i, ".backdrop {\n  background: rgba(0, 0, 0, 0.3);\n  heigh
 
 
 /***/ }),
-/* 81 */
+/* 80 */
 /***/ (function(module, exports, __webpack_require__) {
 
 exports = module.exports = __webpack_require__(11)(false);
@@ -3662,7 +3651,7 @@ exports.push([module.i, "nav {\n  width: 100%;\n}\n\nnav a {\n  display: inline-
 
 
 /***/ }),
-/* 82 */
+/* 81 */
 /***/ (function(module, exports, __webpack_require__) {
 
 exports = module.exports = __webpack_require__(11)(false);
@@ -3672,7 +3661,7 @@ exports.push([module.i, ".contact-form {\n  align-items: center;\n  display: fle
 
 
 /***/ }),
-/* 83 */
+/* 82 */
 /***/ (function(module, exports, __webpack_require__) {
 
 exports = module.exports = __webpack_require__(11)(false);
@@ -3685,7 +3674,7 @@ exports.push([module.i, ".post-card {\n  align-items: center;\n  border-radius: 
 
 
 /***/ }),
-/* 84 */
+/* 83 */
 /***/ (function(module, exports, __webpack_require__) {
 
 exports = module.exports = __webpack_require__(11)(false);

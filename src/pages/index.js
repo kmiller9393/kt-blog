@@ -3,7 +3,6 @@ import { withRouteData } from 'react-static';
 import RecentPosts from '../frontend/components/RecentPosts/RecentPosts';
 import Footer from '../frontend/components/Footer/Footer';
 import Navbar from '../frontend/components/Navbar/Navbar';
-import signature from '../frontend/images/signature.svg';
 
 class index extends Component {
   getPosts = () => {
@@ -38,7 +37,11 @@ class index extends Component {
           </aside>
           <aside className="bio-text">
             <p>{bibliography}</p>
-            <img src={signature} className="signature" alt="signature" />
+            <img
+              src={`https://media.graphcms.com/${this.props.signatures[0].image.handle}`}
+              className="signature"
+              alt="signature"
+            />
           </aside>
         </article>
         <RecentPosts posts={recentPosts} />
