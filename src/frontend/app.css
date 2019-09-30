@@ -492,12 +492,12 @@ a {
   }
 
   .post-image {
-    height: 200px;
-    width: 300px;
+    height: 255px;
+    width: 390px;
   }
 
   .blog-content {
-    width: 300px;
+    width: 390px;
   }
 
   .blog-content p {
@@ -518,6 +518,15 @@ a {
   .card:hover .sub-header {
     font: 15px 'Open Sans', sans-serif;
   }
+
+  .post-image {
+    height: 230px;
+    width: 350px;
+  }
+
+  .blog-content {
+    width: 350px;
+  }
 }
 
 @media only screen and (max-width: 385px) {
@@ -533,6 +542,15 @@ a {
 
   .bio-text {
     width: 286px;
+  }
+
+  .post-image {
+    height: 220px;
+    width: 335px;
+  }
+
+  .blog-content {
+    width: 335px;
   }
 }
 
@@ -567,5 +585,14 @@ a {
 
   .contact-info {
     max-width: 90%;
+  }
+
+  .post-image {
+    height: 210px;
+    width: 310px;
+  }
+
+  .blog-content {
+    width: 310px;
   }
 }
