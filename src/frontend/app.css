@@ -397,8 +397,8 @@ a {
   }
 
   .card {
-    height: 350px;
-    width: 350px;
+    height: 390px;
+    width: 390px;
   }
 
   .bio-text p {
@@ -446,7 +446,7 @@ a {
   }
 
   .contact-form-container {
-    height: 340px;
+    height: 345px;
     width: 310px;
   }
 
@@ -507,8 +507,8 @@ a {
 
 @media only screen and (max-width: 420px) {
   .card {
-    height: 285px;
-    width: 285px;
+    height: 350px;
+    width: 350px;
   }
 
   .card:hover .post-title {
@@ -521,6 +521,11 @@ a {
 }
 
 @media only screen and (max-width: 385px) {
+  .card {
+    height: 335px;
+    width: 335px;
+  }
+
   .author-image {
     height: 465px;
     width: 310px;
@@ -532,6 +537,11 @@ a {
 }
 
 @media only screen and (max-width: 370px) {
+  .card {
+    height: 310px;
+    width: 310px;
+  }
+
   .author-image {
     height: 427.5px;
     width: 285px;
@@ -546,7 +556,7 @@ a {
   }
 
   .contact-form-container {
-    height: 325px;
+    height: 332px;
     width: 275px;
   }
 
