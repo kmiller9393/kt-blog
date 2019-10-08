@@ -44,12 +44,13 @@ const FormValidation = (initialState, validate) => {
 
   const handleSubmit = e => {
     e.preventDefault();
-    const userEmail = value.email;
+    let userEmail = value.email;
     const validationErrors = validate(value);
     setErrors(validationErrors);
     setSubmitting(true);
 
     createSubscribe({ variables: { userEmail } });
+    setValue(initialState);
   };
 
   return {

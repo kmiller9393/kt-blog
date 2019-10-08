@@ -569,8 +569,8 @@ function _objectSpread(target) { for (var i = 1; i < arguments.length; i++) { va
 
 var CREATE_SUBSCRIBER_MUTATION = "\nmutation CreateSubscribe($userEmail: String!) {\n  createSubscribe(data: { userEmail: $userEmail }) {\n    id\n    createdAt\n    userEmail\n  }\n}\n";
 
-var FormValidation_FormValidation = function FormValidation(validate) {
-  var _React$useState = external_react_default.a.useState(''),
+var FormValidation_FormValidation = function FormValidation(initialState, validate) {
+  var _React$useState = external_react_default.a.useState(initialState),
       _React$useState2 = slicedToArray_default()(_React$useState, 2),
       value = _React$useState2[0],
       setValue = _React$useState2[1];
@@ -617,16 +617,12 @@ var FormValidation_FormValidation = function FormValidation(validate) {
     var validationErrors = validate(value);
     setErrors(validationErrors);
     setSubmitting(true);
-    console.log('FORMVALIDATION value dot email', value.email);
-    console.log('FORMVALIDATION value', value);
     createSubscribe({
       variables: {
         userEmail: userEmail
       }
     });
-    userEmail = '';
-    console.log('FORMVALIDATION value dot email', value.email);
-    console.log('FORMVALIDATION value', value);
+    setValue(initialState);
   };
 
   return {
@@ -661,12 +657,13 @@ var EmailForm_EmailForm = __webpack_require__(74);
 
 
 
- // const INITIAL_STATE = {
-//   email: ''
-// };
+
+var INITIAL_STATE = {
+  email: ''
+};
 
 var EmailForm_EmailForm_EmailForm = function EmailForm() {
-  var _FormValidation = components_FormValidation_FormValidation(utils_validateAuth),
+  var _FormValidation = components_FormValidation_FormValidation(INITIAL_STATE, utils_validateAuth),
       handleSubmit = _FormValidation.handleSubmit,
       handleChange = _FormValidation.handleChange,
       handleBlur = _FormValidation.handleBlur,
