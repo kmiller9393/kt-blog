@@ -69,7 +69,7 @@ a {
   flex-direction: column;
   font-size: 20px;
   font-weight: 500;
-  height: 500px;
+  height: 520px;
   justify-content: center;
   line-height: 140%;
   margin-right: 3rem;
@@ -79,7 +79,7 @@ a {
 }
 
 .bio-text p {
-  margin: 1rem;
+  margin: 16px 16px 0;
   text-shadow: 2px 4px 3px rgba(0, 0, 0, 0.1);
 }
 
@@ -90,14 +90,14 @@ a {
 /* Blog Pages */
 .post-header {
   font: 32px 'Open Sans', sans-serif;
-  margin: 1rem 0 0 140px;
+  margin: 1rem 0 0 100px;
 }
 
 .blog-container {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  margin: 0 120px 90px 120px;
+  margin: 0 80px 130px;
 }
 
 .card h1,
@@ -167,6 +167,20 @@ a {
   display: flex;
   font-weight: 100;
   justify-content: center;
+}
+
+/* Work page */
+.work-header {
+  align-items: center;
+  display: flex;
+  font-size: 24px;
+  font-family: 'Open Sans';
+  justify-content: center;
+  width: 100%;
+}
+
+.temp-div {
+  height: 350px;
 }
 
 /* Post */
@@ -260,14 +274,14 @@ a {
 }
 
 /* media queries */
-@media only screen and (max-width: 1067px) {
+@media only screen and (max-width: 1085px) {
   .author-image {
-    height: 520px;
+    height: 570px;
     width: 346px;
   }
 
   .bio-text {
-    height: 420px;
+    height: 520px;
     padding: 0.75rem 0.75rem 0 0.75rem;
     width: 350px;
   }
@@ -314,12 +328,12 @@ a {
     align-items: center;
     display: flex;
     flex-direction: column;
-    height: 1100px;
+    height: 1250px;
   }
 
   .author-image {
     height: 550px;
-    margin: 3.25rem 0 0 0;
+    margin: 5rem 0 0 0;
     width: 366px;
   }
 
@@ -328,7 +342,7 @@ a {
   }
 
   .bio-text {
-    margin: 0 0 4.5rem 0;
+    margin: 24px 0 4.5rem 0;
     height: auto;
     padding: 1rem 0.75rem 0.5rem 0.75rem;
     width: 75%;
@@ -392,7 +406,7 @@ a {
 
 @media only screen and (max-width: 576px) {
   .bio-text {
-    margin: 0 0 2rem 0;
+    margin: 15px 0 72px 0;
     width: 400px;
   }
 

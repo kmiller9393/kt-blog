@@ -110,7 +110,7 @@ return /******/ (function(modules) { // webpackBootstrap
 /******/
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 55);
+/******/ 	return __webpack_require__(__webpack_require__.s = 56);
 /******/ })
 /************************************************************************/
 /******/ ([
@@ -139,31 +139,12 @@ module.exports = require("babel-plugin-universal-import/universalImport");
 
 /***/ }),
 /* 4 */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-/* harmony import */ var _reach_router__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(6);
-/* harmony import */ var _reach_router__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_reach_router__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "a", function() { return _reach_router__WEBPACK_IMPORTED_MODULE_0__["Link"]; });
-
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "b", function() { return _reach_router__WEBPACK_IMPORTED_MODULE_0__["Router"]; });
-
-
-
-/***/ }),
-/* 5 */
 /***/ (function(module, exports) {
 
 module.exports = require("react-static");
 
 /***/ }),
-/* 6 */
-/***/ (function(module, exports) {
-
-module.exports = require("@reach/router");
-
-/***/ }),
-/* 7 */
+/* 5 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -193,7 +174,7 @@ var inherits_ = __webpack_require__(18);
 var inherits_default = /*#__PURE__*/__webpack_require__.n(inherits_);
 
 // EXTERNAL MODULE: external "@babel/runtime/helpers/defineProperty"
-var defineProperty_ = __webpack_require__(9);
+var defineProperty_ = __webpack_require__(10);
 var defineProperty_default = /*#__PURE__*/__webpack_require__.n(defineProperty_);
 
 // EXTERNAL MODULE: external "react"
@@ -201,7 +182,7 @@ var external_react_ = __webpack_require__(0);
 var external_react_default = /*#__PURE__*/__webpack_require__.n(external_react_);
 
 // EXTERNAL MODULE: /Users/kumi5605/Desktop/projects/kt-blog/src/frontend/components/Router/Router.js
-var Router = __webpack_require__(4);
+var Router = __webpack_require__(8);
 
 // CONCATENATED MODULE: /Users/kumi5605/Desktop/projects/kt-blog/src/frontend/utils/toggleStickyNav.js
 var toggleStickyNav = function toggleStickyNav() {
@@ -226,11 +207,11 @@ var toggleStickyNav = function toggleStickyNav() {
 var external_react_scrollable_anchor_ = __webpack_require__(1);
 
 // EXTERNAL MODULE: /Users/kumi5605/Desktop/projects/kt-blog/src/frontend/images/menu.svg
-var menu = __webpack_require__(49);
+var menu = __webpack_require__(50);
 var menu_default = /*#__PURE__*/__webpack_require__.n(menu);
 
 // EXTERNAL MODULE: /Users/kumi5605/Desktop/projects/kt-blog/src/frontend/components/DrawerButton/DrawerButton.css
-var DrawerButton_DrawerButton = __webpack_require__(76);
+var DrawerButton_DrawerButton = __webpack_require__(77);
 
 // CONCATENATED MODULE: /Users/kumi5605/Desktop/projects/kt-blog/src/frontend/components/DrawerButton/DrawerButton.js
 
@@ -249,19 +230,19 @@ var DrawerButton_DrawerButton_DrawerButton = function DrawerButton(props) {
 
 /* harmony default export */ var components_DrawerButton_DrawerButton = (DrawerButton_DrawerButton_DrawerButton);
 // EXTERNAL MODULE: /Users/kumi5605/Desktop/projects/kt-blog/src/frontend/images/instagram.svg
-var instagram = __webpack_require__(50);
+var instagram = __webpack_require__(51);
 var instagram_default = /*#__PURE__*/__webpack_require__.n(instagram);
 
 // EXTERNAL MODULE: /Users/kumi5605/Desktop/projects/kt-blog/src/frontend/images/facebook.svg
-var facebook = __webpack_require__(51);
+var facebook = __webpack_require__(52);
 var facebook_default = /*#__PURE__*/__webpack_require__.n(facebook);
 
 // EXTERNAL MODULE: /Users/kumi5605/Desktop/projects/kt-blog/src/frontend/images/linkedin.svg
-var linkedin = __webpack_require__(52);
+var linkedin = __webpack_require__(53);
 var linkedin_default = /*#__PURE__*/__webpack_require__.n(linkedin);
 
 // EXTERNAL MODULE: /Users/kumi5605/Desktop/projects/kt-blog/src/frontend/components/Header/Header.css
-var Header_Header = __webpack_require__(77);
+var Header_Header = __webpack_require__(78);
 
 // CONCATENATED MODULE: /Users/kumi5605/Desktop/projects/kt-blog/src/frontend/components/Header/Header.js
 
@@ -319,7 +300,7 @@ var Header_Header_Header = function Header(props) {
 
 /* harmony default export */ var components_Header_Header = (Header_Header_Header);
 // EXTERNAL MODULE: /Users/kumi5605/Desktop/projects/kt-blog/src/frontend/components/Sidebar/Sidebar.css
-var Sidebar_Sidebar = __webpack_require__(78);
+var Sidebar_Sidebar = __webpack_require__(79);
 
 // CONCATENATED MODULE: /Users/kumi5605/Desktop/projects/kt-blog/src/frontend/components/Sidebar/Sidebar.js
 
@@ -339,22 +320,13 @@ var Sidebar_Sidebar_Sidebar = function Sidebar(props) {
   }, external_react_default.a.createElement("ul", null, external_react_default.a.createElement("li", null, external_react_default.a.createElement(Router["a" /* Link */], {
     to: "/",
     onClick: external_react_scrollable_anchor_["goToTop"]
-  }, "Home")), external_react_default.a.createElement("li", null, external_react_default.a.createElement(Router["a" /* Link */], {
+  }, "About")), external_react_default.a.createElement("li", null, external_react_default.a.createElement(Router["a" /* Link */], {
     to: "/blog",
     onClick: external_react_scrollable_anchor_["goToTop"]
   }, "Blog")), external_react_default.a.createElement("li", null, external_react_default.a.createElement(Router["a" /* Link */], {
-    to: "/thoughts",
+    to: "/work",
     onClick: external_react_scrollable_anchor_["goToTop"]
-  }, "Thoughts")), external_react_default.a.createElement("li", null, external_react_default.a.createElement(Router["a" /* Link */], {
-    to: "/lifestyle",
-    onClick: external_react_scrollable_anchor_["goToTop"]
-  }, "Life + Style")), external_react_default.a.createElement("li", null, external_react_default.a.createElement(Router["a" /* Link */], {
-    to: "/travel",
-    onClick: external_react_scrollable_anchor_["goToTop"]
-  }, "Travel")), external_react_default.a.createElement("li", null, external_react_default.a.createElement(Router["a" /* Link */], {
-    to: "/food",
-    onClick: external_react_scrollable_anchor_["goToTop"]
-  }, "Food")), external_react_default.a.createElement("li", null, external_react_default.a.createElement(Router["a" /* Link */], {
+  }, "Work")), external_react_default.a.createElement("li", null, external_react_default.a.createElement(Router["a" /* Link */], {
     to: "/contact",
     onClick: external_react_scrollable_anchor_["goToTop"]
   }, "Contact"))));
@@ -362,7 +334,7 @@ var Sidebar_Sidebar_Sidebar = function Sidebar(props) {
 
 /* harmony default export */ var components_Sidebar_Sidebar = (Sidebar_Sidebar_Sidebar);
 // EXTERNAL MODULE: /Users/kumi5605/Desktop/projects/kt-blog/src/frontend/components/Backdrop/Backdrop.css
-var Backdrop_Backdrop = __webpack_require__(79);
+var Backdrop_Backdrop = __webpack_require__(80);
 
 // CONCATENATED MODULE: /Users/kumi5605/Desktop/projects/kt-blog/src/frontend/components/Backdrop/Backdrop.js
 
@@ -377,7 +349,7 @@ var Backdrop_Backdrop_Backdrop = function Backdrop(props) {
 
 /* harmony default export */ var components_Backdrop_Backdrop = (Backdrop_Backdrop_Backdrop);
 // EXTERNAL MODULE: /Users/kumi5605/Desktop/projects/kt-blog/src/frontend/components/Navbar/Navbar.css
-var Navbar_Navbar = __webpack_require__(80);
+var Navbar_Navbar = __webpack_require__(81);
 
 // CONCATENATED MODULE: /Users/kumi5605/Desktop/projects/kt-blog/src/frontend/components/Navbar/Navbar.js
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return Navbar_Navbar_Navbar; });
@@ -471,7 +443,7 @@ function (_Component) {
         id: "home",
         to: "/",
         onClick: external_react_scrollable_anchor_["goToTop"]
-      }, "Home"), external_react_default.a.createElement(Router["a" /* Link */], {
+      }, "About"), external_react_default.a.createElement(Router["a" /* Link */], {
         getProps: isActive,
         className: "header-link",
         id: "blog",
@@ -480,28 +452,10 @@ function (_Component) {
       }, "Blog"), external_react_default.a.createElement(Router["a" /* Link */], {
         getProps: isActive,
         className: "header-link",
-        id: "thoughts",
-        to: "/thoughts",
+        id: "blog",
+        to: "/work",
         onClick: external_react_scrollable_anchor_["goToTop"]
-      }, "Thoughts"), external_react_default.a.createElement(Router["a" /* Link */], {
-        getProps: isActive,
-        className: "header-link",
-        id: "lifestyle",
-        to: "/lifestyle",
-        onClick: external_react_scrollable_anchor_["goToTop"]
-      }, "Life + Style"), external_react_default.a.createElement(Router["a" /* Link */], {
-        getProps: isActive,
-        className: "header-link",
-        id: "travel",
-        to: "/travel",
-        onClick: external_react_scrollable_anchor_["goToTop"]
-      }, "Travel"), external_react_default.a.createElement(Router["a" /* Link */], {
-        getProps: isActive,
-        className: "header-link",
-        id: "food",
-        to: "/food",
-        onClick: external_react_scrollable_anchor_["goToTop"]
-      }, "Food"), external_react_default.a.createElement(Router["a" /* Link */], {
+      }, "Work"), external_react_default.a.createElement(Router["a" /* Link */], {
         getProps: isActive,
         className: "header-link",
         id: "contact",
@@ -517,7 +471,7 @@ function (_Component) {
 
 
 /***/ }),
-/* 8 */
+/* 6 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -547,7 +501,7 @@ var external_react_ = __webpack_require__(0);
 var external_react_default = /*#__PURE__*/__webpack_require__.n(external_react_);
 
 // EXTERNAL MODULE: external "@babel/runtime/helpers/defineProperty"
-var defineProperty_ = __webpack_require__(9);
+var defineProperty_ = __webpack_require__(10);
 var defineProperty_default = /*#__PURE__*/__webpack_require__.n(defineProperty_);
 
 // EXTERNAL MODULE: external "@babel/runtime/helpers/slicedToArray"
@@ -651,7 +605,7 @@ var validateAuth = function validateAuth(values) {
 
 /* harmony default export */ var utils_validateAuth = (validateAuth);
 // EXTERNAL MODULE: /Users/kumi5605/Desktop/projects/kt-blog/src/frontend/components/EmailForm/EmailForm.css
-var EmailForm_EmailForm = __webpack_require__(74);
+var EmailForm_EmailForm = __webpack_require__(75);
 
 // CONCATENATED MODULE: /Users/kumi5605/Desktop/projects/kt-blog/src/frontend/components/EmailForm/EmailForm.js
 
@@ -671,8 +625,6 @@ var EmailForm_EmailForm_EmailForm = function EmailForm() {
       errors = _FormValidation.errors,
       isSubmitting = _FormValidation.isSubmitting;
 
-  console.log('emailform value dot email', value.email);
-  console.log('emailform value', value);
   return external_react_default.a.createElement("form", {
     className: "email-form",
     onSubmit: handleSubmit
@@ -693,19 +645,19 @@ var EmailForm_EmailForm_EmailForm = function EmailForm() {
 
 /* harmony default export */ var components_EmailForm_EmailForm = (EmailForm_EmailForm_EmailForm);
 // EXTERNAL MODULE: /Users/kumi5605/Desktop/projects/kt-blog/src/frontend/images/instagram-light.svg
-var instagram_light = __webpack_require__(46);
+var instagram_light = __webpack_require__(47);
 var instagram_light_default = /*#__PURE__*/__webpack_require__.n(instagram_light);
 
 // EXTERNAL MODULE: /Users/kumi5605/Desktop/projects/kt-blog/src/frontend/images/facebook-light.svg
-var facebook_light = __webpack_require__(47);
+var facebook_light = __webpack_require__(48);
 var facebook_light_default = /*#__PURE__*/__webpack_require__.n(facebook_light);
 
 // EXTERNAL MODULE: /Users/kumi5605/Desktop/projects/kt-blog/src/frontend/images/linkedin-light.svg
-var linkedin_light = __webpack_require__(48);
+var linkedin_light = __webpack_require__(49);
 var linkedin_light_default = /*#__PURE__*/__webpack_require__.n(linkedin_light);
 
 // EXTERNAL MODULE: /Users/kumi5605/Desktop/projects/kt-blog/src/frontend/components/Footer/Footer.css
-var Footer_Footer = __webpack_require__(75);
+var Footer_Footer = __webpack_require__(76);
 
 // CONCATENATED MODULE: /Users/kumi5605/Desktop/projects/kt-blog/src/frontend/components/Footer/Footer.js
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return Footer_Footer_Footer; });
@@ -777,13 +729,26 @@ function (_Component) {
 
 
 /***/ }),
-/* 9 */
+/* 7 */
 /***/ (function(module, exports) {
 
-module.exports = require("@babel/runtime/helpers/defineProperty");
+module.exports = require("@reach/router");
 
 /***/ }),
-/* 10 */
+/* 8 */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony import */ var _reach_router__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(7);
+/* harmony import */ var _reach_router__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_reach_router__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "a", function() { return _reach_router__WEBPACK_IMPORTED_MODULE_0__["Link"]; });
+
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "b", function() { return _reach_router__WEBPACK_IMPORTED_MODULE_0__["Router"]; });
+
+
+
+/***/ }),
+/* 9 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -828,7 +793,7 @@ var _createClass = function () {
   };
 }();
 
-var _requireUniversalModule = __webpack_require__(58);
+var _requireUniversalModule = __webpack_require__(59);
 
 Object.defineProperty(exports, 'CHUNK_NAMES', {
   enumerable: true,
@@ -843,7 +808,7 @@ Object.defineProperty(exports, 'MODULE_IDS', {
   }
 });
 
-var _reportChunks = __webpack_require__(60);
+var _reportChunks = __webpack_require__(61);
 
 Object.defineProperty(exports, 'ReportChunks', {
   enumerable: true,
@@ -865,13 +830,13 @@ var _hoistNonReactStatics = __webpack_require__(33);
 
 var _hoistNonReactStatics2 = _interopRequireDefault(_hoistNonReactStatics);
 
-var _vm = __webpack_require__(61);
+var _vm = __webpack_require__(62);
 
 var _requireUniversalModule2 = _interopRequireDefault(_requireUniversalModule);
 
 var _utils = __webpack_require__(26);
 
-var _helpers = __webpack_require__(62);
+var _helpers = __webpack_require__(63);
 
 function _interopRequireDefault(obj) {
   return obj && obj.__esModule ? obj : {
@@ -1269,7 +1234,28 @@ function universal(asyncModule) {
 /* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(24)(module)))
 
 /***/ }),
+/* 10 */
+/***/ (function(module, exports) {
+
+module.exports = require("@babel/runtime/helpers/defineProperty");
+
+/***/ }),
 /* 11 */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+var reversePosts = function reversePosts(posts) {
+  var newPosts = [];
+  posts.forEach(function (post) {
+    if (!newPosts.includes(post)) newPosts.unshift(post);
+  });
+  return newPosts;
+};
+
+/* harmony default export */ __webpack_exports__["a"] = (reversePosts);
+
+/***/ }),
+/* 12 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -1360,21 +1346,6 @@ function toComment(sourceMap) {
 }
 
 /***/ }),
-/* 12 */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-var reversePosts = function reversePosts(posts) {
-  var newPosts = [];
-  posts.forEach(function (post) {
-    if (!newPosts.includes(post)) newPosts.unshift(post);
-  });
-  return newPosts;
-};
-
-/* harmony default export */ __webpack_exports__["a"] = (reversePosts);
-
-/***/ }),
 /* 13 */
 /***/ (function(module, exports) {
 
@@ -1425,7 +1396,7 @@ var _utils = __webpack_require__(26);
 
 var requireById = function requireById(id) {
   if (!(0, _utils.isWebpack)() && typeof id === 'string') {
-    return __webpack_require__(59)("" + id);
+    return __webpack_require__(60)("" + id);
   }
 
   return __webpack_require__('' + id);
@@ -1453,12 +1424,12 @@ module.exports = require("@babel/runtime/helpers/slicedToArray");
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(0);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var react_static__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(5);
+/* harmony import */ var react_static__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(4);
 /* harmony import */ var react_static__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react_static__WEBPACK_IMPORTED_MODULE_1__);
-/* harmony import */ var react_markdown__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(54);
+/* harmony import */ var react_markdown__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(55);
 /* harmony import */ var react_markdown__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(react_markdown__WEBPACK_IMPORTED_MODULE_2__);
-/* harmony import */ var _frontend_components_Navbar_Navbar__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(7);
-/* harmony import */ var _frontend_components_Footer_Footer__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(8);
+/* harmony import */ var _frontend_components_Navbar_Navbar__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(5);
+/* harmony import */ var _frontend_components_Footer_Footer__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(6);
 
 
 
@@ -1488,16 +1459,16 @@ __webpack_require__.r(__webpack_exports__);
 "use strict";
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(0);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var react_static__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(5);
+/* harmony import */ var react_static__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(4);
 /* harmony import */ var react_static__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react_static__WEBPACK_IMPORTED_MODULE_1__);
-/* harmony import */ var _components_Router_Router__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(4);
-/* harmony import */ var react_helmet__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(44);
+/* harmony import */ var _components_Router_Router__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(8);
+/* harmony import */ var react_helmet__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(45);
 /* harmony import */ var react_helmet__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(react_helmet__WEBPACK_IMPORTED_MODULE_3__);
 /* harmony import */ var graphql_hooks__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(20);
 /* harmony import */ var graphql_hooks__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(graphql_hooks__WEBPACK_IMPORTED_MODULE_4__);
-/* harmony import */ var graphql_hooks_memcache__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(45);
+/* harmony import */ var graphql_hooks_memcache__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(46);
 /* harmony import */ var graphql_hooks_memcache__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(graphql_hooks_memcache__WEBPACK_IMPORTED_MODULE_5__);
-/* harmony import */ var _app_css__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(71);
+/* harmony import */ var _app_css__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(72);
 /* harmony import */ var _app_css__WEBPACK_IMPORTED_MODULE_6___default = /*#__PURE__*/__webpack_require__.n(_app_css__WEBPACK_IMPORTED_MODULE_6__);
 
 
@@ -1747,7 +1718,7 @@ module.exports = require("@babel/runtime/regenerator");
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _Users_kumi5605_Desktop_projects_kt_blog_node_modules_react_static_plugin_reach_router_browser_api_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(42);
+/* harmony import */ var _Users_kumi5605_Desktop_projects_kt_blog_node_modules_react_static_plugin_reach_router_browser_api_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(43);
 /* harmony import */ var _Users_kumi5605_Desktop_projects_kt_blog_node_modules_react_static_plugin_reach_router_browser_api_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_Users_kumi5605_Desktop_projects_kt_blog_node_modules_react_static_plugin_reach_router_browser_api_js__WEBPACK_IMPORTED_MODULE_0__);
 // Imports
  // Plugins
@@ -1791,8 +1762,10 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var babel_plugin_universal_import_universalImport__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(babel_plugin_universal_import_universalImport__WEBPACK_IMPORTED_MODULE_1__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(0);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_2__);
-/* harmony import */ var _Users_kumi5605_Desktop_projects_kt_blog_node_modules_react_universal_component_dist_index_js__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(10);
+/* harmony import */ var _Users_kumi5605_Desktop_projects_kt_blog_node_modules_react_universal_component_dist_index_js__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(9);
 /* harmony import */ var _Users_kumi5605_Desktop_projects_kt_blog_node_modules_react_universal_component_dist_index_js__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_Users_kumi5605_Desktop_projects_kt_blog_node_modules_react_universal_component_dist_index_js__WEBPACK_IMPORTED_MODULE_3__);
+
+
 
 
 
@@ -1865,7 +1838,7 @@ t_1.template = '/Users/kumi5605/Desktop/projects/kt-blog/src/pages/blog.js';
 var t_2 = _Users_kumi5605_Desktop_projects_kt_blog_node_modules_react_universal_component_dist_index_js__WEBPACK_IMPORTED_MODULE_3___default()(babel_plugin_universal_import_universalImport__WEBPACK_IMPORTED_MODULE_1___default()({
   id: "/Users/kumi5605/Desktop/projects/kt-blog/src/pages/contact.js",
   load: function load() {
-    return Promise.all([Promise.resolve(/* import() | Users/kumi5605/Desktop/projects/kt-blog/src/pages/contact */).then(__webpack_require__.bind(null, 41))]).then(function (proms) {
+    return Promise.all([Promise.resolve(/* import() | Users/kumi5605/Desktop/projects/kt-blog/src/pages/contact */).then(__webpack_require__.bind(null, 42))]).then(function (proms) {
       return proms[0];
     });
   },
@@ -1873,7 +1846,7 @@ var t_2 = _Users_kumi5605_Desktop_projects_kt_blog_node_modules_react_universal_
     return path__WEBPACK_IMPORTED_MODULE_0___default.a.join(__dirname, '/Users/kumi5605/Desktop/projects/kt-blog/src/pages/contact.js');
   },
   resolve: function resolve() {
-    return /*require.resolve*/(41);
+    return /*require.resolve*/(42);
   },
   chunkName: function chunkName() {
     return "Users/kumi5605/Desktop/projects/kt-blog/src/pages/contact";
@@ -1901,7 +1874,7 @@ t_3.template = '/Users/kumi5605/Desktop/projects/kt-blog/src/pages/food.js';
 var t_4 = _Users_kumi5605_Desktop_projects_kt_blog_node_modules_react_universal_component_dist_index_js__WEBPACK_IMPORTED_MODULE_3___default()(babel_plugin_universal_import_universalImport__WEBPACK_IMPORTED_MODULE_1___default()({
   id: "/Users/kumi5605/Desktop/projects/kt-blog/src/pages/index.js",
   load: function load() {
-    return Promise.all([Promise.resolve(/* import() | Users/kumi5605/Desktop/projects/kt-blog/src/pages/index */).then(__webpack_require__.bind(null, 40))]).then(function (proms) {
+    return Promise.all([Promise.resolve(/* import() | Users/kumi5605/Desktop/projects/kt-blog/src/pages/index */).then(__webpack_require__.bind(null, 41))]).then(function (proms) {
       return proms[0];
     });
   },
@@ -1909,7 +1882,7 @@ var t_4 = _Users_kumi5605_Desktop_projects_kt_blog_node_modules_react_universal_
     return path__WEBPACK_IMPORTED_MODULE_0___default.a.join(__dirname, '/Users/kumi5605/Desktop/projects/kt-blog/src/pages/index.js');
   },
   resolve: function resolve() {
-    return /*require.resolve*/(40);
+    return /*require.resolve*/(41);
   },
   chunkName: function chunkName() {
     return "Users/kumi5605/Desktop/projects/kt-blog/src/pages/index";
@@ -1989,6 +1962,24 @@ var t_8 = _Users_kumi5605_Desktop_projects_kt_blog_node_modules_react_universal_
 }), universalOptions);
 t_8.template = '/Users/kumi5605/Desktop/projects/kt-blog/src/pages/travel.js';
 var t_9 = _Users_kumi5605_Desktop_projects_kt_blog_node_modules_react_universal_component_dist_index_js__WEBPACK_IMPORTED_MODULE_3___default()(babel_plugin_universal_import_universalImport__WEBPACK_IMPORTED_MODULE_1___default()({
+  id: "/Users/kumi5605/Desktop/projects/kt-blog/src/pages/work.js",
+  load: function load() {
+    return Promise.all([Promise.resolve(/* import() | Users/kumi5605/Desktop/projects/kt-blog/src/pages/work */).then(__webpack_require__.bind(null, 40))]).then(function (proms) {
+      return proms[0];
+    });
+  },
+  path: function path() {
+    return path__WEBPACK_IMPORTED_MODULE_0___default.a.join(__dirname, '/Users/kumi5605/Desktop/projects/kt-blog/src/pages/work.js');
+  },
+  resolve: function resolve() {
+    return /*require.resolve*/(40);
+  },
+  chunkName: function chunkName() {
+    return "Users/kumi5605/Desktop/projects/kt-blog/src/pages/work";
+  }
+}), universalOptions);
+t_9.template = '/Users/kumi5605/Desktop/projects/kt-blog/src/pages/work.js';
+var t_10 = _Users_kumi5605_Desktop_projects_kt_blog_node_modules_react_universal_component_dist_index_js__WEBPACK_IMPORTED_MODULE_3___default()(babel_plugin_universal_import_universalImport__WEBPACK_IMPORTED_MODULE_1___default()({
   id: "/Users/kumi5605/Desktop/projects/kt-blog/src/pages/post",
   load: function load() {
     return Promise.all([Promise.resolve(/* import() | Users/kumi5605/Desktop/projects/kt-blog/src/pages/post */).then(__webpack_require__.bind(null, 22))]).then(function (proms) {
@@ -2005,7 +1996,7 @@ var t_9 = _Users_kumi5605_Desktop_projects_kt_blog_node_modules_react_universal_
     return "Users/kumi5605/Desktop/projects/kt-blog/src/pages/post";
   }
 }), universalOptions);
-t_9.template = '/Users/kumi5605/Desktop/projects/kt-blog/src/pages/post'; // Template Map
+t_10.template = '/Users/kumi5605/Desktop/projects/kt-blog/src/pages/post'; // Template Map
 
 /* harmony default export */ __webpack_exports__["default"] = ({
   '/Users/kumi5605/Desktop/projects/kt-blog/src/pages/404.js': t_0,
@@ -2017,7 +2008,8 @@ t_9.template = '/Users/kumi5605/Desktop/projects/kt-blog/src/pages/post'; // Tem
   '/Users/kumi5605/Desktop/projects/kt-blog/src/pages/post.js': t_6,
   '/Users/kumi5605/Desktop/projects/kt-blog/src/pages/thoughts.js': t_7,
   '/Users/kumi5605/Desktop/projects/kt-blog/src/pages/travel.js': t_8,
-  '/Users/kumi5605/Desktop/projects/kt-blog/src/pages/post': t_9
+  '/Users/kumi5605/Desktop/projects/kt-blog/src/pages/work.js': t_9,
+  '/Users/kumi5605/Desktop/projects/kt-blog/src/pages/post': t_10
 }); // Not Found Template
 
 var notFoundTemplate = "/Users/kumi5605/Desktop/projects/kt-blog/src/pages/404.js";
@@ -2056,15 +2048,15 @@ __webpack_require__.r(__webpack_exports__);
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(0);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var _frontend_components_Footer_Footer__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(8);
-/* harmony import */ var _frontend_components_Navbar_Navbar__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(7);
-/* harmony import */ var react_static__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(5);
+/* harmony import */ var _frontend_components_Footer_Footer__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(6);
+/* harmony import */ var _frontend_components_Navbar_Navbar__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(5);
+/* harmony import */ var react_static__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(4);
 /* harmony import */ var react_static__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(react_static__WEBPACK_IMPORTED_MODULE_3__);
-/* harmony import */ var _reach_router__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(6);
+/* harmony import */ var _reach_router__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(7);
 /* harmony import */ var _reach_router__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(_reach_router__WEBPACK_IMPORTED_MODULE_4__);
 /* harmony import */ var react_scrollable_anchor__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(1);
 /* harmony import */ var react_scrollable_anchor__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(react_scrollable_anchor__WEBPACK_IMPORTED_MODULE_5__);
-/* harmony import */ var _frontend_utils_reversePosts__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(12);
+/* harmony import */ var _frontend_utils_reversePosts__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(11);
 
 
 
@@ -2105,15 +2097,15 @@ __webpack_require__.r(__webpack_exports__);
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(0);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var _frontend_components_Footer_Footer__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(8);
-/* harmony import */ var react_static__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(5);
+/* harmony import */ var _frontend_components_Footer_Footer__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(6);
+/* harmony import */ var react_static__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(4);
 /* harmony import */ var react_static__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(react_static__WEBPACK_IMPORTED_MODULE_2__);
-/* harmony import */ var _reach_router__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(6);
+/* harmony import */ var _reach_router__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(7);
 /* harmony import */ var _reach_router__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_reach_router__WEBPACK_IMPORTED_MODULE_3__);
 /* harmony import */ var react_scrollable_anchor__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(1);
 /* harmony import */ var react_scrollable_anchor__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(react_scrollable_anchor__WEBPACK_IMPORTED_MODULE_4__);
-/* harmony import */ var _frontend_components_Navbar_Navbar__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(7);
-/* harmony import */ var _frontend_utils_reversePosts__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(12);
+/* harmony import */ var _frontend_components_Navbar_Navbar__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(5);
+/* harmony import */ var _frontend_utils_reversePosts__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(11);
 
 
 
@@ -2154,15 +2146,15 @@ __webpack_require__.r(__webpack_exports__);
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(0);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var react_static__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(5);
+/* harmony import */ var react_static__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(4);
 /* harmony import */ var react_static__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react_static__WEBPACK_IMPORTED_MODULE_1__);
-/* harmony import */ var _reach_router__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(6);
+/* harmony import */ var _reach_router__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(7);
 /* harmony import */ var _reach_router__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_reach_router__WEBPACK_IMPORTED_MODULE_2__);
 /* harmony import */ var react_scrollable_anchor__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(1);
 /* harmony import */ var react_scrollable_anchor__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(react_scrollable_anchor__WEBPACK_IMPORTED_MODULE_3__);
-/* harmony import */ var _frontend_utils_reversePosts__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(12);
-/* harmony import */ var _frontend_components_Footer_Footer__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(8);
-/* harmony import */ var _frontend_components_Navbar_Navbar__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(7);
+/* harmony import */ var _frontend_utils_reversePosts__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(11);
+/* harmony import */ var _frontend_components_Footer_Footer__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(6);
+/* harmony import */ var _frontend_components_Navbar_Navbar__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(5);
 
 
 
@@ -2203,15 +2195,15 @@ __webpack_require__.r(__webpack_exports__);
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(0);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var react_static__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(5);
+/* harmony import */ var react_static__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(4);
 /* harmony import */ var react_static__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react_static__WEBPACK_IMPORTED_MODULE_1__);
-/* harmony import */ var _reach_router__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(6);
+/* harmony import */ var _reach_router__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(7);
 /* harmony import */ var _reach_router__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_reach_router__WEBPACK_IMPORTED_MODULE_2__);
 /* harmony import */ var react_scrollable_anchor__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(1);
 /* harmony import */ var react_scrollable_anchor__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(react_scrollable_anchor__WEBPACK_IMPORTED_MODULE_3__);
-/* harmony import */ var _frontend_utils_reversePosts__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(12);
-/* harmony import */ var _frontend_components_Footer_Footer__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(8);
-/* harmony import */ var _frontend_components_Navbar_Navbar__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(7);
+/* harmony import */ var _frontend_utils_reversePosts__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(11);
+/* harmony import */ var _frontend_components_Footer_Footer__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(6);
+/* harmony import */ var _frontend_components_Navbar_Navbar__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(5);
 
 
 
@@ -2252,15 +2244,15 @@ __webpack_require__.r(__webpack_exports__);
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(0);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var react_static__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(5);
+/* harmony import */ var react_static__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(4);
 /* harmony import */ var react_static__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react_static__WEBPACK_IMPORTED_MODULE_1__);
-/* harmony import */ var _reach_router__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(6);
+/* harmony import */ var _reach_router__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(7);
 /* harmony import */ var _reach_router__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_reach_router__WEBPACK_IMPORTED_MODULE_2__);
 /* harmony import */ var react_scrollable_anchor__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(1);
 /* harmony import */ var react_scrollable_anchor__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(react_scrollable_anchor__WEBPACK_IMPORTED_MODULE_3__);
-/* harmony import */ var _frontend_utils_reversePosts__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(12);
-/* harmony import */ var _frontend_components_Footer_Footer__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(8);
-/* harmony import */ var _frontend_components_Navbar_Navbar__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(7);
+/* harmony import */ var _frontend_utils_reversePosts__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(11);
+/* harmony import */ var _frontend_components_Footer_Footer__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(6);
+/* harmony import */ var _frontend_components_Navbar_Navbar__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(5);
 
 
 
@@ -2299,6 +2291,58 @@ __webpack_require__.r(__webpack_exports__);
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(0);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var react_static__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(4);
+/* harmony import */ var react_static__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react_static__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var _reach_router__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(7);
+/* harmony import */ var _reach_router__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_reach_router__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var react_scrollable_anchor__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(1);
+/* harmony import */ var react_scrollable_anchor__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(react_scrollable_anchor__WEBPACK_IMPORTED_MODULE_3__);
+/* harmony import */ var _frontend_utils_reversePosts__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(11);
+/* harmony import */ var _frontend_components_Footer_Footer__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(6);
+/* harmony import */ var _frontend_components_Navbar_Navbar__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(5);
+
+
+
+
+
+
+
+/* harmony default export */ __webpack_exports__["default"] = (Object(react_static__WEBPACK_IMPORTED_MODULE_1__["withRouteData"])(function (_ref) {
+  var listings = _ref.listings;
+  return console.log('listings', listings) || react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_frontend_components_Navbar_Navbar__WEBPACK_IMPORTED_MODULE_6__[/* default */ "a"], null), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h1", {
+    className: "post-header"
+  }, "Work"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "blog-container"
+  }, Object(_frontend_utils_reversePosts__WEBPACK_IMPORTED_MODULE_4__[/* default */ "a"])(listings).map(function (listing) {
+    return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+      key: listing.id // to={listing.link}
+      ,
+      href: listing.link,
+      target: "_blank",
+      rel: "noopener noreferrer",
+      className: "card",
+      onClick: react_scrollable_anchor__WEBPACK_IMPORTED_MODULE_3__["goToTop"],
+      style: {
+        backgroundImage: "url(\"https://media.graphcms.com/".concat(listing.image.handle, "\")")
+      }
+    }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+      className: "overlay"
+    }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h1", {
+      className: "post-title"
+    }, listing.title), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", {
+      className: "sub-header"
+    }, "View Listing"));
+  })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_frontend_components_Footer_Footer__WEBPACK_IMPORTED_MODULE_5__[/* default */ "a"], null));
+}));
+
+/***/ }),
+/* 41 */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
 
 // EXTERNAL MODULE: external "@babel/runtime/helpers/classCallCheck"
 var classCallCheck_ = __webpack_require__(14);
@@ -2325,7 +2369,7 @@ var inherits_ = __webpack_require__(18);
 var inherits_default = /*#__PURE__*/__webpack_require__.n(inherits_);
 
 // EXTERNAL MODULE: external "@babel/runtime/helpers/defineProperty"
-var defineProperty_ = __webpack_require__(9);
+var defineProperty_ = __webpack_require__(10);
 var defineProperty_default = /*#__PURE__*/__webpack_require__.n(defineProperty_);
 
 // EXTERNAL MODULE: external "react"
@@ -2333,10 +2377,10 @@ var external_react_ = __webpack_require__(0);
 var external_react_default = /*#__PURE__*/__webpack_require__.n(external_react_);
 
 // EXTERNAL MODULE: external "react-static"
-var external_react_static_ = __webpack_require__(5);
+var external_react_static_ = __webpack_require__(4);
 
 // EXTERNAL MODULE: /Users/kumi5605/Desktop/projects/kt-blog/src/frontend/components/RecentCard/RecentCard.css
-var RecentCard = __webpack_require__(82);
+var RecentCard = __webpack_require__(83);
 
 // CONCATENATED MODULE: /Users/kumi5605/Desktop/projects/kt-blog/src/frontend/components/RecentCard/RecentCard.js
 
@@ -2355,13 +2399,13 @@ var RecentCard = __webpack_require__(82);
   }, props.title));
 });
 // EXTERNAL MODULE: external "@reach/router"
-var router_ = __webpack_require__(6);
+var router_ = __webpack_require__(7);
 
 // EXTERNAL MODULE: external "react-scrollable-anchor"
 var external_react_scrollable_anchor_ = __webpack_require__(1);
 
 // EXTERNAL MODULE: /Users/kumi5605/Desktop/projects/kt-blog/src/frontend/components/RecentPosts/RecentPosts.css
-var RecentPosts = __webpack_require__(83);
+var RecentPosts = __webpack_require__(84);
 
 // CONCATENATED MODULE: /Users/kumi5605/Desktop/projects/kt-blog/src/frontend/components/RecentPosts/RecentPosts.js
 
@@ -2386,10 +2430,10 @@ var RecentPosts = __webpack_require__(83);
   })));
 });
 // EXTERNAL MODULE: /Users/kumi5605/Desktop/projects/kt-blog/src/frontend/components/Footer/Footer.js + 3 modules
-var Footer = __webpack_require__(8);
+var Footer = __webpack_require__(6);
 
 // EXTERNAL MODULE: /Users/kumi5605/Desktop/projects/kt-blog/src/frontend/components/Navbar/Navbar.js + 5 modules
-var Navbar = __webpack_require__(7);
+var Navbar = __webpack_require__(5);
 
 // CONCATENATED MODULE: /Users/kumi5605/Desktop/projects/kt-blog/src/pages/index.js
 
@@ -2457,7 +2501,9 @@ function (_Component) {
         alt: "Kimaleen"
       })), external_react_default.a.createElement("aside", {
         className: "bio-text"
-      }, external_react_default.a.createElement("p", null, bibliography), external_react_default.a.createElement("img", {
+      }, external_react_default.a.createElement("p", {
+        className: "bibliography"
+      }, bibliography), external_react_default.a.createElement("img", {
         src: "https://media.graphcms.com/".concat(this.props.signatures[0].image.handle),
         className: "signature",
         alt: "signature"
@@ -2473,7 +2519,7 @@ function (_Component) {
 /* harmony default export */ var pages = __webpack_exports__["default"] = (Object(external_react_static_["withRouteData"])(pages_index));
 
 /***/ }),
-/* 41 */
+/* 42 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -2488,7 +2534,7 @@ var regenerator_ = __webpack_require__(28);
 var regenerator_default = /*#__PURE__*/__webpack_require__.n(regenerator_);
 
 // EXTERNAL MODULE: external "@babel/runtime/helpers/asyncToGenerator"
-var asyncToGenerator_ = __webpack_require__(53);
+var asyncToGenerator_ = __webpack_require__(54);
 var asyncToGenerator_default = /*#__PURE__*/__webpack_require__.n(asyncToGenerator_);
 
 // EXTERNAL MODULE: external "@babel/runtime/helpers/classCallCheck"
@@ -2516,11 +2562,11 @@ var inherits_ = __webpack_require__(18);
 var inherits_default = /*#__PURE__*/__webpack_require__.n(inherits_);
 
 // EXTERNAL MODULE: external "@babel/runtime/helpers/defineProperty"
-var defineProperty_ = __webpack_require__(9);
+var defineProperty_ = __webpack_require__(10);
 var defineProperty_default = /*#__PURE__*/__webpack_require__.n(defineProperty_);
 
 // EXTERNAL MODULE: /Users/kumi5605/Desktop/projects/kt-blog/src/frontend/components/ContactForm/ContactForm.css
-var ContactForm_ContactForm = __webpack_require__(81);
+var ContactForm_ContactForm = __webpack_require__(82);
 
 // CONCATENATED MODULE: /Users/kumi5605/Desktop/projects/kt-blog/src/frontend/components/ContactForm/ContactForm.js
 
@@ -2669,10 +2715,10 @@ function (_Component) {
 
 
 // EXTERNAL MODULE: /Users/kumi5605/Desktop/projects/kt-blog/src/frontend/components/Footer/Footer.js + 3 modules
-var Footer = __webpack_require__(8);
+var Footer = __webpack_require__(6);
 
 // EXTERNAL MODULE: /Users/kumi5605/Desktop/projects/kt-blog/src/frontend/components/Navbar/Navbar.js + 5 modules
-var Navbar = __webpack_require__(7);
+var Navbar = __webpack_require__(5);
 
 // CONCATENATED MODULE: /Users/kumi5605/Desktop/projects/kt-blog/src/pages/contact.js
 
@@ -2686,15 +2732,11 @@ var Navbar = __webpack_require__(7);
     className: "contact-form-container"
   }, external_react_default.a.createElement("h2", {
     className: "contact-header"
-  }, "Let's Connect"), external_react_default.a.createElement("h5", {
-    className: "email-header"
-  }, "Contact Me Directly At", ' ', external_react_default.a.createElement("a", {
-    href: "mailto:kimaleen.tran@gmail.com"
-  }, "kimaleen.tran@gmail.com")), external_react_default.a.createElement(ContactForm_ContactForm_ContactForm, null)), external_react_default.a.createElement(Footer["a" /* default */], null));
+  }, "Let's Connect"), external_react_default.a.createElement(ContactForm_ContactForm_ContactForm, null)), external_react_default.a.createElement(Footer["a" /* default */], null));
 });
 
 /***/ }),
-/* 42 */
+/* 43 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -2707,9 +2749,9 @@ exports["default"] = void 0;
 
 var _react = _interopRequireDefault(__webpack_require__(0));
 
-var _reactStatic = __webpack_require__(5);
+var _reactStatic = __webpack_require__(4);
 
-var _router = __webpack_require__(6);
+var _router = __webpack_require__(7);
 
 function _interopRequireDefault(obj) {
   return obj && obj.__esModule ? obj : {
@@ -2820,88 +2862,88 @@ var _default = function _default(_ref) {
 exports["default"] = _default;
 
 /***/ }),
-/* 43 */
+/* 44 */
 /***/ (function(module, exports) {
 
 module.exports = require("react-hot-loader");
 
 /***/ }),
-/* 44 */
+/* 45 */
 /***/ (function(module, exports) {
 
 module.exports = require("react-helmet");
 
 /***/ }),
-/* 45 */
+/* 46 */
 /***/ (function(module, exports) {
 
 module.exports = require("graphql-hooks-memcache");
 
 /***/ }),
-/* 46 */
+/* 47 */
 /***/ (function(module, exports) {
 
 module.exports = "data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIj8+CjxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgdmVyc2lvbj0iMS4xIiBpZD0iTGF5ZXJfMSIgeD0iMHB4IiB5PSIwcHgiIHdpZHRoPSI1MTJweCIgaGVpZ2h0PSI1MTJweCIgdmlld0JveD0iMCAwIDE2OS4wNjMgMTY5LjA2MyIgc3R5bGU9ImVuYWJsZS1iYWNrZ3JvdW5kOm5ldyAwIDAgMTY5LjA2MyAxNjkuMDYzOyIgeG1sOnNwYWNlPSJwcmVzZXJ2ZSI+PGc+PGc+Cgk8cGF0aCBkPSJNMTIyLjQwNiwwSDQ2LjY1NEMyMC45MjksMCwwLDIwLjkzLDAsNDYuNjU1djc1Ljc1MmMwLDI1LjcyNiwyMC45MjksNDYuNjU1LDQ2LjY1NCw0Ni42NTVoNzUuNzUyICAgYzI1LjcyNywwLDQ2LjY1Ni0yMC45Myw0Ni42NTYtNDYuNjU1VjQ2LjY1NUMxNjkuMDYzLDIwLjkzLDE0OC4xMzMsMCwxMjIuNDA2LDB6IE0xNTQuMDYzLDEyMi40MDcgICBjMCwxNy40NTUtMTQuMjAxLDMxLjY1NS0zMS42NTYsMzEuNjU1SDQ2LjY1NEMyOS4yLDE1NC4wNjMsMTUsMTM5Ljg2MiwxNSwxMjIuNDA3VjQ2LjY1NUMxNSwyOS4yMDEsMjkuMiwxNSw0Ni42NTQsMTVoNzUuNzUyICAgYzE3LjQ1NSwwLDMxLjY1NiwxNC4yMDEsMzEuNjU2LDMxLjY1NVYxMjIuNDA3eiIgZGF0YS1vcmlnaW5hbD0iIzAwMDAwMCIgY2xhc3M9ImFjdGl2ZS1wYXRoIiBkYXRhLW9sZF9jb2xvcj0iI2Y3ZjdmNyIgZmlsbD0iI2Y3ZjdmNyIvPgoJPHBhdGggZD0iTTg0LjUzMSw0MC45N2MtMjQuMDIxLDAtNDMuNTYzLDE5LjU0Mi00My41NjMsNDMuNTYzYzAsMjQuMDIsMTkuNTQyLDQzLjU2MSw0My41NjMsNDMuNTYxczQzLjU2My0xOS41NDEsNDMuNTYzLTQzLjU2MSAgIEMxMjguMDk0LDYwLjUxMiwxMDguNTUyLDQwLjk3LDg0LjUzMSw0MC45N3ogTTg0LjUzMSwxMTMuMDkzYy0xNS43NDksMC0yOC41NjMtMTIuODEyLTI4LjU2My0yOC41NjEgICBjMC0xNS43NSwxMi44MTMtMjguNTYzLDI4LjU2My0yOC41NjNzMjguNTYzLDEyLjgxMywyOC41NjMsMjguNTYzQzExMy4wOTQsMTAwLjI4MSwxMDAuMjgsMTEzLjA5Myw4NC41MzEsMTEzLjA5M3oiIGRhdGEtb3JpZ2luYWw9IiMwMDAwMDAiIGNsYXNzPSJhY3RpdmUtcGF0aCIgZGF0YS1vbGRfY29sb3I9IiNmN2Y3ZjciIGZpbGw9IiNmN2Y3ZjciLz4KCTxwYXRoIGQ9Ik0xMjkuOTIxLDI4LjI1MWMtMi44OSwwLTUuNzI5LDEuMTctNy43NywzLjIyYy0yLjA1MSwyLjA0LTMuMjMsNC44OC0zLjIzLDcuNzhjMCwyLjg5MSwxLjE4LDUuNzMsMy4yMyw3Ljc4ICAgYzIuMDQsMi4wNCw0Ljg4LDMuMjIsNy43NywzLjIyYzIuOSwwLDUuNzMtMS4xOCw3Ljc4LTMuMjJjMi4wNS0yLjA1LDMuMjItNC44OSwzLjIyLTcuNzhjMC0yLjktMS4xNy01Ljc0LTMuMjItNy43OCAgIEMxMzUuNjYxLDI5LjQyMSwxMzIuODIxLDI4LjI1MSwxMjkuOTIxLDI4LjI1MXoiIGRhdGEtb3JpZ2luYWw9IiMwMDAwMDAiIGNsYXNzPSJhY3RpdmUtcGF0aCIgZGF0YS1vbGRfY29sb3I9IiNmN2Y3ZjciIGZpbGw9IiNmN2Y3ZjciLz4KPC9nPjwvZz4gPC9zdmc+Cg=="
 
 /***/ }),
-/* 47 */
+/* 48 */
 /***/ (function(module, exports) {
 
 module.exports = "data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIj8+CjxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgdmVyc2lvbj0iMS4xIiBpZD0iQ2FwYV8xIiB4PSIwcHgiIHk9IjBweCIgd2lkdGg9IjUxMnB4IiBoZWlnaHQ9IjUxMnB4IiB2aWV3Qm94PSIwIDAgNDMwLjExMyA0MzAuMTE0IiBzdHlsZT0iZW5hYmxlLWJhY2tncm91bmQ6bmV3IDAgMCA0MzAuMTEzIDQzMC4xMTQ7IiB4bWw6c3BhY2U9InByZXNlcnZlIiBjbGFzcz0iIj48Zz48Zz4KCTxwYXRoIGlkPSJGYWNlYm9vayIgZD0iTTE1OC4wODEsODMuM2MwLDEwLjgzOSwwLDU5LjIxOCwwLDU5LjIxOGgtNDMuMzg1djcyLjQxMmg0My4zODV2MjE1LjE4M2g4OS4xMjJWMjE0LjkzNmg1OS44MDUgICBjMCwwLDUuNjAxLTM0LjcyMSw4LjMxNi03Mi42ODVjLTcuNzg0LDAtNjcuNzg0LDAtNjcuNzg0LDBzMC00Mi4xMjcsMC00OS41MTFjMC03LjQsOS43MTctMTcuMzU0LDE5LjMyMS0xNy4zNTQgICBjOS41ODYsMCwyOS44MTgsMCw0OC41NTcsMGMwLTkuODU5LDAtNDMuOTI0LDAtNzUuMzg1Yy0yNS4wMTYsMC01My40NzYsMC02Ni4wMjEsMEMxNTUuODc4LTAuMDA0LDE1OC4wODEsNzIuNDgsMTU4LjA4MSw4My4zeiIgZGF0YS1vcmlnaW5hbD0iIzAwMDAwMCIgY2xhc3M9ImFjdGl2ZS1wYXRoIiBkYXRhLW9sZF9jb2xvcj0iI2Y3ZjdmNyIgZmlsbD0iI2Y3ZjdmNyIvPgo8L2c+PC9nPiA8L3N2Zz4K"
 
 /***/ }),
-/* 48 */
+/* 49 */
 /***/ (function(module, exports) {
 
 module.exports = "data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIj8+CjxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgdmVyc2lvbj0iMS4xIiBpZD0iQ2FwYV8xIiB4PSIwcHgiIHk9IjBweCIgd2lkdGg9IjUxMnB4IiBoZWlnaHQ9IjUxMnB4IiB2aWV3Qm94PSIwIDAgNDMwLjExNyA0MzAuMTE4IiBzdHlsZT0iZW5hYmxlLWJhY2tncm91bmQ6bmV3IDAgMCA0MzAuMTE3IDQzMC4xMTg7IiB4bWw6c3BhY2U9InByZXNlcnZlIiBjbGFzcz0iIj48Zz48Zz4KCTxwYXRoIGlkPSJMaW5rZWRJbl9feDI4X2FsdF94MjlfIiBkPSJNMzk4LjM1NSwwSDMxLjc4MkMxNC4yMjksMCwwLjAwMiwxMy43OTMsMC4wMDIsMzAuODE3djM2OC40NzEgICBjMCwxNy4wMjUsMTQuMjMyLDMwLjgzLDMxLjc4LDMwLjgzaDM2Ni41NzNjMTcuNTQ5LDAsMzEuNzYtMTMuODE0LDMxLjc2LTMwLjgzVjMwLjgxN0M0MzAuMTE1LDEzLjc5OCw0MTUuOTA0LDAsMzk4LjM1NSwweiAgICBNMTMwLjQsMzYwLjAzOEg2NS40MTNWMTY1Ljg0NUgxMzAuNFYzNjAuMDM4eiBNOTcuOTEzLDEzOS4zMTVoLTAuNDM3Yy0yMS43OTMsMC0zNS45Mi0xNC45MDQtMzUuOTItMzMuNTYzICAgYzAtMTkuMDM1LDE0LjU0Mi0zMy41MzUsMzYuNzY3LTMzLjUzNWMyMi4yMjcsMCwzNS44OTksMTQuNDk2LDM2LjMzMSwzMy41MzVDMTM0LjY1NCwxMjQuNDE1LDEyMC41NTUsMTM5LjMxNSw5Ny45MTMsMTM5LjMxNXogICAgTTM2NC42NTksMzYwLjAzOGgtNjQuOTY2VjI1Ni4xMzhjMC0yNi4xMDctOS40MTMtNDMuOTIxLTMyLjkwNy00My45MjFjLTE3Ljk3MywwLTI4LjY0MiwxMi4wMTgtMzMuMzI3LDIzLjYyMSAgIGMtMS43MzYsNC4xNDQtMi4xNjYsOS45NC0yLjE2NiwxNS43Mjh2MTA4LjQ2OGgtNjQuOTU0YzAsMCwwLjg1LTE3NS45NzksMC0xOTQuMTkyaDY0Ljk2NHYyNy41MzEgICBjOC42MjQtMTMuMjI5LDI0LjAzNS0zMi4xLDU4LjUzNC0zMi4xYzQyLjc2LDAsNzQuODIyLDI3LjczOSw3NC44MjIsODcuNDE0VjM2MC4wMzh6IE0yMzAuODgzLDE5My45OSAgIGMwLjExMS0wLjE4MiwwLjI2Ni0wLjQwMSwwLjQyLTAuNjE0djAuNjE0SDIzMC44ODN6IiBkYXRhLW9yaWdpbmFsPSIjMDAwMDAwIiBjbGFzcz0iYWN0aXZlLXBhdGgiIGRhdGEtb2xkX2NvbG9yPSIjZjdmN2Y3IiBmaWxsPSIjZjdmN2Y3Ii8+CjwvZz48L2c+IDwvc3ZnPgo="
 
 /***/ }),
-/* 49 */
+/* 50 */
 /***/ (function(module, exports) {
 
 module.exports = "data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIj8+CjxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgdmVyc2lvbj0iMS4xIiBpZD0iQ2FwYV8xIiB4PSIwcHgiIHk9IjBweCIgdmlld0JveD0iMCAwIDUzIDUzIiBzdHlsZT0iZW5hYmxlLWJhY2tncm91bmQ6bmV3IDAgMCA1MyA1MzsiIHhtbDpzcGFjZT0icHJlc2VydmUiIHdpZHRoPSIyNXB4IiBoZWlnaHQ9IjI1cHgiIGNsYXNzPSIiPjxnPjxnPgoJPGc+CgkJPHBhdGggZD0iTTIsMTMuNWg0OWMxLjEwNCwwLDItMC44OTYsMi0ycy0wLjg5Ni0yLTItMkgyYy0xLjEwNCwwLTIsMC44OTYtMiwyUzAuODk2LDEzLjUsMiwxMy41eiIgZGF0YS1vcmlnaW5hbD0iIzAwMDAwMCIgY2xhc3M9ImFjdGl2ZS1wYXRoIiBkYXRhLW9sZF9jb2xvcj0iIzAwMDAwMCIgZmlsbD0iIzJCMkIyQiIvPgoJCTxwYXRoIGQ9Ik0yLDI4LjVoNDljMS4xMDQsMCwyLTAuODk2LDItMnMtMC44OTYtMi0yLTJIMmMtMS4xMDQsMC0yLDAuODk2LTIsMlMwLjg5NiwyOC41LDIsMjguNXoiIGRhdGEtb3JpZ2luYWw9IiMwMDAwMDAiIGNsYXNzPSJhY3RpdmUtcGF0aCIgZGF0YS1vbGRfY29sb3I9IiMwMDAwMDAiIGZpbGw9IiMyQjJCMkIiLz4KCQk8cGF0aCBkPSJNMiw0My41aDQ5YzEuMTA0LDAsMi0wLjg5NiwyLTJzLTAuODk2LTItMi0ySDJjLTEuMTA0LDAtMiwwLjg5Ni0yLDJTMC44OTYsNDMuNSwyLDQzLjV6IiBkYXRhLW9yaWdpbmFsPSIjMDAwMDAwIiBjbGFzcz0iYWN0aXZlLXBhdGgiIGRhdGEtb2xkX2NvbG9yPSIjMDAwMDAwIiBmaWxsPSIjMkIyQjJCIi8+Cgk8L2c+CjwvZz48L2c+IDwvc3ZnPgo="
 
 /***/ }),
-/* 50 */
+/* 51 */
 /***/ (function(module, exports) {
 
 module.exports = "data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iaXNvLTg4NTktMSI/Pg0KPCEtLSBHZW5lcmF0b3I6IEFkb2JlIElsbHVzdHJhdG9yIDE2LjAuMCwgU1ZHIEV4cG9ydCBQbHVnLUluIC4gU1ZHIFZlcnNpb246IDYuMDAgQnVpbGQgMCkgIC0tPg0KPCFET0NUWVBFIHN2ZyBQVUJMSUMgIi0vL1czQy8vRFREIFNWRyAxLjEvL0VOIiAiaHR0cDovL3d3dy53My5vcmcvR3JhcGhpY3MvU1ZHLzEuMS9EVEQvc3ZnMTEuZHRkIj4NCjxzdmcgdmVyc2lvbj0iMS4xIiBpZD0iTGF5ZXJfMSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgeD0iMHB4IiB5PSIwcHgiDQoJIHdpZHRoPSIxNjkuMDYzcHgiIGhlaWdodD0iMTY5LjA2M3B4IiB2aWV3Qm94PSIwIDAgMTY5LjA2MyAxNjkuMDYzIiBzdHlsZT0iZW5hYmxlLWJhY2tncm91bmQ6bmV3IDAgMCAxNjkuMDYzIDE2OS4wNjM7Ig0KCSB4bWw6c3BhY2U9InByZXNlcnZlIj4NCjxnPg0KCTxwYXRoIGQ9Ik0xMjIuNDA2LDBINDYuNjU0QzIwLjkyOSwwLDAsMjAuOTMsMCw0Ni42NTV2NzUuNzUyYzAsMjUuNzI2LDIwLjkyOSw0Ni42NTUsNDYuNjU0LDQ2LjY1NWg3NS43NTINCgkJYzI1LjcyNywwLDQ2LjY1Ni0yMC45Myw0Ni42NTYtNDYuNjU1VjQ2LjY1NUMxNjkuMDYzLDIwLjkzLDE0OC4xMzMsMCwxMjIuNDA2LDB6IE0xNTQuMDYzLDEyMi40MDcNCgkJYzAsMTcuNDU1LTE0LjIwMSwzMS42NTUtMzEuNjU2LDMxLjY1NUg0Ni42NTRDMjkuMiwxNTQuMDYzLDE1LDEzOS44NjIsMTUsMTIyLjQwN1Y0Ni42NTVDMTUsMjkuMjAxLDI5LjIsMTUsNDYuNjU0LDE1aDc1Ljc1Mg0KCQljMTcuNDU1LDAsMzEuNjU2LDE0LjIwMSwzMS42NTYsMzEuNjU1VjEyMi40MDd6Ii8+DQoJPHBhdGggZD0iTTg0LjUzMSw0MC45N2MtMjQuMDIxLDAtNDMuNTYzLDE5LjU0Mi00My41NjMsNDMuNTYzYzAsMjQuMDIsMTkuNTQyLDQzLjU2MSw0My41NjMsNDMuNTYxczQzLjU2My0xOS41NDEsNDMuNTYzLTQzLjU2MQ0KCQlDMTI4LjA5NCw2MC41MTIsMTA4LjU1Miw0MC45Nyw4NC41MzEsNDAuOTd6IE04NC41MzEsMTEzLjA5M2MtMTUuNzQ5LDAtMjguNTYzLTEyLjgxMi0yOC41NjMtMjguNTYxDQoJCWMwLTE1Ljc1LDEyLjgxMy0yOC41NjMsMjguNTYzLTI4LjU2M3MyOC41NjMsMTIuODEzLDI4LjU2MywyOC41NjNDMTEzLjA5NCwxMDAuMjgxLDEwMC4yOCwxMTMuMDkzLDg0LjUzMSwxMTMuMDkzeiIvPg0KCTxwYXRoIGQ9Ik0xMjkuOTIxLDI4LjI1MWMtMi44OSwwLTUuNzI5LDEuMTctNy43NywzLjIyYy0yLjA1MSwyLjA0LTMuMjMsNC44OC0zLjIzLDcuNzhjMCwyLjg5MSwxLjE4LDUuNzMsMy4yMyw3Ljc4DQoJCWMyLjA0LDIuMDQsNC44OCwzLjIyLDcuNzcsMy4yMmMyLjksMCw1LjczLTEuMTgsNy43OC0zLjIyYzIuMDUtMi4wNSwzLjIyLTQuODksMy4yMi03Ljc4YzAtMi45LTEuMTctNS43NC0zLjIyLTcuNzgNCgkJQzEzNS42NjEsMjkuNDIxLDEzMi44MjEsMjguMjUxLDEyOS45MjEsMjguMjUxeiIvPg0KPC9nPg0KPGc+DQo8L2c+DQo8Zz4NCjwvZz4NCjxnPg0KPC9nPg0KPGc+DQo8L2c+DQo8Zz4NCjwvZz4NCjxnPg0KPC9nPg0KPGc+DQo8L2c+DQo8Zz4NCjwvZz4NCjxnPg0KPC9nPg0KPGc+DQo8L2c+DQo8Zz4NCjwvZz4NCjxnPg0KPC9nPg0KPGc+DQo8L2c+DQo8Zz4NCjwvZz4NCjxnPg0KPC9nPg0KPC9zdmc+DQo="
 
 /***/ }),
-/* 51 */
+/* 52 */
 /***/ (function(module, exports) {
 
 module.exports = "data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iaXNvLTg4NTktMSI/Pg0KPCEtLSBHZW5lcmF0b3I6IEFkb2JlIElsbHVzdHJhdG9yIDE2LjAuMCwgU1ZHIEV4cG9ydCBQbHVnLUluIC4gU1ZHIFZlcnNpb246IDYuMDAgQnVpbGQgMCkgIC0tPg0KPCFET0NUWVBFIHN2ZyBQVUJMSUMgIi0vL1czQy8vRFREIFNWRyAxLjEvL0VOIiAiaHR0cDovL3d3dy53My5vcmcvR3JhcGhpY3MvU1ZHLzEuMS9EVEQvc3ZnMTEuZHRkIj4NCjxzdmcgdmVyc2lvbj0iMS4xIiBpZD0iQ2FwYV8xIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB4PSIwcHgiIHk9IjBweCINCgkgd2lkdGg9IjQzMC4xMTNweCIgaGVpZ2h0PSI0MzAuMTE0cHgiIHZpZXdCb3g9IjAgMCA0MzAuMTEzIDQzMC4xMTQiIHN0eWxlPSJlbmFibGUtYmFja2dyb3VuZDpuZXcgMCAwIDQzMC4xMTMgNDMwLjExNDsiDQoJIHhtbDpzcGFjZT0icHJlc2VydmUiPg0KPGc+DQoJPHBhdGggaWQ9IkZhY2Vib29rIiBkPSJNMTU4LjA4MSw4My4zYzAsMTAuODM5LDAsNTkuMjE4LDAsNTkuMjE4aC00My4zODV2NzIuNDEyaDQzLjM4NXYyMTUuMTgzaDg5LjEyMlYyMTQuOTM2aDU5LjgwNQ0KCQljMCwwLDUuNjAxLTM0LjcyMSw4LjMxNi03Mi42ODVjLTcuNzg0LDAtNjcuNzg0LDAtNjcuNzg0LDBzMC00Mi4xMjcsMC00OS41MTFjMC03LjQsOS43MTctMTcuMzU0LDE5LjMyMS0xNy4zNTQNCgkJYzkuNTg2LDAsMjkuODE4LDAsNDguNTU3LDBjMC05Ljg1OSwwLTQzLjkyNCwwLTc1LjM4NWMtMjUuMDE2LDAtNTMuNDc2LDAtNjYuMDIxLDBDMTU1Ljg3OC0wLjAwNCwxNTguMDgxLDcyLjQ4LDE1OC4wODEsODMuM3oiLz4NCjwvZz4NCjxnPg0KPC9nPg0KPGc+DQo8L2c+DQo8Zz4NCjwvZz4NCjxnPg0KPC9nPg0KPGc+DQo8L2c+DQo8Zz4NCjwvZz4NCjxnPg0KPC9nPg0KPGc+DQo8L2c+DQo8Zz4NCjwvZz4NCjxnPg0KPC9nPg0KPGc+DQo8L2c+DQo8Zz4NCjwvZz4NCjxnPg0KPC9nPg0KPGc+DQo8L2c+DQo8Zz4NCjwvZz4NCjwvc3ZnPg0K"
 
 /***/ }),
-/* 52 */
+/* 53 */
 /***/ (function(module, exports) {
 
 module.exports = "data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iaXNvLTg4NTktMSI/Pg0KPCEtLSBHZW5lcmF0b3I6IEFkb2JlIElsbHVzdHJhdG9yIDE2LjAuMCwgU1ZHIEV4cG9ydCBQbHVnLUluIC4gU1ZHIFZlcnNpb246IDYuMDAgQnVpbGQgMCkgIC0tPg0KPCFET0NUWVBFIHN2ZyBQVUJMSUMgIi0vL1czQy8vRFREIFNWRyAxLjEvL0VOIiAiaHR0cDovL3d3dy53My5vcmcvR3JhcGhpY3MvU1ZHLzEuMS9EVEQvc3ZnMTEuZHRkIj4NCjxzdmcgdmVyc2lvbj0iMS4xIiBpZD0iQ2FwYV8xIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB4PSIwcHgiIHk9IjBweCINCgkgd2lkdGg9IjQzMC4xMTdweCIgaGVpZ2h0PSI0MzAuMTE4cHgiIHZpZXdCb3g9IjAgMCA0MzAuMTE3IDQzMC4xMTgiIHN0eWxlPSJlbmFibGUtYmFja2dyb3VuZDpuZXcgMCAwIDQzMC4xMTcgNDMwLjExODsiDQoJIHhtbDpzcGFjZT0icHJlc2VydmUiPg0KPGc+DQoJPHBhdGggaWQ9IkxpbmtlZEluX194MjhfYWx0X3gyOV8iIGQ9Ik0zOTguMzU1LDBIMzEuNzgyQzE0LjIyOSwwLDAuMDAyLDEzLjc5MywwLjAwMiwzMC44MTd2MzY4LjQ3MQ0KCQljMCwxNy4wMjUsMTQuMjMyLDMwLjgzLDMxLjc4LDMwLjgzaDM2Ni41NzNjMTcuNTQ5LDAsMzEuNzYtMTMuODE0LDMxLjc2LTMwLjgzVjMwLjgxN0M0MzAuMTE1LDEzLjc5OCw0MTUuOTA0LDAsMzk4LjM1NSwweg0KCQkgTTEzMC40LDM2MC4wMzhINjUuNDEzVjE2NS44NDVIMTMwLjRWMzYwLjAzOHogTTk3LjkxMywxMzkuMzE1aC0wLjQzN2MtMjEuNzkzLDAtMzUuOTItMTQuOTA0LTM1LjkyLTMzLjU2Mw0KCQljMC0xOS4wMzUsMTQuNTQyLTMzLjUzNSwzNi43NjctMzMuNTM1YzIyLjIyNywwLDM1Ljg5OSwxNC40OTYsMzYuMzMxLDMzLjUzNUMxMzQuNjU0LDEyNC40MTUsMTIwLjU1NSwxMzkuMzE1LDk3LjkxMywxMzkuMzE1eg0KCQkgTTM2NC42NTksMzYwLjAzOGgtNjQuOTY2VjI1Ni4xMzhjMC0yNi4xMDctOS40MTMtNDMuOTIxLTMyLjkwNy00My45MjFjLTE3Ljk3MywwLTI4LjY0MiwxMi4wMTgtMzMuMzI3LDIzLjYyMQ0KCQljLTEuNzM2LDQuMTQ0LTIuMTY2LDkuOTQtMi4xNjYsMTUuNzI4djEwOC40NjhoLTY0Ljk1NGMwLDAsMC44NS0xNzUuOTc5LDAtMTk0LjE5Mmg2NC45NjR2MjcuNTMxDQoJCWM4LjYyNC0xMy4yMjksMjQuMDM1LTMyLjEsNTguNTM0LTMyLjFjNDIuNzYsMCw3NC44MjIsMjcuNzM5LDc0LjgyMiw4Ny40MTRWMzYwLjAzOHogTTIzMC44ODMsMTkzLjk5DQoJCWMwLjExMS0wLjE4MiwwLjI2Ni0wLjQwMSwwLjQyLTAuNjE0djAuNjE0SDIzMC44ODN6Ii8+DQo8L2c+DQo8Zz4NCjwvZz4NCjxnPg0KPC9nPg0KPGc+DQo8L2c+DQo8Zz4NCjwvZz4NCjxnPg0KPC9nPg0KPGc+DQo8L2c+DQo8Zz4NCjwvZz4NCjxnPg0KPC9nPg0KPGc+DQo8L2c+DQo8Zz4NCjwvZz4NCjxnPg0KPC9nPg0KPGc+DQo8L2c+DQo8Zz4NCjwvZz4NCjxnPg0KPC9nPg0KPGc+DQo8L2c+DQo8L3N2Zz4NCg=="
 
 /***/ }),
-/* 53 */
+/* 54 */
 /***/ (function(module, exports) {
 
 module.exports = require("@babel/runtime/helpers/asyncToGenerator");
 
 /***/ }),
-/* 54 */
+/* 55 */
 /***/ (function(module, exports) {
 
 module.exports = require("react-markdown");
 
 /***/ }),
-/* 55 */
+/* 56 */
 /***/ (function(module, exports, __webpack_require__) {
 
-__webpack_require__(56);
 __webpack_require__(57);
-module.exports = __webpack_require__(63);
+__webpack_require__(58);
+module.exports = __webpack_require__(64);
 
 
 /***/ }),
-/* 56 */
+/* 57 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -2923,7 +2965,7 @@ if (typeof document !== 'undefined' && module && module.hot) {
 /* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(24)(module)))
 
 /***/ }),
-/* 57 */
+/* 58 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -2951,7 +2993,7 @@ if (typeof document !== 'undefined' && module && module.hot) {
 /* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(24)(module)))
 
 /***/ }),
-/* 58 */
+/* 59 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -3162,7 +3204,7 @@ var getConfig = function getConfig(isDynamic, universalConfig, options, props) {
 };
 
 /***/ }),
-/* 59 */
+/* 60 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var map = {
@@ -3190,10 +3232,10 @@ webpackContext.keys = function webpackContextKeys() {
 };
 webpackContext.resolve = webpackContextResolve;
 module.exports = webpackContext;
-webpackContext.id = 59;
+webpackContext.id = 60;
 
 /***/ }),
-/* 60 */
+/* 61 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -3302,13 +3344,13 @@ ReportChunks.childContextTypes = {
 exports["default"] = ReportChunks;
 
 /***/ }),
-/* 61 */
+/* 62 */
 /***/ (function(module, exports) {
 
 module.exports = require("vm");
 
 /***/ }),
-/* 62 */
+/* 63 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -3323,7 +3365,7 @@ var _hoistNonReactStatics = __webpack_require__(33);
 
 var _hoistNonReactStatics2 = _interopRequireDefault(_hoistNonReactStatics);
 
-var _index = __webpack_require__(10);
+var _index = __webpack_require__(9);
 
 var _index2 = _interopRequireDefault(_index);
 
@@ -3375,28 +3417,28 @@ var __handleAfter = exports.__handleAfter = function __handleAfter(props, state,
 };
 
 /***/ }),
-/* 63 */
+/* 64 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
 
 
-var _interopRequireWildcard = __webpack_require__(64);
+var _interopRequireWildcard = __webpack_require__(65);
 
-var _interopRequireDefault = __webpack_require__(65);
+var _interopRequireDefault = __webpack_require__(66);
 
 Object.defineProperty(exports, "__esModule", {
   value: true
 });
 exports["default"] = void 0;
 
-var _extends2 = _interopRequireDefault(__webpack_require__(66));
+var _extends2 = _interopRequireDefault(__webpack_require__(67));
 
-var _objectWithoutProperties2 = _interopRequireDefault(__webpack_require__(67));
+var _objectWithoutProperties2 = _interopRequireDefault(__webpack_require__(68));
 
 var React = _interopRequireWildcard(__webpack_require__(0));
 
-var _useStaticInfo = __webpack_require__(68);
+var _useStaticInfo = __webpack_require__(69);
 /* eslint-disable import/no-dynamic-require */
 
 
@@ -3417,7 +3459,7 @@ function Suspense(_ref) {
 React.Suspense = Suspense;
 React["default"].Suspense = Suspense;
 
-var App = __webpack_require__(69)["default"];
+var App = __webpack_require__(70)["default"];
 
 var _default = function _default(staticInfo) {
   return function (props) {
@@ -3430,37 +3472,37 @@ var _default = function _default(staticInfo) {
 exports["default"] = _default;
 
 /***/ }),
-/* 64 */
+/* 65 */
 /***/ (function(module, exports) {
 
 module.exports = require("@babel/runtime/helpers/interopRequireWildcard");
 
 /***/ }),
-/* 65 */
+/* 66 */
 /***/ (function(module, exports) {
 
 module.exports = require("@babel/runtime/helpers/interopRequireDefault");
 
 /***/ }),
-/* 66 */
+/* 67 */
 /***/ (function(module, exports) {
 
 module.exports = require("@babel/runtime/helpers/extends");
 
 /***/ }),
-/* 67 */
+/* 68 */
 /***/ (function(module, exports) {
 
 module.exports = require("@babel/runtime/helpers/objectWithoutProperties");
 
 /***/ }),
-/* 68 */
+/* 69 */
 /***/ (function(module, exports) {
 
 module.exports = require("/Users/kumi5605/Desktop/projects/kt-blog/node_modules/react-static/lib/browser/hooks/useStaticInfo");
 
 /***/ }),
-/* 69 */
+/* 70 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -3469,7 +3511,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var react_dom__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(27);
 /* harmony import */ var react_dom__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react_dom__WEBPACK_IMPORTED_MODULE_1__);
-/* harmony import */ var react_hot_loader__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(43);
+/* harmony import */ var react_hot_loader__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(44);
 /* harmony import */ var react_hot_loader__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(react_hot_loader__WEBPACK_IMPORTED_MODULE_2__);
 /* harmony import */ var _frontend_App__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(23);
 
@@ -3497,10 +3539,10 @@ if (typeof document !== 'undefined') {
     });
   }
 }
-/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(70)(module)))
+/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(71)(module)))
 
 /***/ }),
-/* 70 */
+/* 71 */
 /***/ (function(module, exports) {
 
 module.exports = function (originalModule) {
@@ -3530,26 +3572,26 @@ module.exports = function (originalModule) {
 };
 
 /***/ }),
-/* 71 */
+/* 72 */
 /***/ (function(module, exports, __webpack_require__) {
 
-exports = module.exports = __webpack_require__(11)(false);
+exports = module.exports = __webpack_require__(12)(false);
 // Imports
 exports.push([module.i, "@import url(http://fonts.googleapis.com/css?family=Arizonia:regular,bold,italic&subset=latin,latin-ext);", ""]);
 exports.push([module.i, "@import url(https://fonts.googleapis.com/css?family=Open+Sans&display=swap);", ""]);
 exports.push([module.i, "@import url(https://fonts.googleapis.com/css?family=Oswald&display=swap);", ""]);
 exports.push([module.i, "@import url(https://fonts.googleapis.com/css?family=Dr+Sugiyama&display=swap);", ""]);
 exports.push([module.i, "@import url(https://fonts.googleapis.com/css?family=Caveat+Brush&display=swap);", ""]);
-var urlEscape = __webpack_require__(72);
-var ___CSS_LOADER_URL___0___ = urlEscape(__webpack_require__(73));
+var urlEscape = __webpack_require__(73);
+var ___CSS_LOADER_URL___0___ = urlEscape(__webpack_require__(74));
 
 // Module
-exports.push([module.i, "* {\n  scroll-behavior: smooth;\n}\n\nbody {\n  font-family: 'HelveticaNeue-Light', 'Helvetica Neue Light', 'Helvetica Neue',\n    Helvetica, Arial, 'Lucida Grande', sans-serif;\n  font-weight: 300;\n  font-size: 16px;\n  margin: 0;\n  padding: 0;\n  text-rendering: optimizeLegibility;\n}\n\na {\n  text-decoration: none;\n}\n\n#root {\n  height: 100vh;\n}\n\n/* Home */\n.home-container {\n  height: 100vh;\n  width: 100vw;\n}\n\n.image-container {\n  border-bottom: 1.5px solid #d8d8d8;\n  display: flex;\n  justify-content: space-around;\n}\n\n.banner-image {\n  background-image: url(" + ___CSS_LOADER_URL___0___ + ");\n  background-size: cover;\n  height: 100%;\n  width: 100%;\n}\n\n.author-image-container {\n  display: flex;\n  justify-content: center;\n  align-items: center;\n}\n\n.author-image {\n  border-radius: 2px;\n  box-shadow: 0 0 6px #191919;\n  height: 650px;\n  margin-left: 3rem;\n  width: 433px;\n  -webkit-box-shadow: 0 0 6px #191919;\n}\n\n.bio-text {\n  align-self: center;\n  align-items: center;\n  background-color: rgb(244, 244, 244);\n  border-radius: 5px;\n  display: flex;\n  flex-direction: column;\n  font-size: 20px;\n  font-weight: 500;\n  height: 500px;\n  justify-content: center;\n  line-height: 140%;\n  margin-right: 3rem;\n  opacity: 0.9;\n  padding: 1.5rem 1.5rem 0 1.5rem;\n  width: 33%;\n}\n\n.bio-text p {\n  margin: 1rem;\n  text-shadow: 2px 4px 3px rgba(0, 0, 0, 0.1);\n}\n\n.signature {\n  width: 350px;\n}\n\n/* Blog Pages */\n.post-header {\n  font: 32px 'Open Sans', sans-serif;\n  margin: 1rem 0 0 140px;\n}\n\n.blog-container {\n  display: flex;\n  flex-direction: row;\n  flex-wrap: wrap;\n  margin: 0 120px 90px 120px;\n}\n\n.card h1,\n.card h2 {\n  z-index: -10;\n}\n\n.card {\n  align-items: center;\n  background-position: 50%;\n  background-repeat: no-repeat;\n  background-size: cover;\n  border: 1px solid #eee;\n  border-radius: 5px;\n  display: flex;\n  height: 355px;\n  margin: 16px;\n  position: relative;\n  width: 355px;\n}\n\n.card:hover .overlay {\n  color: #f7f7f7;\n  background-color: #181818;\n  border-radius: 5px;\n  opacity: 0.7;\n  height: 100%;\n  position: absolute;\n  transition: 0.3s;\n  width: 100%;\n}\n\n.card:hover .post-title {\n  color: #f7f7f7;\n  border-radius: 5px;\n  font: 20px 'Open Sans', sans-serif;\n  height: 100%;\n  position: absolute;\n  transition: 0.3s;\n  width: 100%;\n  z-index: 1;\n}\n\n.card:hover .sub-header {\n  color: #f7f7f7;\n  border-radius: 5px;\n  font: 19px 'Open Sans', sans-serif;\n  height: auto;\n  position: absolute;\n  transition: 0.3s;\n  top: 60%;\n  width: 100%;\n  z-index: 1;\n}\n\n.post-title {\n  color: #f7f7f7;\n  display: flex;\n  font: 29px 'Open Sans', sans-serif;\n  justify-content: center;\n  margin: 0;\n  align-items: center;\n}\n\n.sub-header {\n  color: #f7f7f7;\n  display: flex;\n  font-weight: 100;\n  justify-content: center;\n}\n\n/* Post */\n.blog-post {\n  display: flex;\n  flex-direction: column;\n  align-items: center;\n}\n\n.post-main-title {\n  font: 28px 'Open Sans', sans-serif;\n  text-align: center;\n}\n\n.post-image {\n  height: 490px;\n  width: 735px;\n}\n\n.blog-content {\n  margin: 0 auto 1rem auto;\n  width: 735px;\n}\n\n.blog-content h2 {\n  text-align: center;\n  font: 26px 'Open Sans', sans-serif;\n}\n\n.blog-content h3 {\n  text-align: center;\n  font: 24px 'Open Sans', sans-serif;\n}\n\n.blog-content h4 {\n  text-align: center;\n  font: 22px 'Open Sans', sans-serif;\n}\n\n.blog-content h5 {\n  text-align: center;\n  font: 20px 'Open Sans', sans-serif;\n}\n\n.blog-content h6 {\n  text-align: center;\n  font: 18px 'Open Sans', sans-serif;\n}\n\n.blog-content p {\n  line-height: 160%;\n  text-indent: 1rem;\n}\n\n/* Contact */\n.contact-container {\n  align-items: center;\n  background-image: url(" + ___CSS_LOADER_URL___0___ + ");\n  display: flex;\n  flex-direction: column;\n  background-size: cover;\n  height: 100%;\n  width: 100%;\n}\n\n.contact-form-container {\n  background-color: rgb(244, 244, 244);\n  border-radius: 5px;\n  margin: 100px 0 100px 0;\n  padding: 0 15px 15px 15px;\n  opacity: 0.9;\n  width: 500px;\n}\n\n.contact-header {\n  font: 30px 'Open Sans', sans-serif;\n  margin-bottom: 0.5rem;\n  text-align: center;\n}\n\n.email-header {\n  color: #000;\n  font-family: 'Open Sans', sans-serif;\n  margin: 0;\n  padding-bottom: 1rem;\n  text-align: center;\n}\n\n.email-header a {\n  color: #000;\n}\n\n/* media queries */\n@media only screen and (max-width: 1067px) {\n  .author-image {\n    height: 520px;\n    width: 346px;\n  }\n\n  .bio-text {\n    height: 420px;\n    padding: 0.75rem 0.75rem 0 0.75rem;\n    width: 350px;\n  }\n\n  .bio-text p {\n    font-size: 17px;\n  }\n\n  .signature {\n    margin-top: 0;\n    width: 320px;\n  }\n}\n\n@media only screen and (max-width: 1017px) {\n  .blog-container {\n    margin: 0;\n    justify-content: center;\n  }\n\n  .post-header {\n    margin: 1rem 0 0 0;\n    text-align: center;\n  }\n\n  .card {\n    height: 450px;\n    width: 450px;\n  }\n}\n\n@media only screen and (max-width: 970px) {\n  .author-image {\n    margin-left: 0.5rem;\n  }\n\n  .bio-text {\n    margin-right: 0.5rem;\n  }\n}\n\n@media only screen and (max-width: 815px) {\n  .image-container {\n    align-items: center;\n    display: flex;\n    flex-direction: column;\n    height: 1100px;\n  }\n\n  .author-image {\n    height: 550px;\n    margin: 3.25rem 0 0 0;\n    width: 366px;\n  }\n\n  .xoxo {\n    padding: 0;\n  }\n\n  .bio-text {\n    margin: 0 0 4.5rem 0;\n    height: auto;\n    padding: 1rem 0.75rem 0.5rem 0.75rem;\n    width: 75%;\n  }\n\n  .bio-text p {\n    margin-bottom: 0;\n  }\n}\n\n@media only screen and (max-width: 785px) {\n  .post-main-title {\n    font-size: 24px;\n  }\n\n  .blog-content h2 {\n    font: 22.5px 'Open Sans', sans-serif;\n  }\n\n  .blog-content h3 {\n    font: 21px 'Open Sans', sans-serif;\n  }\n\n  .blog-content h4 {\n    font: 19.5px 'Open Sans', sans-serif;\n  }\n\n  .blog-content h5 {\n    font: 18px 'Open Sans', sans-serif;\n  }\n\n  .blog-content h6 {\n    font: 17.5px 'Open Sans', sans-serif;\n  }\n\n  .post-image {\n    height: 333px;\n    width: 500px;\n  }\n\n  .blog-content {\n    width: 500px;\n  }\n}\n\n@media only screen and (max-width: 675px) {\n  .contact-form-container {\n    height: 360px;\n    width: 350px;\n  }\n\n  .contact-header {\n    font-size: 24px;\n    margin-bottom: 0;\n  }\n\n  .contact-info {\n    max-width: 90%;\n  }\n}\n\n@media only screen and (max-width: 576px) {\n  .bio-text {\n    margin: 0 0 2rem 0;\n    width: 400px;\n  }\n\n  .card {\n    height: 390px;\n    width: 390px;\n  }\n\n  .bio-text p {\n    font-size: 16px;\n  }\n\n  .post-header {\n    font-size: 22.5px;\n  }\n}\n\n@media only screen and (max-width: 530px) {\n  .post-main-title {\n    font-size: 20px;\n  }\n\n  .post-image {\n    height: 283px;\n    width: 425px;\n  }\n\n  .blog-content {\n    width: 425px;\n  }\n}\n\n@media only screen and (max-width: 450px) {\n  body {\n    height: 100vh;\n    width: 100vw;\n  }\n\n  .author-image {\n    height: 523.5px;\n    margin-top: 1.75rem;\n    width: 349px;\n  }\n\n  .bio-text {\n    width: 325px;\n  }\n\n  .signature {\n    width: 260px;\n  }\n\n  .contact-form-container {\n    height: 345px;\n    width: 310px;\n  }\n\n  .contact-header {\n    font-size: 20px;\n    margin-bottom: 0;\n  }\n\n  .contact-info {\n    max-width: 90%;\n  }\n}\n\n@media only screen and (max-width: 440px) {\n  .post-main-title {\n    font-size: 18px;\n    margin: 1.25rem 0;\n  }\n\n  .blog-content h2 {\n    text-align: center;\n    font: 17.5px 'Open Sans', sans-serif;\n  }\n\n  .blog-content h3 {\n    text-align: center;\n    font: 17.25px 'Open Sans', sans-serif;\n  }\n\n  .blog-content h4 {\n    text-align: center;\n    font: 17px 'Open Sans', sans-serif;\n  }\n\n  .blog-content h5 {\n    text-align: center;\n    font: 16.75px 'Open Sans', sans-serif;\n  }\n\n  .blog-content h6 {\n    text-align: center;\n    font: 16.5px 'Open Sans', sans-serif;\n  }\n\n  .post-image {\n    height: 255px;\n    width: 390px;\n  }\n\n  .blog-content {\n    width: 390px;\n  }\n\n  .blog-content p {\n    font-size: 15px;\n  }\n}\n\n@media only screen and (max-width: 420px) {\n  .card {\n    height: 350px;\n    width: 350px;\n  }\n\n  .card:hover .post-title {\n    font: 16px 'Open Sans', sans-serif;\n  }\n\n  .card:hover .sub-header {\n    font: 15px 'Open Sans', sans-serif;\n  }\n\n  .post-image {\n    height: 230px;\n    width: 350px;\n  }\n\n  .blog-content {\n    width: 350px;\n  }\n}\n\n@media only screen and (max-width: 385px) {\n  .card {\n    height: 335px;\n    width: 335px;\n  }\n\n  .author-image {\n    height: 465px;\n    width: 310px;\n  }\n\n  .bio-text {\n    width: 286px;\n  }\n\n  .post-image {\n    height: 220px;\n    width: 335px;\n  }\n\n  .blog-content {\n    width: 335px;\n  }\n}\n\n@media only screen and (max-width: 370px) {\n  .card {\n    height: 310px;\n    width: 310px;\n  }\n\n  .author-image {\n    height: 427.5px;\n    width: 285px;\n  }\n\n  .bio-text {\n    width: 261px;\n  }\n\n  .signature {\n    width: 230px;\n  }\n\n  .contact-form-container {\n    height: 332px;\n    width: 275px;\n  }\n\n  .contact-header {\n    font-size: 19px;\n    margin-bottom: 0;\n  }\n\n  .contact-info {\n    max-width: 90%;\n  }\n\n  .post-image {\n    height: 210px;\n    width: 310px;\n  }\n\n  .blog-content {\n    width: 310px;\n  }\n}\n", ""]);
+exports.push([module.i, "* {\n  scroll-behavior: smooth;\n}\n\nbody {\n  font-family: 'HelveticaNeue-Light', 'Helvetica Neue Light', 'Helvetica Neue',\n    Helvetica, Arial, 'Lucida Grande', sans-serif;\n  font-weight: 300;\n  font-size: 16px;\n  margin: 0;\n  padding: 0;\n  text-rendering: optimizeLegibility;\n}\n\na {\n  text-decoration: none;\n}\n\n#root {\n  height: 100vh;\n}\n\n/* Home */\n.home-container {\n  height: 100vh;\n  width: 100vw;\n}\n\n.image-container {\n  border-bottom: 1.5px solid #d8d8d8;\n  display: flex;\n  justify-content: space-around;\n}\n\n.banner-image {\n  background-image: url(" + ___CSS_LOADER_URL___0___ + ");\n  background-size: cover;\n  height: 100%;\n  width: 100%;\n}\n\n.author-image-container {\n  display: flex;\n  justify-content: center;\n  align-items: center;\n}\n\n.author-image {\n  border-radius: 2px;\n  box-shadow: 0 0 6px #191919;\n  height: 650px;\n  margin-left: 3rem;\n  width: 433px;\n  -webkit-box-shadow: 0 0 6px #191919;\n}\n\n.bio-text {\n  align-self: center;\n  align-items: center;\n  background-color: rgb(244, 244, 244);\n  border-radius: 5px;\n  display: flex;\n  flex-direction: column;\n  font-size: 20px;\n  font-weight: 500;\n  height: 520px;\n  justify-content: center;\n  line-height: 140%;\n  margin-right: 3rem;\n  opacity: 0.9;\n  padding: 1.5rem 1.5rem 0 1.5rem;\n  width: 33%;\n}\n\n.bio-text p {\n  margin: 16px 16px 0;\n  text-shadow: 2px 4px 3px rgba(0, 0, 0, 0.1);\n}\n\n.signature {\n  width: 350px;\n}\n\n/* Blog Pages */\n.post-header {\n  font: 32px 'Open Sans', sans-serif;\n  margin: 1rem 0 0 100px;\n}\n\n.blog-container {\n  display: flex;\n  flex-direction: row;\n  flex-wrap: wrap;\n  margin: 0 80px 130px;\n}\n\n.card h1,\n.card h2 {\n  z-index: -10;\n}\n\n.card {\n  align-items: center;\n  background-position: 50%;\n  background-repeat: no-repeat;\n  background-size: cover;\n  border: 1px solid #eee;\n  border-radius: 5px;\n  display: flex;\n  height: 355px;\n  margin: 16px;\n  position: relative;\n  width: 355px;\n}\n\n.card:hover .overlay {\n  color: #f7f7f7;\n  background-color: #181818;\n  border-radius: 5px;\n  opacity: 0.7;\n  height: 100%;\n  position: absolute;\n  transition: 0.3s;\n  width: 100%;\n}\n\n.card:hover .post-title {\n  color: #f7f7f7;\n  border-radius: 5px;\n  font: 20px 'Open Sans', sans-serif;\n  height: 100%;\n  position: absolute;\n  transition: 0.3s;\n  width: 100%;\n  z-index: 1;\n}\n\n.card:hover .sub-header {\n  color: #f7f7f7;\n  border-radius: 5px;\n  font: 19px 'Open Sans', sans-serif;\n  height: auto;\n  position: absolute;\n  transition: 0.3s;\n  top: 60%;\n  width: 100%;\n  z-index: 1;\n}\n\n.post-title {\n  color: #f7f7f7;\n  display: flex;\n  font: 29px 'Open Sans', sans-serif;\n  justify-content: center;\n  margin: 0;\n  align-items: center;\n}\n\n.sub-header {\n  color: #f7f7f7;\n  display: flex;\n  font-weight: 100;\n  justify-content: center;\n}\n\n/* Work page */\n.work-header {\n  align-items: center;\n  display: flex;\n  font-size: 24px;\n  font-family: 'Open Sans';\n  justify-content: center;\n  width: 100%;\n}\n\n.temp-div {\n  height: 350px;\n}\n\n/* Post */\n.blog-post {\n  display: flex;\n  flex-direction: column;\n  align-items: center;\n}\n\n.post-main-title {\n  font: 28px 'Open Sans', sans-serif;\n  text-align: center;\n}\n\n.post-image {\n  height: 490px;\n  width: 735px;\n}\n\n.blog-content {\n  margin: 0 auto 1rem auto;\n  width: 735px;\n}\n\n.blog-content h2 {\n  text-align: center;\n  font: 26px 'Open Sans', sans-serif;\n}\n\n.blog-content h3 {\n  text-align: center;\n  font: 24px 'Open Sans', sans-serif;\n}\n\n.blog-content h4 {\n  text-align: center;\n  font: 22px 'Open Sans', sans-serif;\n}\n\n.blog-content h5 {\n  text-align: center;\n  font: 20px 'Open Sans', sans-serif;\n}\n\n.blog-content h6 {\n  text-align: center;\n  font: 18px 'Open Sans', sans-serif;\n}\n\n.blog-content p {\n  line-height: 160%;\n  text-indent: 1rem;\n}\n\n/* Contact */\n.contact-container {\n  align-items: center;\n  background-image: url(" + ___CSS_LOADER_URL___0___ + ");\n  display: flex;\n  flex-direction: column;\n  background-size: cover;\n  height: 100%;\n  width: 100%;\n}\n\n.contact-form-container {\n  background-color: rgb(244, 244, 244);\n  border-radius: 5px;\n  margin: 100px 0 100px 0;\n  padding: 0 15px 15px 15px;\n  opacity: 0.9;\n  width: 500px;\n}\n\n.contact-header {\n  font: 30px 'Open Sans', sans-serif;\n  margin-bottom: 0.5rem;\n  text-align: center;\n}\n\n.email-header {\n  color: #000;\n  font-family: 'Open Sans', sans-serif;\n  margin: 0;\n  padding-bottom: 1rem;\n  text-align: center;\n}\n\n.email-header a {\n  color: #000;\n}\n\n/* media queries */\n@media only screen and (max-width: 1085px) {\n  .author-image {\n    height: 570px;\n    width: 346px;\n  }\n\n  .bio-text {\n    height: 520px;\n    padding: 0.75rem 0.75rem 0 0.75rem;\n    width: 350px;\n  }\n\n  .bio-text p {\n    font-size: 17px;\n  }\n\n  .signature {\n    margin-top: 0;\n    width: 320px;\n  }\n}\n\n@media only screen and (max-width: 1017px) {\n  .blog-container {\n    margin: 0;\n    justify-content: center;\n  }\n\n  .post-header {\n    margin: 1rem 0 0 0;\n    text-align: center;\n  }\n\n  .card {\n    height: 450px;\n    width: 450px;\n  }\n}\n\n@media only screen and (max-width: 970px) {\n  .author-image {\n    margin-left: 0.5rem;\n  }\n\n  .bio-text {\n    margin-right: 0.5rem;\n  }\n}\n\n@media only screen and (max-width: 815px) {\n  .image-container {\n    align-items: center;\n    display: flex;\n    flex-direction: column;\n    height: 1250px;\n  }\n\n  .author-image {\n    height: 550px;\n    margin: 5rem 0 0 0;\n    width: 366px;\n  }\n\n  .xoxo {\n    padding: 0;\n  }\n\n  .bio-text {\n    margin: 24px 0 4.5rem 0;\n    height: auto;\n    padding: 1rem 0.75rem 0.5rem 0.75rem;\n    width: 75%;\n  }\n\n  .bio-text p {\n    margin-bottom: 0;\n  }\n}\n\n@media only screen and (max-width: 785px) {\n  .post-main-title {\n    font-size: 24px;\n  }\n\n  .blog-content h2 {\n    font: 22.5px 'Open Sans', sans-serif;\n  }\n\n  .blog-content h3 {\n    font: 21px 'Open Sans', sans-serif;\n  }\n\n  .blog-content h4 {\n    font: 19.5px 'Open Sans', sans-serif;\n  }\n\n  .blog-content h5 {\n    font: 18px 'Open Sans', sans-serif;\n  }\n\n  .blog-content h6 {\n    font: 17.5px 'Open Sans', sans-serif;\n  }\n\n  .post-image {\n    height: 333px;\n    width: 500px;\n  }\n\n  .blog-content {\n    width: 500px;\n  }\n}\n\n@media only screen and (max-width: 675px) {\n  .contact-form-container {\n    height: 360px;\n    width: 350px;\n  }\n\n  .contact-header {\n    font-size: 24px;\n    margin-bottom: 0;\n  }\n\n  .contact-info {\n    max-width: 90%;\n  }\n}\n\n@media only screen and (max-width: 576px) {\n  .bio-text {\n    margin: 15px 0 72px 0;\n    width: 400px;\n  }\n\n  .card {\n    height: 390px;\n    width: 390px;\n  }\n\n  .bio-text p {\n    font-size: 16px;\n  }\n\n  .post-header {\n    font-size: 22.5px;\n  }\n}\n\n@media only screen and (max-width: 530px) {\n  .post-main-title {\n    font-size: 20px;\n  }\n\n  .post-image {\n    height: 283px;\n    width: 425px;\n  }\n\n  .blog-content {\n    width: 425px;\n  }\n}\n\n@media only screen and (max-width: 450px) {\n  body {\n    height: 100vh;\n    width: 100vw;\n  }\n\n  .author-image {\n    height: 523.5px;\n    margin-top: 1.75rem;\n    width: 349px;\n  }\n\n  .bio-text {\n    width: 325px;\n  }\n\n  .signature {\n    width: 260px;\n  }\n\n  .contact-form-container {\n    height: 345px;\n    width: 310px;\n  }\n\n  .contact-header {\n    font-size: 20px;\n    margin-bottom: 0;\n  }\n\n  .contact-info {\n    max-width: 90%;\n  }\n}\n\n@media only screen and (max-width: 440px) {\n  .post-main-title {\n    font-size: 18px;\n    margin: 1.25rem 0;\n  }\n\n  .blog-content h2 {\n    text-align: center;\n    font: 17.5px 'Open Sans', sans-serif;\n  }\n\n  .blog-content h3 {\n    text-align: center;\n    font: 17.25px 'Open Sans', sans-serif;\n  }\n\n  .blog-content h4 {\n    text-align: center;\n    font: 17px 'Open Sans', sans-serif;\n  }\n\n  .blog-content h5 {\n    text-align: center;\n    font: 16.75px 'Open Sans', sans-serif;\n  }\n\n  .blog-content h6 {\n    text-align: center;\n    font: 16.5px 'Open Sans', sans-serif;\n  }\n\n  .post-image {\n    height: 255px;\n    width: 390px;\n  }\n\n  .blog-content {\n    width: 390px;\n  }\n\n  .blog-content p {\n    font-size: 15px;\n  }\n}\n\n@media only screen and (max-width: 420px) {\n  .card {\n    height: 350px;\n    width: 350px;\n  }\n\n  .card:hover .post-title {\n    font: 16px 'Open Sans', sans-serif;\n  }\n\n  .card:hover .sub-header {\n    font: 15px 'Open Sans', sans-serif;\n  }\n\n  .post-image {\n    height: 230px;\n    width: 350px;\n  }\n\n  .blog-content {\n    width: 350px;\n  }\n}\n\n@media only screen and (max-width: 385px) {\n  .card {\n    height: 335px;\n    width: 335px;\n  }\n\n  .author-image {\n    height: 465px;\n    width: 310px;\n  }\n\n  .bio-text {\n    width: 286px;\n  }\n\n  .post-image {\n    height: 220px;\n    width: 335px;\n  }\n\n  .blog-content {\n    width: 335px;\n  }\n}\n\n@media only screen and (max-width: 370px) {\n  .card {\n    height: 310px;\n    width: 310px;\n  }\n\n  .author-image {\n    height: 427.5px;\n    width: 285px;\n  }\n\n  .bio-text {\n    width: 261px;\n  }\n\n  .signature {\n    width: 230px;\n  }\n\n  .contact-form-container {\n    height: 332px;\n    width: 275px;\n  }\n\n  .contact-header {\n    font-size: 19px;\n    margin-bottom: 0;\n  }\n\n  .contact-info {\n    max-width: 90%;\n  }\n\n  .post-image {\n    height: 210px;\n    width: 310px;\n  }\n\n  .blog-content {\n    width: 310px;\n  }\n}\n", ""]);
 
 
 
 /***/ }),
-/* 72 */
+/* 73 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -3575,31 +3617,18 @@ module.exports = function escape(url, needQuotes) {
 };
 
 /***/ }),
-/* 73 */
+/* 74 */
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = __webpack_require__.p + "d46f2862defa854d93bff4bfa834c825.jpg";
 
 /***/ }),
-/* 74 */
-/***/ (function(module, exports, __webpack_require__) {
-
-exports = module.exports = __webpack_require__(11)(false);
-// Module
-exports.push([module.i, ".email-form {\n  align-items: center;\n  display: flex;\n  flex-direction: column;\n}\n\n.email-input {\n  font-size: 0.95rem;\n  height: 40px;\n  width: 200px;\n  margin: 0.3rem;\n}\n\n.error-input {\n  border-color: red;\n}\n\n.subscribe-button {\n  background-color: #181818;\n  border-color: #f7f7f7;\n  color: #f7f7f7;\n  cursor: pointer;\n  font-size: 1rem;\n  height: 45px;\n  width: 205px;\n  margin-top: 0.75rem;\n  transition: 0.3s ease-in-out;\n}\n\n.subscribe-button:hover {\n  background-color: #fff;\n  color: #181818;\n}\n\n@media only screen and (max-width: 450px) {\n  .subscribe-button:hover {\n    background-color: #181818;\n    border-color: #f7f7f7;\n    color: #f7f7f7;\n  }\n}\n", ""]);
-
-
-
-/***/ }),
 /* 75 */
 /***/ (function(module, exports, __webpack_require__) {
 
-exports = module.exports = __webpack_require__(11)(false);
-// Imports
-exports.push([module.i, "@import url(https://fonts.googleapis.com/css?family=Open+Sans&display=swap);", ""]);
-
+exports = module.exports = __webpack_require__(12)(false);
 // Module
-exports.push([module.i, ".footer {\n  align-items: space-evenly;\n  background-color: #181818;\n  display: flex;\n  flex-direction: column;\n  height: 300px;\n  width: 100%;\n}\n\n.weekly-email {\n  align-items: center;\n  display: flex;\n  flex-direction: column;\n}\n\n.footer-header {\n  color: #f7f7f7e5;\n  font-family: 'Open Sans', sans-serif;\n  font-size: 22px;\n}\n\n.footer-link-container {\n  display: flex;\n  justify-content: center;\n  padding-top: 3rem;\n}\n\n.social-footer-image {\n  height: 20px;\n  width: 20px;\n  padding: 0.6rem;\n}\n\n@media only screen and (max-width: 1017px) {\n  .footer {\n    margin-top: 2rem;\n  }\n}\n\n@media only screen and (max-width: 500px) {\n  .footer {\n    height: 320px;\n  }\n}\n\n@media only screen and (max-width: 420px) {\n  .footer {\n    height: 390px;\n  }\n\n  .weekly-email {\n    padding-top: 1.5rem;\n  }\n}\n\n@media only screen and (max-width: 340px) {\n  .footer-header {\n    font-size: 19px;\n    margin-bottom: 2rem;\n  }\n}\n", ""]);
+exports.push([module.i, ".email-form {\n  align-items: center;\n  display: flex;\n  flex-direction: column;\n}\n\n.email-input {\n  font-size: 0.95rem;\n  height: 40px;\n  width: 200px;\n  margin: 0.3rem;\n  text-indent: 10px;\n}\n\n.error-input {\n  border-color: red;\n}\n\n.subscribe-button {\n  background-color: #181818;\n  border-color: #f7f7f7;\n  color: #f7f7f7;\n  cursor: pointer;\n  font-size: 1rem;\n  height: 45px;\n  width: 205px;\n  margin-top: 0.75rem;\n  transition: 0.3s ease-in-out;\n}\n\n.subscribe-button:hover {\n  background-color: #fff;\n  color: #181818;\n}\n\n@media only screen and (max-width: 450px) {\n  .subscribe-button:hover {\n    background-color: #181818;\n    border-color: #f7f7f7;\n    color: #f7f7f7;\n  }\n}\n", ""]);
 
 
 
@@ -3607,9 +3636,12 @@ exports.push([module.i, ".footer {\n  align-items: space-evenly;\n  background-c
 /* 76 */
 /***/ (function(module, exports, __webpack_require__) {
 
-exports = module.exports = __webpack_require__(11)(false);
+exports = module.exports = __webpack_require__(12)(false);
+// Imports
+exports.push([module.i, "@import url(https://fonts.googleapis.com/css?family=Open+Sans&display=swap);", ""]);
+
 // Module
-exports.push([module.i, ".home-menu-button {\n  border: none;\n  cursor: pointer;\n  margin: 0.79rem 0 0 12rem;\n  padding-right: 2rem;\n}\n\n@media only screen and (max-width: 740px) {\n  .home-menu-button {\n    margin: 0.79rem 0 0 8rem;\n  }\n}\n\n@media only screen and (max-width: 600px) {\n  .home-menu-button {\n    margin: 0.5rem 0 0 7.5rem;\n  }\n}\n\n@media only screen and (max-width: 500px) {\n  .home-menu-button {\n    margin: 0.5rem 0 0 5rem;\n  }\n}\n\n@media only screen and (max-width: 420px) {\n  .home-menu-button {\n    margin: 0.5rem 1rem 0 5rem;\n  }\n}\n\n@media only screen and (max-width: 370px) {\n  .home-menu-button {\n    margin: 0.2rem 0 0 4rem;\n  }\n}\n", ""]);
+exports.push([module.i, ".footer {\n  background-color: #181818;\n  display: flex;\n  flex-direction: column;\n  height: 420px;\n  width: 100%;\n}\n\n.weekly-email {\n  align-items: center;\n  display: flex;\n  flex-direction: column;\n}\n\n.footer-header {\n  color: #f7f7f7e5;\n  font-family: 'Open Sans', sans-serif;\n  font-size: 22px;\n}\n\n.footer-link-container {\n  display: flex;\n  justify-content: center;\n  padding-top: 3rem;\n}\n\n.social-footer-image {\n  height: 20px;\n  width: 20px;\n  padding: 0.6rem;\n}\n\n@media only screen and (max-width: 1017px) {\n  .footer {\n    margin-top: 2rem;\n  }\n}\n\n@media only screen and (max-width: 500px) {\n  .footer {\n    height: 595px;\n  }\n}\n\n@media only screen and (max-width: 420px) {\n  .footer {\n    height: 390px;\n  }\n\n  .weekly-email {\n    padding-top: 1.5rem;\n  }\n}\n\n@media only screen and (max-width: 340px) {\n  .footer-header {\n    font-size: 19px;\n    margin-bottom: 2rem;\n  }\n}\n", ""]);
 
 
 
@@ -3617,9 +3649,9 @@ exports.push([module.i, ".home-menu-button {\n  border: none;\n  cursor: pointer
 /* 77 */
 /***/ (function(module, exports, __webpack_require__) {
 
-exports = module.exports = __webpack_require__(11)(false);
+exports = module.exports = __webpack_require__(12)(false);
 // Module
-exports.push([module.i, ".home-header {\n  padding-top: 1rem;\n  text-align: center;\n  width: 100%;\n}\n\n.title-link-container {\n  display: grid;\n  grid-template-columns: repeat(3, 33.33%);\n}\n\n.header-h1 {\n  font-size: 65px;\n  font-style: italic;\n  font-weight: 300;\n  margin: 0;\n  text-shadow: 2px 4px 3px rgba(0, 0, 0, 0.3);\n}\n\n.main-header-link {\n  color: #2b2b2b;\n}\n\n.header-link-container {\n  display: flex;\n  justify-content: flex-start;\n  padding: 0.5rem 0 0 3rem;\n}\n\n.social-image {\n  height: 20px;\n  width: 20px;\n  padding: 0.6rem;\n}\n\n.menu-btn-container {\n  display: none;\n}\n\n@media only screen and (max-width: 990px) {\n  .header-filler {\n    display: none;\n  }\n\n  .menu-btn-container {\n    display: block;\n  }\n}\n\n@media only screen and (max-width: 840px) {\n  .header-h1 {\n    font-size: 52px;\n  }\n\n  .header-link-container {\n    padding: 0.5rem 0 0 2rem;\n  }\n}\n\n@media only screen and (max-width: 740px) {\n  .social-image {\n    display: none;\n  }\n\n  .header-link-container {\n    padding: 0;\n  }\n}\n\n@media only screen and (max-width: 600px) {\n  .header-h1 {\n    font-size: 43px;\n  }\n}\n\n@media only screen and (max-width: 500px) {\n  .home-header {\n    padding: 0;\n    margin: 0.75rem;\n  }\n\n  .header-h1 {\n    font-size: 32px;\n  }\n}\n\n@media only screen and (max-width: 370px) {\n  .header-h1 {\n    font-size: 26.5px;\n  }\n}\n", ""]);
+exports.push([module.i, ".home-menu-button {\n  border: none;\n  cursor: pointer;\n  margin: 0.79rem 0 0 12rem;\n  padding-right: 2rem;\n}\n\n@media only screen and (max-width: 740px) {\n  .home-menu-button {\n    margin: 0.79rem 0 0 8rem;\n  }\n}\n\n@media only screen and (max-width: 600px) {\n  .home-menu-button {\n    margin: 0.5rem 0 0 7.5rem;\n  }\n}\n\n@media only screen and (max-width: 500px) {\n  .home-menu-button {\n    margin: 0.5rem 0 0 5rem;\n  }\n}\n\n@media only screen and (max-width: 420px) {\n  .home-menu-button {\n    margin: 0.5rem 1rem 0 5rem;\n  }\n}\n\n@media only screen and (max-width: 370px) {\n  .home-menu-button {\n    margin: 0.2rem 0 0 4rem;\n  }\n}\n", ""]);
 
 
 
@@ -3627,9 +3659,9 @@ exports.push([module.i, ".home-header {\n  padding-top: 1rem;\n  text-align: cen
 /* 78 */
 /***/ (function(module, exports, __webpack_require__) {
 
-exports = module.exports = __webpack_require__(11)(false);
+exports = module.exports = __webpack_require__(12)(false);
 // Module
-exports.push([module.i, ".sidebar {\n  background-color: #f7f7f7;\n  box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.5);\n  display: flex;\n  height: 100%;\n  justify-content: flex-end;\n  max-width: 300px;\n  position: fixed;\n  right: 0;\n  top: 0;\n  transform: translateX(100%);\n  transition: transform 0.3s ease-out;\n  width: 70%;\n  z-index: 2;\n}\n\n.sidebar.open {\n  transform: translateX(0);\n}\n\n.sidebar ul {\n  align-items: flex-end;\n  display: flex;\n  flex-direction: column;\n  padding-right: 2rem;\n}\n\n.sidebar a {\n  color: #202020;\n  text-decoration: none;\n}\n\n.sidebar li {\n  list-style: none;\n  padding: 0.25rem 0;\n}\n", ""]);
+exports.push([module.i, ".home-header {\n  padding-top: 1rem;\n  text-align: center;\n  width: 100%;\n}\n\n.title-link-container {\n  display: grid;\n  grid-template-columns: repeat(3, 33.33%);\n}\n\n.header-h1 {\n  font-size: 65px;\n  font-style: italic;\n  font-weight: 300;\n  margin: 0;\n  text-shadow: 2px 4px 3px rgba(0, 0, 0, 0.3);\n}\n\n.main-header-link {\n  color: #2b2b2b;\n}\n\n.header-link-container {\n  display: flex;\n  justify-content: flex-start;\n  padding: 0.5rem 0 0 3rem;\n}\n\n.social-image {\n  height: 20px;\n  width: 20px;\n  padding: 0.6rem;\n}\n\n.menu-btn-container {\n  display: none;\n}\n\n@media only screen and (max-width: 990px) {\n  .header-filler {\n    display: none;\n  }\n\n  .menu-btn-container {\n    display: block;\n  }\n}\n\n@media only screen and (max-width: 840px) {\n  .header-h1 {\n    font-size: 52px;\n  }\n\n  .header-link-container {\n    padding: 0.5rem 0 0 2rem;\n  }\n}\n\n@media only screen and (max-width: 740px) {\n  .social-image {\n    display: none;\n  }\n\n  .header-link-container {\n    padding: 0;\n  }\n}\n\n@media only screen and (max-width: 600px) {\n  .header-h1 {\n    font-size: 43px;\n  }\n}\n\n@media only screen and (max-width: 500px) {\n  .home-header {\n    padding: 0;\n    margin: 0.75rem;\n  }\n\n  .header-h1 {\n    font-size: 32px;\n  }\n}\n\n@media only screen and (max-width: 370px) {\n  .header-h1 {\n    font-size: 26.5px;\n  }\n}\n", ""]);
 
 
 
@@ -3637,9 +3669,9 @@ exports.push([module.i, ".sidebar {\n  background-color: #f7f7f7;\n  box-shadow:
 /* 79 */
 /***/ (function(module, exports, __webpack_require__) {
 
-exports = module.exports = __webpack_require__(11)(false);
+exports = module.exports = __webpack_require__(12)(false);
 // Module
-exports.push([module.i, ".backdrop {\n  background: rgba(0, 0, 0, 0.3);\n  height: 100%;\n  position: fixed;\n  width: 100%;\n  z-index: 1;\n}\n", ""]);
+exports.push([module.i, ".sidebar {\n  background-color: #f7f7f7;\n  box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.5);\n  display: flex;\n  height: 100%;\n  justify-content: flex-end;\n  max-width: 300px;\n  position: fixed;\n  right: 0;\n  top: 0;\n  transform: translateX(100%);\n  transition: transform 0.3s ease-out;\n  width: 70%;\n  z-index: 2;\n}\n\n.sidebar.open {\n  transform: translateX(0);\n}\n\n.sidebar ul {\n  align-items: flex-end;\n  display: flex;\n  flex-direction: column;\n  padding-right: 2rem;\n}\n\n.sidebar a {\n  color: #202020;\n  text-decoration: none;\n}\n\n.sidebar li {\n  list-style: none;\n  padding: 0.25rem 0;\n}\n", ""]);
 
 
 
@@ -3647,9 +3679,9 @@ exports.push([module.i, ".backdrop {\n  background: rgba(0, 0, 0, 0.3);\n  heigh
 /* 80 */
 /***/ (function(module, exports, __webpack_require__) {
 
-exports = module.exports = __webpack_require__(11)(false);
+exports = module.exports = __webpack_require__(12)(false);
 // Module
-exports.push([module.i, "nav {\n  width: 100%;\n}\n\nnav a {\n  display: inline-block;\n}\n\n.header-nav {\n  background-color: #fff;\n  box-shadow: 0 7px 6px -6px rgba(32, 33, 36, 0.35);\n  display: flex;\n  flex-direction: column;\n  align-items: center;\n  position: relative;\n  width: 100%;\n  width: 100vw;\n}\n\n.nav-link-container {\n  display: flex;\n  justify-content: center;\n  width: 100%;\n}\n\n.fixed-nav div.nav-link-container {\n  background-color: #fff;\n  box-shadow: 0 7px 6px -6px rgba(32, 33, 36, 0.35);\n  position: fixed;\n  width: 100%;\n  width: 100vw;\n  z-index: 1000;\n}\n\nspan.logo {\n  max-width: 0;\n  display: none;\n  font: 30px 'Oswald', sans-serif;\n  font-style: italic;\n  font-weight: bold;\n  font-weight: 100;\n  text-shadow: 2px 4px 3px rgba(0, 0, 0, 0.15);\n  transition: all 0.35s;\n}\n\n.header-link {\n  border-bottom: 2px solid #fff;\n  color: #2b2b2b;\n  font: 20px 'Open Sans', sans-serif;\n  font-size: 15px;\n  padding: 1rem 1rem 0.5rem 1rem;\n  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.2);\n}\n\n.active {\n  border-bottom: 2.3px solid #2b2b2b;\n  color: #2b2b2b;\n  font: 20px 'Open Sans', sans-serif;\n  font-size: 15px;\n  padding: 1rem 1rem 0.5rem 1rem;\n  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.2);\n}\n\n#home:hover,\n#contact:hover,\n#blog:hover,\n#lifestyle:hover,\n#travel:hover,\n#thoughts:hover,\n#food:hover {\n  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.2);\n  font-weight: 700;\n}\n\n@media only screen and (max-width: 990px) {\n  .header-link,\n  .active {\n    display: none;\n  }\n}\n", ""]);
+exports.push([module.i, ".backdrop {\n  background: rgba(0, 0, 0, 0.3);\n  height: 100%;\n  position: fixed;\n  width: 100%;\n  z-index: 1;\n}\n", ""]);
 
 
 
@@ -3657,9 +3689,9 @@ exports.push([module.i, "nav {\n  width: 100%;\n}\n\nnav a {\n  display: inline-
 /* 81 */
 /***/ (function(module, exports, __webpack_require__) {
 
-exports = module.exports = __webpack_require__(11)(false);
+exports = module.exports = __webpack_require__(12)(false);
 // Module
-exports.push([module.i, ".contact-form {\n  align-items: center;\n  display: flex;\n  flex-direction: column;\n}\n\n.contact-info {\n  align-items: center;\n  display: flex;\n  flex-direction: column;\n}\n\n.contact-input {\n  background-color: #fafafa;\n  border-radius: 2px;\n  font-size: 0.95rem;\n  height: 30px;\n  margin: 1rem;\n  max-width: 100%;\n  width: 221px;\n}\n\n#email-input,\n#subject-input {\n  background-color: #fafafa;\n  border-radius: 2px;\n  width: 480.5px;\n}\n\n.contact-message {\n  background-color: #fafafa;\n  border-color: #ccc;\n  border-radius: 2px;\n  font-size: 0.95rem;\n  height: 90px;\n  margin: 0.3rem;\n  max-height: 190px;\n  max-width: 480.5px;\n  width: 480.5px;\n}\n\n.contact-info-button {\n  background-color: #dcdcdcd4;\n  color: #757575;\n  cursor: pointer;\n  font-size: 1rem;\n  height: 45px;\n  width: 205px;\n  margin-top: 1.75rem;\n  transition: 0.3s ease-in-out;\n}\n\n.contact-info-button:hover {\n  background-color: #888;\n  border-color: #888;\n  color: #f7f7f7;\n}\n\n::-webkit-input-placeholder {\n  padding-left: 0.5rem;\n}\n\n::-moz-placeholder {\n  padding-left: 0.5rem;\n}\n\n:-ms-input-placeholder {\n  padding-left: 0.5rem;\n}\n\n::-ms-input-placeholder {\n  padding-left: 0.5rem;\n}\n\n::placeholder {\n  padding-left: 0.5rem;\n}\n\n::-moz-placeholder {\n  padding-left: 0.5rem;\n}\n\n:-moz-placeholder {\n  padding-left: 0.5rem;\n}\n\n:-ms-input-placeholder {\n  padding-left: 0.5rem;\n}\n\n@media only screen and (max-width: 675px) {\n  .contact-message {\n    max-width: 100%;\n  }\n\n  .contact-input {\n    margin-top: 0;\n  }\n\n  .contact-info-button {\n    height: 40px;\n    margin-top: 1rem;\n    width: 170px;\n  }\n}\n\n@media only screen and (max-width: 450px) {\n  .contact-message {\n    height: 87px;\n    max-height: 87px;\n  }\n\n  .contact-info-button {\n    height: 35px;\n    margin-top: 0.5rem;\n    width: 165px;\n  }\n\n  .contact-info-button:hover {\n    background-color: #dcdcdcd4;\n    border-color: #dcdcdcd4;\n    color: #757575;\n  }\n\n  .email-header {\n    font-size: 12px;\n  }\n}\n\n@media only screen and (max-width: 370px) {\n  .contact-input {\n    margin: 0.3rem;\n  }\n\n  .contact-info-button {\n    margin-top: 0.35rem;\n  }\n}\n", ""]);
+exports.push([module.i, "nav {\n  width: 100%;\n}\n\nnav a {\n  display: inline-block;\n}\n\n.header-nav {\n  background-color: #fff;\n  box-shadow: 0 7px 6px -6px rgba(32, 33, 36, 0.35);\n  display: flex;\n  flex-direction: column;\n  align-items: center;\n  position: relative;\n  width: 100%;\n  width: 100vw;\n}\n\n.nav-link-container {\n  display: flex;\n  justify-content: center;\n  width: 100%;\n}\n\n.fixed-nav div.nav-link-container {\n  background-color: #fff;\n  box-shadow: 0 7px 6px -6px rgba(32, 33, 36, 0.35);\n  position: fixed;\n  width: 100%;\n  width: 100vw;\n  z-index: 1000;\n}\n\nspan.logo {\n  max-width: 0;\n  display: none;\n  font: 30px 'Oswald', sans-serif;\n  font-style: italic;\n  font-weight: bold;\n  font-weight: 100;\n  text-shadow: 2px 4px 3px rgba(0, 0, 0, 0.15);\n  transition: all 0.35s;\n}\n\n.header-link {\n  border-bottom: 2px solid #fff;\n  color: #2b2b2b;\n  font: 20px 'Open Sans', sans-serif;\n  font-size: 15px;\n  padding: 1rem 1rem 0.5rem 1rem;\n  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.2);\n}\n\n.active {\n  border-bottom: 2.3px solid #2b2b2b;\n  color: #2b2b2b;\n  font: 20px 'Open Sans', sans-serif;\n  font-size: 15px;\n  padding: 1rem 1rem 0.5rem 1rem;\n  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.2);\n}\n\n#home:hover,\n#contact:hover,\n#blog:hover,\n#lifestyle:hover,\n#travel:hover,\n#thoughts:hover,\n#food:hover {\n  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.2);\n  font-weight: 700;\n}\n\n@media only screen and (max-width: 990px) {\n  .header-link,\n  .active {\n    display: none;\n  }\n}\n", ""]);
 
 
 
@@ -3667,7 +3699,17 @@ exports.push([module.i, ".contact-form {\n  align-items: center;\n  display: fle
 /* 82 */
 /***/ (function(module, exports, __webpack_require__) {
 
-exports = module.exports = __webpack_require__(11)(false);
+exports = module.exports = __webpack_require__(12)(false);
+// Module
+exports.push([module.i, ".contact-form {\n  align-items: center;\n  display: flex;\n  flex-direction: column;\n}\n\n.contact-info {\n  align-items: center;\n  display: flex;\n  flex-direction: column;\n}\n\n.contact-input {\n  background-color: #fafafa;\n  border-radius: 2px;\n  font-size: 0.95rem;\n  height: 30px;\n  margin: 1rem;\n  max-width: 100%;\n  width: 221px;\n}\n\n#email-input,\n#subject-input {\n  background-color: #fafafa;\n  border-radius: 2px;\n  width: 480.5px;\n}\n\n.contact-message {\n  background-color: #fafafa;\n  border-color: #ccc;\n  border-radius: 2px;\n  font-size: 0.95rem;\n  height: 90px;\n  margin: 0.3rem;\n  max-height: 190px;\n  max-width: 480.5px;\n  width: 480.5px;\n}\n\n.contact-info-button {\n  background-color: #dcdcdcd4;\n  color: #757575;\n  cursor: pointer;\n  font-size: 1rem;\n  height: 45px;\n  width: 205px;\n  margin-top: 1.75rem;\n  transition: 0.3s ease-in-out;\n}\n\n.contact-info-button:hover {\n  background-color: #888;\n  border-color: #888;\n  color: #f7f7f7;\n}\n\n@media only screen and (max-width: 675px) {\n  .contact-message {\n    max-width: 100%;\n  }\n\n  .contact-input {\n    margin-top: 0;\n  }\n\n  .contact-info-button {\n    height: 40px;\n    margin-top: 1rem;\n    width: 170px;\n  }\n}\n\n@media only screen and (max-width: 450px) {\n  .contact-message {\n    height: 87px;\n    max-height: 87px;\n  }\n\n  .contact-info-button {\n    height: 35px;\n    margin-top: 0.5rem;\n    width: 165px;\n  }\n\n  .contact-info-button:hover {\n    background-color: #dcdcdcd4;\n    border-color: #dcdcdcd4;\n    color: #757575;\n  }\n\n  .email-header {\n    font-size: 12px;\n  }\n}\n\n@media only screen and (max-width: 370px) {\n  .contact-input {\n    margin: 0.3rem;\n  }\n\n  .contact-info-button {\n    margin-top: 0.35rem;\n  }\n}\n", ""]);
+
+
+
+/***/ }),
+/* 83 */
+/***/ (function(module, exports, __webpack_require__) {
+
+exports = module.exports = __webpack_require__(12)(false);
 // Imports
 exports.push([module.i, "@import url(https://fonts.googleapis.com/css?family=Open+Sans&display=swap);", ""]);
 
@@ -3677,10 +3719,10 @@ exports.push([module.i, ".post-card {\n  align-items: center;\n  border-radius: 
 
 
 /***/ }),
-/* 83 */
+/* 84 */
 /***/ (function(module, exports, __webpack_require__) {
 
-exports = module.exports = __webpack_require__(11)(false);
+exports = module.exports = __webpack_require__(12)(false);
 // Imports
 exports.push([module.i, "@import url(https://fonts.googleapis.com/css?family=Open+Sans&display=swap);", ""]);
 

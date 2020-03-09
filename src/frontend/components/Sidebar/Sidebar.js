@@ -15,7 +15,7 @@ const Sidebar = props => {
       <ul>
         <li>
           <Link to="/" onClick={goToTop}>
-            Home
+            About
           </Link>
         </li>
         <li>
@@ -24,6 +24,16 @@ const Sidebar = props => {
           </Link>
         </li>
         <li>
+          <Link to="/work" onClick={goToTop}>
+            Work
+          </Link>
+        </li>
+        <li>
+          <Link to="/contact" onClick={goToTop}>
+            Contact
+          </Link>
+        </li>
+        {/* <li>
           <Link to="/thoughts" onClick={goToTop}>
             Thoughts
           </Link>
@@ -42,12 +52,7 @@ const Sidebar = props => {
           <Link to="/food" onClick={goToTop}>
             Food
           </Link>
-        </li>
-        <li>
-          <Link to="/contact" onClick={goToTop}>
-            Contact
-          </Link>
-        </li>
+        </li>*/}
       </ul>
     </nav>
   );

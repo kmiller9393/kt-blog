@@ -9,6 +9,7 @@
   height: 40px;
   width: 200px;
   margin: 0.3rem;
+  text-indent: 10px;
 }
 
 .error-input {

@@ -41,8 +41,11 @@ const t_7 = universal(import('/Users/kumi5605/Desktop/projects/kt-blog/src/pages
 const t_8 = universal(import('/Users/kumi5605/Desktop/projects/kt-blog/src/pages/travel.js'), universalOptions)
       t_8.template = '/Users/kumi5605/Desktop/projects/kt-blog/src/pages/travel.js'
       
-const t_9 = universal(import('/Users/kumi5605/Desktop/projects/kt-blog/src/pages/post'), universalOptions)
-      t_9.template = '/Users/kumi5605/Desktop/projects/kt-blog/src/pages/post'
+const t_9 = universal(import('/Users/kumi5605/Desktop/projects/kt-blog/src/pages/work.js'), universalOptions)
+      t_9.template = '/Users/kumi5605/Desktop/projects/kt-blog/src/pages/work.js'
+      
+const t_10 = universal(import('/Users/kumi5605/Desktop/projects/kt-blog/src/pages/post'), universalOptions)
+      t_10.template = '/Users/kumi5605/Desktop/projects/kt-blog/src/pages/post'
       
 
 // Template Map
@@ -56,7 +59,8 @@ export default {
 '/Users/kumi5605/Desktop/projects/kt-blog/src/pages/post.js': t_6,
 '/Users/kumi5605/Desktop/projects/kt-blog/src/pages/thoughts.js': t_7,
 '/Users/kumi5605/Desktop/projects/kt-blog/src/pages/travel.js': t_8,
-'/Users/kumi5605/Desktop/projects/kt-blog/src/pages/post': t_9
+'/Users/kumi5605/Desktop/projects/kt-blog/src/pages/work.js': t_9,
+'/Users/kumi5605/Desktop/projects/kt-blog/src/pages/post': t_10
 }
 // Not Found Template
 export const notFoundTemplate = "/Users/kumi5605/Desktop/projects/kt-blog/src/pages/404.js"

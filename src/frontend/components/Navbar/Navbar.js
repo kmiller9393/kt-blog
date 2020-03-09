@@ -48,7 +48,7 @@ export default class Navbar extends Component {
             to="/"
             onClick={goToTop}
           >
-            Home
+            About
           </Link>
           <Link
             getProps={isActive}
@@ -60,6 +60,15 @@ export default class Navbar extends Component {
             Blog
           </Link>
           <Link
+            getProps={isActive}
+            className="header-link"
+            id="blog"
+            to="/work"
+            onClick={goToTop}
+          >
+            Work
+          </Link>
+          {/* <Link
             getProps={isActive}
             className="header-link"
             id="thoughts"
@@ -94,7 +103,7 @@ export default class Navbar extends Component {
             onClick={goToTop}
           >
             Food
-          </Link>
+          </Link> */}
           <Link
             getProps={isActive}
             className="header-link"

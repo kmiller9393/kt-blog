@@ -36,7 +36,7 @@ class index extends Component {
             />
           </aside>
           <aside className="bio-text">
-            <p>{bibliography}</p>
+            <p className="bibliography">{bibliography}</p>
             <img
               src={`https://media.graphcms.com/${this.props.signatures[0].image.handle}`}
               className="signature"

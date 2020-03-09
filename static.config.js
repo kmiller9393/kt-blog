@@ -21,6 +21,15 @@ const query = `
       name
     }
   }
+
+  listings{
+    id
+    image{
+      handle
+    }
+    link
+    title
+  }
   
   authors{
     id
@@ -44,7 +53,7 @@ export default {
     title: 'Kimaleen Tran'
   }),
   getRoutes: async () => {
-    const { authors, posts, signatures } = await request(
+    const { authors, posts, signatures, listings } = await request(
       GRAPHCMS_ENDPOINT,
       query
     );
@@ -78,6 +87,12 @@ export default {
             post
           })
         }))
+      },
+      {
+        path: '/work',
+        getData: () => ({
+          listings
+        })
       },
       {
         path: '/thoughts',

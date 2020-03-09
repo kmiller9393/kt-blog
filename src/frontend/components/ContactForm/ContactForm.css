@@ -56,22 +56,6 @@
   color: #f7f7f7;
 }
 
-::placeholder {
-  padding-left: 0.5rem;
-}
-
-::-moz-placeholder {
-  padding-left: 0.5rem;
-}
-
-:-moz-placeholder {
-  padding-left: 0.5rem;
-}
-
-:-ms-input-placeholder {
-  padding-left: 0.5rem;
-}
-
 @media only screen and (max-width: 675px) {
   .contact-message {
     max-width: 100%;
