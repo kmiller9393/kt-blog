@@ -5,29 +5,43 @@ import reversePosts from '../frontend/utils/reversePosts';
 import Footer from '../frontend/components/Footer/Footer';
 import Navbar from '../frontend/components/Navbar/Navbar';
 
-export default withRouteData(({ listings }) => (
-  <div>
-    <Navbar />
-    <h1 className="post-header">Work</h1>
-    <div className="blog-container">
-      {reversePosts(listings).map(listing => (
-        <a
-          key={listing.id}
-          href={listing.link}
-          target="_blank"
-          rel="noopener noreferrer"
-          className="card"
-          onClick={goToTop}
+export default withRouteData(
+  ({ summaries, listings }) =>
+    console.log(summaries) || (
+      <div>
+        <Navbar />
+        <div
           style={{
-            backgroundImage: `url("https://media.graphcms.com/${listing.image.handle}")`
+            display: 'flex',
+            flexDirection: 'column',
+            alignItems: 'center'
           }}
         >
-          <div className="overlay" />
-          <h1 className="post-title">{listing.title}</h1>
-          <h2 className="sub-header">View Listing</h2>
-        </a>
-      ))}
-    </div>
-    <Footer />
-  </div>
-));
+          <h2>{summaries[0].header}</h2>
+          <h4>{summaries[0].subheader}</h4>
+          <p>{summaries[0].content}</p>
+        </div>
+        <h1 className="post-header">Work</h1>
+        <div className="blog-container">
+          {reversePosts(listings).map(listing => (
+            <a
+              key={listing.id}
+              href={listing.link}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="card"
+              onClick={goToTop}
+              style={{
+                backgroundImage: `url("https://media.graphcms.com/${listing.image.handle}")`
+              }}
+            >
+              <div className="overlay" />
+              <h1 className="post-title">{listing.title}</h1>
+              <h2 className="sub-header">View Listing</h2>
+            </a>
+          ))}
+        </div>
+        <Footer />
+      </div>
+    )
+);

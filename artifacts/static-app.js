@@ -2295,14 +2295,11 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var react_static__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(4);
 /* harmony import */ var react_static__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react_static__WEBPACK_IMPORTED_MODULE_1__);
-/* harmony import */ var _reach_router__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(7);
-/* harmony import */ var _reach_router__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_reach_router__WEBPACK_IMPORTED_MODULE_2__);
-/* harmony import */ var react_scrollable_anchor__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(1);
-/* harmony import */ var react_scrollable_anchor__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(react_scrollable_anchor__WEBPACK_IMPORTED_MODULE_3__);
-/* harmony import */ var _frontend_utils_reversePosts__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(11);
-/* harmony import */ var _frontend_components_Footer_Footer__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(6);
-/* harmony import */ var _frontend_components_Navbar_Navbar__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(5);
-
+/* harmony import */ var react_scrollable_anchor__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(1);
+/* harmony import */ var react_scrollable_anchor__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(react_scrollable_anchor__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var _frontend_utils_reversePosts__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(11);
+/* harmony import */ var _frontend_components_Footer_Footer__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(6);
+/* harmony import */ var _frontend_components_Navbar_Navbar__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(5);
 
 
 
@@ -2310,20 +2307,26 @@ __webpack_require__.r(__webpack_exports__);
 
 
 /* harmony default export */ __webpack_exports__["default"] = (Object(react_static__WEBPACK_IMPORTED_MODULE_1__["withRouteData"])(function (_ref) {
-  var listings = _ref.listings;
-  return console.log('listings', listings) || react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_frontend_components_Navbar_Navbar__WEBPACK_IMPORTED_MODULE_6__[/* default */ "a"], null), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h1", {
+  var summaries = _ref.summaries,
+      listings = _ref.listings;
+  return console.log(summaries) || react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_frontend_components_Navbar_Navbar__WEBPACK_IMPORTED_MODULE_5__[/* default */ "a"], null), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    style: {
+      display: 'flex',
+      flexDirection: 'column',
+      alignItems: 'center'
+    }
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", null, summaries[0].header), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h4", null, summaries[0].subheader), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, summaries[0].content)), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h1", {
     className: "post-header"
   }, "Work"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "blog-container"
-  }, Object(_frontend_utils_reversePosts__WEBPACK_IMPORTED_MODULE_4__[/* default */ "a"])(listings).map(function (listing) {
+  }, Object(_frontend_utils_reversePosts__WEBPACK_IMPORTED_MODULE_3__[/* default */ "a"])(listings).map(function (listing) {
     return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
-      key: listing.id // to={listing.link}
-      ,
+      key: listing.id,
       href: listing.link,
       target: "_blank",
       rel: "noopener noreferrer",
       className: "card",
-      onClick: react_scrollable_anchor__WEBPACK_IMPORTED_MODULE_3__["goToTop"],
+      onClick: react_scrollable_anchor__WEBPACK_IMPORTED_MODULE_2__["goToTop"],
       style: {
         backgroundImage: "url(\"https://media.graphcms.com/".concat(listing.image.handle, "\")")
       }
@@ -2334,7 +2337,7 @@ __webpack_require__.r(__webpack_exports__);
     }, listing.title), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", {
       className: "sub-header"
     }, "View Listing"));
-  })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_frontend_components_Footer_Footer__WEBPACK_IMPORTED_MODULE_5__[/* default */ "a"], null));
+  })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_frontend_components_Footer_Footer__WEBPACK_IMPORTED_MODULE_4__[/* default */ "a"], null));
 }));
 
 /***/ }),

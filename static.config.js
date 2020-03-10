@@ -22,6 +22,12 @@ const query = `
     }
   }
 
+  summaries {
+    content
+    header
+    subheader
+  }
+
   listings{
     id
     image{
@@ -53,7 +59,7 @@ export default {
     title: 'Kimaleen Tran'
   }),
   getRoutes: async () => {
-    const { authors, posts, signatures, listings } = await request(
+    const { authors, posts, signatures, summaries, listings } = await request(
       GRAPHCMS_ENDPOINT,
       query
     );
@@ -91,6 +97,7 @@ export default {
       {
         path: '/work',
         getData: () => ({
+          summaries,
           listings
         })
       },
