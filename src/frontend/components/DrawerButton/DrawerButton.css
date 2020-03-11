@@ -5,6 +5,10 @@
   padding-right: 2rem;
 }
 
+.home-menu-button:focus {
+  outline: none;
+}
+
 @media only screen and (max-width: 740px) {
   .home-menu-button {
     margin: 0.79rem 0 0 8rem;
